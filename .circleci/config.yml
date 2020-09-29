@@ -14,4 +14,4 @@ jobs:
                 command: npm run cov
             - codecov/upload:
                 file: './coverage/clover.xml'
-                # token: 8d5b1e22-8030-4a30-a8e9-beb8b60ff4e6
+                token: 8d5b1e22-8030-4a30-a8e9-beb8b60ff4e6 ## token is essential 

@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@digitalroute/cz-conventional-changelog-for-jira": "^6.0.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "commitizen": "^4.2.1",
     "husky": "^4.3.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -16,8 +18,17 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "cov": "npm test -- --coverage --watchAll=false"
+    "cov": "npm test -- --coverage --watchAll=false",
+    "commit": "git-cz"
   },
+  "config": {
+    "commitizen": {
+      "jiraMode": true,
+      "midHeaderWidth": 8,
+      "jiraPrefix": "RIL", 
+      "path": "./node_modules/@digitalroute/cz-conventional-changelog-for-jira"
+    }
+  }, 
   "eslintConfig": {
     "extends": "react-app"
   },
