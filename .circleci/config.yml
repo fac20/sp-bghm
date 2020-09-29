@@ -1,12 +1,11 @@
 version: 2.1
 orbs:
-  node: circleci/node@3.0.0
   codecov: codecov/codecov@1.0.2
-workflows:
-  node-tests:
 jobs:
-  - node/test
-  build: 
+  build:
     steps:
-      -codecov/upload:
-        file:{{ /coverage }}
+      - run:
+          name: run tests and generate coverage
+          command: npm cov
+      - codecov/upload:
+          file: {{ /coverage }}
