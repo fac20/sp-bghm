@@ -8,6 +8,7 @@ jobs:
           - image: circleci/node:10-browsers
         steps:
             - checkout
+            - run: npm i
             - run:
                 name: run tests and generate coverage
                 command: npm run cov
