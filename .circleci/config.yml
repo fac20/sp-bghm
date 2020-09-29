@@ -1,11 +1,14 @@
 version: 2.1
 orbs:
+    node: circleci/node@3.0.0
     codecov: codecov/codecov@1.0.2
 jobs:
     build:
         steps:
+            - checkout
             - run:
                 name: run tests and generate coverage
                 command: npm cov
             - codecov/upload:
-                file: {{ /coverage }}
+                file: './coverage/clover.xml'
+                token: 8d5b1e22-8030-4a30-a8e9-beb8b60ff4e6
