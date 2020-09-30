@@ -11,7 +11,8 @@
     "husky": "^4.3.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react-scripts": "3.4.3",
+    "styled-components": "^5.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -19,7 +20,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "cov": "npm test -- --coverage --watchAll=false",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "styleguidist": "styleguidist server --config styleguide.config.js",
+    "styleguidist build": "styleguidist build --config styleguide.config.js"
   },
   "config": {
     "commitizen": {

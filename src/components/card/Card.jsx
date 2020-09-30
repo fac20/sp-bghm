@@ -1,8 +1,15 @@
 import React from "react";
+import styled from "styled-components";
+
+const CardContainer = styled.article`
+  background-color: blue;
+  /* height: 4rem;
+  width: 2rem; */
+`;
 
 function Card({ material, wasteOrganisation }) {
   return (
-    <article className="card">
+    <CardContainer>
       <div className="card__front">
         <h3>{material}</h3>
         <img src="" alt={material} />
@@ -14,7 +21,7 @@ function Card({ material, wasteOrganisation }) {
         <img src="" alt="bin-type" />
         <button>press for more information</button>
       </div>
-    </article>
+    </CardContainer>
   );
 }
 
