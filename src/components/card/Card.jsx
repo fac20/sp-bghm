@@ -1,54 +1,60 @@
 import React from "react";
 import styled from "styled-components";
 
-const CardContainer = styled.article`
+const Container = styled.article`
   background-color: transparent;
   height: 22rem;
-  width: 10rem;
   position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.3s;
+  width: 100%;
+  &:focus {
+    transform: rotateY(180deg);
+  }
 `;
 
-const CardFront = styled.div`
+const FrontBack = styled.div`
+  backface-visibility: hidden;
+  background-color: hsl(159, 56%, 7%);
+  color: hsl(141, 45%, 81%);
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  text-align: center;
-
   height: 100%;
-  width: 100%;
+  justify-content: space-evenly;
   position: absolute;
-  border-radius: 5%;
-  backface-visibility: hidden;
-
-  background-color: #1b4332;
-  color: #eee;
+  text-align: center;
+  width: 100%;
 `;
 
-const CardBack = styled(CardFront)``;
+const Front = styled(FrontBack)``;
 
-const CardTitle = styled.h3``;
+const Back = styled(FrontBack)`
+  transform: rotateY(180deg);
+`;
+
+const Title = styled.h3``;
 
 const CategoryIcon = styled.img``;
 
 const CategoryBinImage = styled.img``;
 
-const CardButton = styled.button``;
+const Button = styled.button``;
 
-function Card({ material, wasteOrganisation }) {
+function Card({ material, wasteOrganisation, src }) {
   return (
-    <CardContainer>
-      <CardFront>
-        <CardTitle>{material}</CardTitle>
-        <CategoryIcon src="" alt={material} />
-      </CardFront>
-      <CardBack>
-        <CardTitle>
+    <Container tabIndex="0">
+      <Front>
+        <Title>{material}</Title>
+        <CategoryIcon src={src} alt={material} />
+      </Front>
+      <Back>
+        <Title>
           {material} goes in {wasteOrganisation}
-        </CardTitle>
+        </Title>
         <CategoryBinImage src="" alt="bin-type" />
-        <CardButton>press for more information</CardButton>
-      </CardBack>
-    </CardContainer>
+        <Button>press for more information</Button>
+      </Back>
+    </Container>
   );
 }
 
