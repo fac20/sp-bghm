@@ -54,15 +54,18 @@
      inkscape:label="map">
 
     <path
-       style="fill:#00FF00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:#00FF80;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 729.6462,121.09563 L 765.47051,122.55785 L 831.27027,107.20457 L 872.21234,138.64223 L 867.82569,154.72662 L 878.06121,158.38216 L 903.65,222.7197 L 932.89434,223.45081 L 957.75202,262.19955 L 880.25453,282.67059 L 877.3301,306.79717 L 859.7835,292.90611 L 814.45477,381.37023 L 717.94846,374.05914 L 729.6462,121.09563 z "
-       id="havering" />
+       id="havering"  
+       class="unselected"
+       />
 
 
     <path
-       style="fill:#33FFDF;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#33FFF;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 747.9239,320.68823 L 774.97492,336.0415 L 784.47933,365.28584 L 793.98374,372.59693 L 822.49697,368.21027 L 832.00138,376.98358 L 818.11032,409.88345 L 761.08386,477.87654 L 766.20162,526.12969 L 668.23309,517.35639 L 657.99757,312.64603 L 747.9239,320.68823 z "
        id="redbridge"
+       class="selected"
        sodipodi:nodetypes="cccccccccccc" />
     <path
        style="fill:#E74ADC;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
