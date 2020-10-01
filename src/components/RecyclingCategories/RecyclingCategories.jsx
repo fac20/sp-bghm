@@ -12,7 +12,7 @@ import paperAndCard from "../assets/paper-and-card.svg";
 import smallElectronics from "../assets/small-electronics.svg";
 
 const Div = styled.div`
-  background-color: var(--background-dark-blue);
+  background-color: var(--main-green);
   color: var(--main-green);
   text-align: center;
 `;
@@ -30,12 +30,15 @@ margin: 2rem;
 `;
 
 const Button = styled.button`
-  background-color: hsla(33, 98%, 50%, 0.8);
+margin: auto;
+  background-color: var(--main-orange);
   border: 1px;
+  color: var(--background-dark-blue);
   font: inherit;
+  font-weight: bold;
   line-height: 1;
-  margin: 0;
-  padding: 0.8rem;
+  padding: 1rem;
+
 `;
 
 function RecyclingCategories() {

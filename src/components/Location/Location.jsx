@@ -10,6 +10,7 @@ const LocationCheck = styled.span`
   margin: auto;
 `;
 
+
 export default function Location() {
   const [userLocation, setUserLocation] = React.useState("");
   const history = useHistory();
@@ -26,6 +27,7 @@ export default function Location() {
         </button>
       </LocationCheck>
       <Map userLocation={userLocation} setUserLocation={setUserLocation} />
+   
     </>
   );
 }
