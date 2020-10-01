@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.45"
+   width="962"
+   height="744"
+   version="1.0"
+   sodipodi:docbase="/Users/richardthompson/Desktop"
+   sodipodi:docname="BlankMap-LondonBoroughs.png"
+   sodipodi:modified="true">
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs5" />
+  <sodipodi:namedview
+     inkscape:window-height="916"
+     inkscape:window-width="1197"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:zoom="0.6838931"
+     inkscape:cx="632.44611"
+     inkscape:cy="470.17629"
+     inkscape:window-x="0"
+     inkscape:window-y="22"
+     inkscape:current-layer="layer2" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="map">
+
+    <path
+       style="fill:#00FF80;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 729.6462,121.09563 L 765.47051,122.55785 L 831.27027,107.20457 L 872.21234,138.64223 L 867.82569,154.72662 L 878.06121,158.38216 L 903.65,222.7197 L 932.89434,223.45081 L 957.75202,262.19955 L 880.25453,282.67059 L 877.3301,306.79717 L 859.7835,292.90611 L 814.45477,381.37023 L 717.94846,374.05914 L 729.6462,121.09563 z "
+       id="havering"  
+       class="unselected"
+       />
+
+
+    <path
+       style="fill:#33FFF;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 747.9239,320.68823 L 774.97492,336.0415 L 784.47933,365.28584 L 793.98374,372.59693 L 822.49697,368.21027 L 832.00138,376.98358 L 818.11032,409.88345 L 761.08386,477.87654 L 766.20162,526.12969 L 668.23309,517.35639 L 657.99757,312.64603 L 747.9239,320.68823 z "
+       id="redbridge"
+       class="selected"
+       sodipodi:nodetypes="cccccccccccc" />
+    <path
+       style="fill:#E74ADC;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 603.89555,118.1712 L 631.67767,143.02888 L 678.46861,159.84438 L 684.31748,142.29777 L 730.37731,121.82674 L 746.46169,146.68443 L 746.46169,172.27322 L 715.75514,287.05724 L 639.71986,297.29276 L 548.33131,214.67751 L 557.10461,140.83556 L 603.89555,118.1712 z "
+       id="bexley" />
+
+    <path
+       style="fill:#ff44ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 367.01642,49.447006 L 388.21857,20.933778 L 470.83382,8.5049347 L 557.83572,25.320428 L 563.68459,77.229126 L 576.84454,86.733535 L 549.06242,213.21529 L 309.98997,189.08871 L 367.01642,49.447006 z "
+       id="enfield" />
+
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 519.81808,162.0377 L 532.97803,157.65105 L 535.90247,150.33997 L 534.44025,147.41553 L 569.53346,81.615776 L 593.66003,94.044619 L 604.62666,118.1712 L 590.7356,133.52447 L 602.43333,149.60886 L 591.46671,177.39098 L 610.47553,274.6284 L 494.9604,276.09061 L 473.75825,185.43317 L 519.81808,162.0377 z "
+       id="walthamforest" />
+
+    <path
+       style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 302.67888,552.4496 L 310.72108,578.03839 L 310.72108,603.62718 L 320.22549,600.70275 L 341.42763,637.98928 L 329.7299,656.26699 L 347.2765,668.69583 L 367.01642,646.03147 L 424.04288,689.89798 L 513.96922,571.45841 L 405.03406,505.65866 L 302.67888,552.4496 z "
+       id="sutton" />
+
+    <path
+       style="fill:#e7f13e;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 332.65433,548.79405 L 309.25886,575.11396 L 297.56112,578.7695 L 266.12346,600.70275 L 244.92132,654.80477 L 222.25696,672.35138 L 216.40809,667.96472 L 212.02144,629.94709 L 231.03026,591.19834 L 239.80356,581.69393 L 229.56804,559.02957 L 222.25696,559.02957 L 195.93706,528.32302 L 225.18139,456.67439 L 299.02334,463.98548 L 332.65433,548.79405 z "
+       id="kingstonUponThames" />
+
+    <path
+       style="fill:#00ffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 656.1698,452.28775 L 711.00293,504.92755 L 729.28064,500.5409 L 765.47051,514.0664 L 769.12605,536.36521 L 758.15943,543.31074 L 743.53726,623.73267 L 728.18398,624.82933 L 724.16289,650.05257 L 690.89745,674.91025 L 700.40186,710.36901 L 645.93428,721.70119 L 629.8499,702.32682 L 610.47553,721.70119 L 586.34895,642.01038 L 447.43835,464.71659 L 656.1698,452.28775 z "
+       id="bromley"
+       sodipodi:nodetypes="ccccccccccccccccc" />
+    <path
+       style="fill:#0f0f0f;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 496.35105,495.82448 L 524.00104,536.28788 L 528.72177,533.59032 L 547.60469,558.54275 L 547.60469,577.42567 L 558.39493,570.68177 L 576.60346,611.14517 L 585.37053,619.91224 L 593.46321,660.37564 L 566.48761,645.53906 L 538.16323,661.05003 L 537.48884,671.84027 L 495.67666,682.63051 L 494.32788,693.42075 L 459.2596,739.95366 L 437.67912,723.09391 L 417.44742,716.35001 L 412.0523,681.95612 L 428.23766,674.53783 L 424.19132,642.16711 L 459.93399,628.67931 L 422.16815,501.2196 L 476.11935,480.31351 L 496.35105,495.82448 z "
+       id="croydon" />
+    <path
+       style="fill:#cdcdcd;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 652.74524,272.54849 L 677.76641,258.94049 L 689.17957,264.20811 L 725.17494,225.57893 L 722.54113,191.33944 L 747.12334,163.24549 L 749.31817,186.51079 L 748.00127,210.21506 L 742.73366,218.11648 L 761.60928,229.96861 L 783.99664,226.45687 L 794.0929,248.40526 L 767.31586,292.74102 L 760.73134,327.85845 L 729.56462,319.07909 L 683.80931,331.53283 L 652.74524,272.54849 z "
+       id="barkinganddagenham"
+       sodipodi:nodetypes="ccccccccccccccccc" />
+    <path
+       style="fill:#dcdcdc;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 556.1723,256.30668 L 604.0198,247.08835 L 631.23581,248.84423 L 626.84614,235.23622 L 634.30859,233.91932 L 654.50111,251.03907 L 664.15841,294.49689 L 686.54577,303.27625 L 703.66551,336.19884 L 631.23581,375.70595 L 531.59011,308.54386 L 556.1723,256.30668 z "
+       id="newham"
+       sodipodi:nodetypes="cccccccccccc" />
+    <path
+       style="fill:#c4c4c4;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 616.74987,460.42675 L 624.21233,452.96429 L 657.57389,486.32585 L 676.01054,470.96198 L 671.62086,465.69436 L 683.91196,452.08636 L 683.03402,430.13796 L 675.57157,424.43138 L 676.88847,406.87267 L 695.32513,394.58157 L 707.17726,395.02053 L 719.46836,384.04634 L 717.71249,322.59083 L 684.7899,328.29742 L 666.35324,350.24581 L 608.40948,355.95239 L 575.48689,329.61432 L 547.83192,380.53459 L 616.74987,460.42675 z "
+       id="greenwich" />
+    <path
+       style="fill:#dff00f;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 561.50847,268.16114 L 560.57728,290.82014 L 570.19959,303.85682 L 571.75158,316.8935 L 583.54667,322.17025 L 590.06501,341.10448 L 583.54667,341.41488 L 577.02833,351.03719 L 581.0635,365.31546 L 577.64913,376.80015 L 491.35871,378.35214 L 487.32355,282.74981 L 561.50847,268.16114 z "
+       id="towerhamlets" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 493.5315,321.54946 L 499.11864,293.61371 L 530.15836,288.64736 L 553.43815,270.64432 L 560.88768,268.16114 L 561.19808,255.43486 L 548.1614,242.08778 L 529.53757,240.5358 L 492.28991,199.87377 L 436.10802,208.25449 L 450.69669,300.44245 L 493.5315,321.54946 z "
+       id="hackney"
+       sodipodi:nodetypes="cccccccccccc" />
+    <path
+       style="fill:#00ff00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 446.43034,218.11648 L 496.91164,269.47572 L 486.37641,272.54849 L 484.18157,283.96166 L 474.52428,294.05792 L 490.76609,319.51806 L 428.43265,339.71058 L 406.92323,218.55545 L 446.43034,218.11648 z "
+       id="islington" />
+    <path
+       style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 455.20969,323.0298 L 473.20738,312.49457 L 482.86467,318.64012 L 489.44919,314.68941 L 494.7168,314.25044 L 500.42339,330.05329 L 489.88816,348.05097 L 458.28247,345.41716 L 455.20969,323.0298 z "
+       id="city" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 300.693,477.10753 L 297.62022,490.27656 L 309.91132,530.66161 L 304.20474,545.58652 L 341.07804,574.99737 L 353.36914,560.51143 L 373.1227,564.02317 L 390.24245,549.53723 L 401.65561,556.99968 L 436.77304,553.48794 L 444.67446,536.80716 L 425.79885,456.91501 L 330.98178,453.40326 L 300.693,477.10753 z "
+       id="merton" />
+    <path
+       style="fill:#00000f;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 493.3999,481.93617 L 530.71217,491.59347 L 548.70985,485.88689 L 564.07373,494.22728 L 559.24508,500.81179 L 573.29205,508.71322 L 614.11607,478.8634 L 625.9682,487.64276 L 630.35788,470.96198 L 619.38368,463.49952 L 619.82265,455.5981 L 595.24045,423.11448 L 595.67942,409.94544 L 605.33671,398.53228 L 568.46341,402.48299 L 557.48921,377.90079 L 530.2732,356.39136 L 507.44687,371.31627 L 493.3999,481.93617 z "
+       id="lewisham" />
+    <path
+       style="fill:#00ff00;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 462.67215,340.58852 L 478.03602,338.83264 L 492.52196,342.34439 L 511.39758,351.12375 L 532.90701,335.75987 L 547.39295,344.10026 L 547.39295,367.36556 L 525.00559,370.8773 L 525.44455,403.79989 L 536.85772,434.08868 L 529.83423,442.42907 L 518.42107,441.55113 L 509.20274,470.96198 L 500.42339,477.10753 L 496.91164,496.86108 L 448.62518,429.26003 L 462.67215,340.58852 z "
+       id="southwark" />
+       
+
+    <path
+       style="fill:#ff4433;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 360.06071,153.93499 L 518.67366,153.62459 L 527.98558,158.90134 L 518.98406,181.56033 L 515.88009,201.73615 L 506.87857,214.77283 L 473.35568,219.11839 L 463.11257,235.56944 L 446.35112,219.11839 L 366.88945,240.84619 L 360.06071,153.93499 z "
+       id="haringey" />
+       
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 423.07134,499.09664 L 415.9322,509.96054 L 441.38477,516.78927 L 457.52542,493.19909 L 496.94586,497.54465 L 468.38932,439.81078 L 481.426,421.49734 L 477.70124,409.08146 L 460.319,382.0769 L 466.83734,367.79863 L 459.38781,360.3491 L 463.42297,340.48368 L 425.55451,336.13812 L 405.3787,414.04781 L 423.07134,499.09664 z "
+       id="lambeth" />
+    <path
+       style="fill:#0000ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 257.94005,410.32305 L 300.77485,477.98963 L 329.95219,467.74652 L 343.60966,471.16089 L 367.51024,460.60739 L 369.37263,480.16241 L 376.51176,477.67923 L 378.06375,490.40552 L 403.82671,499.71743 L 405.99949,496.30306 L 423.38173,500.33822 L 430.21047,493.50949 L 431.14166,460.60739 L 414.06982,418.08298 L 433.00405,400.39034 L 436.72881,380.21452 L 359.75032,361.59069 L 257.94005,410.32305 z "
+       id="wandsworth" />
+    <path
+       style="fill:#c4ffcc;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 383.70584,378.00729 L 436.77304,380.97356 L 447.74724,339.71058 L 460.63707,339.8924 L 458.31144,320.0484 L 407.69812,274.84696 L 318.25171,274.74333 L 383.70584,378.00729 z "
+       id="westminster"
+       sodipodi:nodetypes="cccccccc" />
+    <path
+       style="fill:#d400ff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 372.24476,222.94512 L 420.09226,226.0179 L 421.84813,250.6001 L 445.5524,283.52269 L 458.72144,321.7129 L 440.28479,328.73638 L 419.6533,315.56735 L 408.24013,288.35134 L 372.24476,286.1565 L 359.95366,293.61895 L 321.32449,245.77145 L 372.24476,222.94512 z "
+       id="camden" />
+    <path
+       style="fill:#0cd4fc;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 233.53091,114.08109 L 283.13428,102.22896 L 292.79158,74.135012 L 311.6672,73.257076 L 343.71185,53.503522 L 369.61096,48.235907 L 369.61096,62.282879 L 402.09458,71.062237 L 404.72839,89.498888 L 431.50543,116.7149 L 413.06878,145.68678 L 419.21433,155.78304 L 411.75187,177.73143 L 402.97252,166.31827 L 397.26593,177.73143 L 397.7049,197.04602 L 387.16967,218.11648 L 353.80811,252.79494 L 305.96061,252.79494 L 233.53091,114.08109 z "
+       id="barnet" />
+    <path
+       style="fill:#c4d4f4;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 338.00527,290.98515 L 339.76114,311.17767 L 356.00295,315.56735 L 378.82928,358.14723 L 393.31522,358.14723 L 402.97252,348.92891 L 409.55703,379.65666 L 352.93018,403.79989 L 312.10616,316.88425 L 338.00527,290.98515 z "
+       id="kensingtonandchelsea" />
+    <path
+       style="fill:#dcdcdc;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 334.93249,405.55576 L 354.68605,422.67551 L 377.95135,418.7248 L 381.02412,397.21537 L 337.5663,353.75755 L 326.5921,320.83496 L 330.54282,282.64476 L 261.18589,286.59547 L 304.64371,397.21537 L 334.93249,405.55576 z "
+       id="hammersmithandfulham" />
+    <path
+       style="fill:#d0f0c0;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 267.33144,161.92859 L 297.18126,203.19157 L 291.91364,212.40989 L 298.93713,233.48035 L 302.88784,226.45687 L 314.73997,229.09067 L 363.90437,290.98515 L 359.5147,302.83728 L 342.39495,296.69173 L 337.5663,303.71521 L 298.93713,300.20347 L 274.79389,316.88425 L 183.04961,289.66824 L 194.46277,177.29246 L 267.33144,161.92859 z "
+       id="brent" />
+
+    <path
+       style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 151.0635,260.79364 L 183.53969,252.92062 L 202.2381,260.79364 L 210.11111,238.15872 L 211.32183,218.36999 L 234.50191,201.74602 L 258.33334,203.71428 L 250.46032,186.98412 L 277.03175,175.17459 L 232.74604,113.1746 L 217,105.30159 L 202.2381,123.01587 L 116.61905,157.46031 L 151.0635,260.79364 z "
+       id="harrow"
+       sodipodi:nodetypes="cccccccccccccc" />
+    <path
+       style="fill:#00ffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 139.15282,499.05592 L 147.05424,522.76019 L 178.22096,526.27193 L 218.60601,557.87762 L 231.77504,551.2931 L 239.2375,500.81179 L 229.14123,487.20379 L 237.92059,479.30237 L 265.57557,498.61695 L 311.22823,463.06056 L 292.79158,438.91732 L 298.05919,421.79757 L 319.56862,422.23654 L 321.76346,408.18957 L 335.81043,406.4337 L 323.08036,381.41253 L 299.3761,372.63317 L 143.98147,391.06982 L 139.15282,499.05592 z "
+       id="richmonuponthames" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 64.967247,442.86803 L 72.868668,477.5465 L 96.133966,492.4714 L 111.49784,487.20379 L 126.86172,502.1287 L 151.00495,502.56766 L 147.49321,486.76482 L 168.56367,468.32817 L 145.29837,458.67088 L 154.07773,440.23423 L 169.4416,435.84455 L 207.63181,438.47835 L 249.33376,384.92427 L 264.69763,384.92427 L 279.62254,407.31163 L 297.18126,405.99473 L 298.93713,389.31395 L 308.59442,380.09563 L 308.59442,364.29278 L 277.4277,343.22232 L 74.62454,345.85613 L 64.967247,442.86803 z "
+       id="houndslow" />
+    <path
+       style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 10.707692,417.48224 L 77.946905,448.88231 L 113.92063,412.34922 L 105.06349,394.63493 L 114.90476,361.17461 L 125.73016,358.22223 L 153.28571,305.07937 L 105.06349,292.28572 L 129.66666,281.46033 L 128.68254,273.58731 L 151.31746,261.77779 L 114.90476,153.52382 L 70.619047,144.66668 L 58.809527,155.49207 L 15.507937,124.98414 L 12.555557,180.09525 L 39.126985,262.76191 L 21.426898,293.16366 L 33.236428,352.77064 L 10.707692,417.48224 z "
+       id="hillingdon"
+       sodipodi:nodetypes="cccccccccccccccccccc" />
+       
+       <!-- outline -->
+    <path
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#00000;stroke-width:6.19999981;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 17.542012,126.4028 L 59.294984,158.41341 L 73.212641,145.88752 L 119.14091,157.02165 L 199.86332,126.4028 L 216.56451,105.52631 L 233.2657,113.87691 L 283.36926,101.35102 L 291.71986,73.515707 L 313.98811,72.123941 L 344.60695,52.639221 L 368.26697,48.463924 L 389.14346,19.236844 L 469.86587,8.1027183 L 558.93888,24.803907 L 563.11417,77.691004 L 593.73302,94.392193 L 604.86714,118.05221 L 632.70246,143.10399 L 680.02249,159.80518 L 684.19779,141.71222 L 728.73429,122.2275 L 767.70373,122.2275 L 831.72496,108.30985 L 873.47793,140.32046 L 866.5191,157.02165 L 879.04499,159.80518 L 904.09678,223.8264 L 931.93209,222.43464 L 958.37564,262.79584 L 880.48149,284.18299 L 878.51324,310.75442 L 859.81483,293.04014 L 821.43387,369.80204 L 830.29102,377.67506 L 816.51324,413.10363 L 760.418,478.05601 L 769.27514,537.10363 L 758.44975,543.00839 L 743.68784,624.69093 L 726.95768,625.67506 L 724.98943,650.27823 L 690.54499,675.86553 L 701.37038,712.27823 L 646.25927,723.10363 L 630.51324,703.42109 L 609.84657,725.07188 L 593.11641,663.07188 L 565.56086,645.3576 L 538.0053,662.08776 L 537.02118,671.92903 L 495.68784,683.73855 L 494.70372,695.54807 L 458.29102,741.80204 L 434.67197,722.1195 L 415.97356,715.23061 L 412.03705,680.78617 L 367.75133,644.37347 L 348.06879,669.96077 L 328.38625,657.16712 L 341.17991,637.48458 L 319.52911,601.07188 L 309.68784,605.00839 L 309.68784,573.51633 L 295.91006,578.43696 L 268.35451,600.08776 L 245.71959,655.19887 L 222.10054,672.91316 L 215.46636,666.18635 L 212.25927,631.57982 L 230.95768,591.23061 L 239.81483,582.37347 L 228.98943,559.73855 L 220.13229,558.75442 L 178.79895,526.27823 L 146.32276,523.32585 L 140.418,503.64331 L 127.62435,503.64331 L 112.86245,486.91315 L 97.116419,492.81791 L 73.497371,480.02426 L 65.624355,444.59569 L 9.529117,418.02426 L 33.148165,353.07188 L 20.354514,293.04014 L 39.052926,261.54807 L 16.418006,176.91315 L 17.542012,126.4028 z "
+       id="outline"
+sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"/>
+       
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 125.98378,359.02517 L 148.37114,366.04865 L 155.8336,362.53691 L 167.24676,373.07214 L 185.68341,360.34207 L 193.58484,367.80453 L 239.67646,365.60969 L 249.33376,355.95239 L 261.62486,355.51342 L 275.23286,366.04865 L 292.79158,365.17072 L 296.30332,353.31859 L 303.32681,346.73407 L 298.05919,314.25044 L 303.32681,298.88657 L 288.4019,291.42411 L 277.4277,304.15418 L 261.18589,304.15418 L 261.18589,289.22927 L 240.5544,299.32554 L 229.14123,274.30437 L 201.92523,260.25739 L 183.92754,252.35597 L 151.88289,260.69636 L 129.93449,273.42643 L 129.49553,280.44992 L 105.79126,292.74102 L 152.32186,304.59315 L 125.98378,359.02517 z "
+       id="ealing" />
+  </g>
+</svg>
