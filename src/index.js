@@ -3,11 +3,10 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
-import RecyclingCategories from "./components/recycling-categories/RecyclingCategories.jsx";
 
 ReactDOM.render(
   <React.StrictMode>
-    <RecyclingCategories />
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );
