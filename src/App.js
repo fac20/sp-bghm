@@ -1,16 +1,28 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
-import Location from "./components/Location/Location.jsx"
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import PageNotFound from "./components/PageNotFound/PageNotFound.jsx";
+import Location from "./components/Location/Location.jsx";
+import RecyclingCategories from "./components/RecyclingCategories.jsx";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Location/>
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
-    {/* </Location>  */}
+      <main>
+        <BrowserRouter>
+          <Switch>
+            <Route path="/">
+              <Location />
+            </Route>
+            <Route path="/categories">
+              <RecyclingCategories />
+            </Route>
+            <Route>
+              <PageNotFound />
+            </Route>
+          </Switch>
+        </BrowserRouter>
+      </main>
+      {/* </Location>  */}
     </div>
   );
 }
