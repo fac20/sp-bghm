@@ -1,4 +1,5 @@
 import React from "react";
+
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import PageNotFound from "./components/PageNotFound/PageNotFound.jsx";
 import Location from "./components/Location/Location.jsx";
@@ -10,10 +11,10 @@ function App() {
       <main>
         <BrowserRouter>
           <Switch>
-            <Route path="/">
+            <Route path="/" exact>
               <Location />
             </Route>
-            <Route path="/categories">
+            <Route path="/categories/:borough">
               <RecyclingCategories />
             </Route>
             <Route>
