@@ -8,6 +8,9 @@ import RecyclingCategories from "./components/RecyclingCategories/RecyclingCateg
 function App() {
   return (
     <div className="App">
+      <header>
+        <h1>Recycling in London</h1>
+      </header>
       <main>
         <BrowserRouter>
           <Switch>
