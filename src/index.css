@@ -48,3 +48,7 @@ code {
 h1 {
   color: white;
 }
+
+.hidden {
+  display: none;
+}

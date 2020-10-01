@@ -19,20 +19,14 @@ const Svg = styled.svg.attrs({
   }
 `;
 
-export default function Map() {
+export default function Map({ userLocation, setUserLocation }) {
   const [clicked, setClicked] = React.useState(false);
-
-  const [userLocation, setUserLocation] = React.useState("");
 
   function locateUser(event) {
     setClicked(!clicked);
-    console.log(event.target.getAttribute("id"));
     let newLocation = event.target.getAttribute("id");
     setUserLocation(newLocation);
-    window.localStorage.setItem(
-      "location",
-      userLocation.replace(/^\w/, (firstLetter) => firstLetter.toUpperCase())
-    );
+    window.localStorage.setItem("location", newLocation);
   }
 
   return (

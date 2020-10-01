@@ -44,6 +44,7 @@ const PostCodeInput = styled(Input)``;
 const SubmitInput = styled(Input)``;
 
 export default function Form() {
+  const [postCodeError, SetErrorMessage] = React.useState("");
   const history = useHistory();
   const storeLocation = (event) => {
     //  prevemt default
@@ -55,11 +56,15 @@ export default function Form() {
 
     getLocation(postcode).then((data) => {
       if (!data.result) {
-        return; //take user to error page;
+        SetErrorMessage("Borough Not Found! Please try again!");
       } else {
-        window.localStorage.setItem("location", data.result.admin_district);
+        const location = data.result.admin_district
+          .toLowerCase()
+          .split(" ")
+          .join("");
+        window.localStorage.setItem("location", location);
         //take user to RecyclingCategories;
-        history.push("/categories/" + data.result.admin_district);
+        history.push("/categories/" + location);
       }
     });
 
@@ -74,6 +79,7 @@ export default function Form() {
       <Label htmlFor="postcode">Enter your postcode:</Label>
       <PostCodeInput name="postcode" id="postcode" required />
       <SubmitInput type="submit" value="Find categories!" />
+      {postCodeError ? <h1>{postCodeError}</h1> : null}
     </PostcodeForm>
   );
 }
