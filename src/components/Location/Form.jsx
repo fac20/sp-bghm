@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import getLocation from "../.././utils/getPostcode.js";
+import { useHistory } from "react-router-dom";
 
 const PostcodeForm = styled.form`
   background: #d8f3dc;
@@ -11,6 +12,7 @@ const PostcodeForm = styled.form`
   flex-direction: column;
   margin: 0 auto;
   padding: 2rem;
+  width: 50vw;
 `;
 const Label = styled.label`
   font-weight: 600;
@@ -42,6 +44,7 @@ const PostCodeInput = styled(Input)``;
 const SubmitInput = styled(Input)``;
 
 export default function Form() {
+  const history = useHistory();
   const storeLocation = (event) => {
     //  prevemt default
     event.preventDefault();
@@ -52,9 +55,11 @@ export default function Form() {
 
     getLocation(postcode).then((data) => {
       if (!data.result) {
-        return;
+        return; //take user to error page;
       } else {
         window.localStorage.setItem("location", data.result.admin_district);
+        //take user to RecyclingCategories;
+        history.push("/categories/" + data.result.admin_district);
       }
     });
 
