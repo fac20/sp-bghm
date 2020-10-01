@@ -1,3 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --main-orange: hsla(33, 98%, 50%, 1);
+  --main-green: hsl(150, 42%, 62%);
+  --card-background-green: hsl(129, 53%, 90%);
+  --background-green: hsl(141, 45%, 81%);
+  --background-dark-blue: hsl(220, 13%, 18%);
+}
+/* 
+#d8f3dc
+#b7e4c7
+#95d5b2
+#74c69d
+#52b788
+#40916c
+#2d6a4f
+#1b4332
+#081c15
+:focus {
+  outline: 1px solid var(--main-orange);
+} */
+
 body {
   margin: 0 auto;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -5,6 +30,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+label,
+input,
+button {
+  font: inherit;
+  color: inherit;
+  display: block;
 }
 
 code {
