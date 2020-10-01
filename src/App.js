@@ -1,9 +1,10 @@
 import React from "react";
 
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch, useLocation } from "react-router-dom";
 import PageNotFound from "./components/PageNotFound/PageNotFound.jsx";
 import Location from "./components/Location/Location.jsx";
 import RecyclingCategories from "./components/RecyclingCategories/RecyclingCategories.jsx";
+import MoreInfo from "./components/MoreInfo/MoreInfo.jsx"
 
 function App() {
   return (
@@ -17,8 +18,11 @@ function App() {
             <Route path="/" exact>
               <Location />
             </Route>
-            <Route path="/categories/:borough">
+            <Route path="/categories/:borough" exact>
               <RecyclingCategories />
+            </Route>
+            <Route path="/categories/:borough/:material">
+              <MoreInfo/>
             </Route>
             <Route>
               <PageNotFound />

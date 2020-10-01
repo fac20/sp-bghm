@@ -5,8 +5,8 @@ import { useHistory } from "react-router-dom";
 
 const PostcodeForm = styled.form`
   background: #d8f3dc;
-  border-radius: 20px;
   border: 2px solid #74c69d;
+  border-radius: 20px;
   color: #74c69d;
   display: flex;
   flex-direction: column;
@@ -29,11 +29,11 @@ const Input = styled.input`
 
   border: none;
   border-radius: 10px;
-  color: #74c69d;
-  padding: 10px;
-  margin: 0.5rem;
-  width: 100%;
   box-sizing: border-box;
+  color: #74c69d;
+  margin: 0.5rem;
+  padding: 10px;
+  width: 100%;
   &:hover {
     background: #ebfce1;
   }
