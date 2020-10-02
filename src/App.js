@@ -1,17 +1,24 @@
 import React from "react";
+import { BrowserRouter, Route, Switch} from "react-router-dom";
+import styled from "styled-components"
 
-import { BrowserRouter, Route, Switch, useLocation } from "react-router-dom";
 import PageNotFound from "./components/PageNotFound/PageNotFound.jsx";
 import Location from "./components/Location/Location.jsx";
 import RecyclingCategories from "./components/RecyclingCategories/RecyclingCategories.jsx";
 import MoreInfo from "./components/MoreInfo/MoreInfo.jsx"
-
+const Title = styled.h1`
+  text-transform: uppercase;
+  font-size: 1em;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  color: #1b4332;
+`
 function App() {
   return (
     <div className="App">
-      <header>
+      <Title>
         <h1>Recycling in London</h1>
-      </header>
+      </Title>
       <main>
         <BrowserRouter>
           <Switch>

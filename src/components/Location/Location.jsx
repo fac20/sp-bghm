@@ -1,10 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 import Form from "./Form.jsx";
 import Map from "./Map.jsx";
 import { useHistory } from "react-router-dom";
 import styled from "styled-components";
-//  Create react component - svg map
-// find a way to make boroughs clickable
 
 const LocationCheck = styled.span`
   margin: auto;

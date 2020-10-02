@@ -25,7 +25,6 @@ const Label = styled.label`
 `;
 
 const Input = styled.input`
-  /* border: 1px solid #2d6a4f; */
 
   border: none;
   border-radius: 10px;
@@ -67,13 +66,8 @@ export default function Form() {
         history.push("/categories/" + location);
       }
     });
-
-    // fetch data depending on postcode
-    //  store returned borough in local storage and direct to categories page
-    //  return a message  `wrong postcode`if error
   };
 
-  //admin_district
   return (
     <PostcodeForm onSubmit={storeLocation}>
       <Label htmlFor="postcode">Enter your postcode:</Label>
