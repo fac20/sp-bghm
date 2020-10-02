@@ -8,6 +8,13 @@ const LocationCheck = styled.span`
   margin: auto;
 `;
 
+const Div = styled.span`
+  display: flex;
+  margin: 2rem;
+  justify-content: center;
+  min-width: 500px;
+
+`;
 
 export default function Location() {
   const [userLocation, setUserLocation] = React.useState("");
@@ -26,7 +33,9 @@ export default function Location() {
           <h2>Select {userLocation}</h2>
         </button>
       </LocationCheck>
+      <Div>
       <Map userLocation={userLocation} setUserLocation={setUserLocation} />
+      </Div>
    
     </>
   );
