@@ -46,8 +46,8 @@ export default function Map({ userLocation, setUserLocation }) {
           id="havering"
         ></path>
  <text>
-    <textPath href="havering">
-      Quick brown fox jumps over the lazy dog.
+    <textPath href="#havering">
+      Havering
     </textPath>
   </text>
         <path
