@@ -8,6 +8,7 @@ const LocationCheck = styled.span`
   margin: auto;
 `;
 
+
 export default function Location() {
   const [userLocation, setUserLocation] = React.useState("");
   const history = useHistory();
@@ -17,13 +18,16 @@ export default function Location() {
       <LocationCheck className={!userLocation ? "hidden" : "visible"}>
         <button
           onClick={() => {
-            history.push("/categories/" + userLocation.toLocaleLowerCase());
+            history.push(
+              "/categories/" + userLocation.toLowerCase().split(" ").join("")
+            );
           }}
         >
           <h2>Select {userLocation}</h2>
         </button>
       </LocationCheck>
       <Map userLocation={userLocation} setUserLocation={setUserLocation} />
+   
     </>
   );
 }
