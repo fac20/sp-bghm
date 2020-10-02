@@ -31,7 +31,7 @@ background: hsl(141, 45%, 81%);
 color: #081c15;
 -webkit-transition: background-color 0.3s, color 0.3s;
 transition: background-color 0.3s, color 0.3s;
-}
+/* this will create the orange border that appears on hover*/
 &:before{
 content: '';
 position: absolute; //makes the content fit vertically within the buttom
@@ -51,8 +51,10 @@ transition: transform 0.3s, opacity 0.3s;
 transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); */
 }
 &:hover{
-  background-color: #fff;
-	color: hsla(33, 98%, 50%, 1);
+  background-color: #f8e6bf;
+  color: hsla(33, 98%, 50%, 1);
+  box-shadow: 0px 15px 20px hsla(33, 98%, 50%, .2) inset;
+
 }
 &:hover:before{
   -webkit-transform: scale3d(1, 1, 1);
@@ -62,6 +64,6 @@ transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); */
 `
 export default function PageNotFound() {
   return (<ErrorBg>
-    <Button> <Link to="/"></Link>Go to Home </Button>
+    <Button> <Link to="/">Go to Home</Link> </Button>
   </ErrorBg>)
 }
