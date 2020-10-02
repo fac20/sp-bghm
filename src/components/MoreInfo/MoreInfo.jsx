@@ -1,13 +1,40 @@
 import React from "react";
 import styled from "styled-components";
 import {useLocation} from "react-router-dom"
-const Title = styled.h1`
 
+const Title = styled.h3`
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  
+  display: inline-block;
+  padding: 15px 20px; //to space out the underline
+  position: relative;
+    &:hover { color: rgba(253,187,45,1)  } 
+  &:after{    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 0.3rem;
+  left: 50%; //makes the undline stop at the middle after hover
+  position: absolute;
+  background: linear-gradient(0deg, rgba(148,232,183,1) 0%, rgba(253,187,45,1) 100%);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+  }
+  &:hover:after{
+    width: 50%; 
+    left: 23%; 
+  }
 `
 const Section = styled.section`
-`
 
-// if material = plastic then content = content.plastic.{location}
+`
+const Article = styled.article`
+margin: 0 auto;
+padding: 0 2rem;`
+
 
 export default function MoreInfo() {
     const locationUrl = useLocation();
@@ -63,37 +90,40 @@ export default function MoreInfo() {
         }
     }
 
-    const location = window.localStorage.getItem("location") || "Haringey"
-
+    const location = window.localStorage.getItem("location") || "haringey"
+    console.log(location)
+    console.log(content.plastic[location]["what_material"])
     return ( 
         <>
-    <div>
-        <Title>What {material} is recyclable? </Title>
-        <Section> 
-        {content[{material}][{location}]["recyclable_material"]}
-        </Section>
-    </div>
-    <div>
+    <Section>
+        <Title>What is recyclable? </Title>
+        <Article> 
+        {content ? content[material][location].what_material: "no info"}
+        </Article>
+    </Section>
+    <Section>
     <Title>Where can I recycle {material} in {location}?</Title>
-        <Section>
-        </Section>
-    </div>
-    <div>
+    <Article>
+    {content ? content[material][location].how_to_recycle: "no info"}
+
+    </Article>
+
+    </Section>
+    <Section>
         <Title>What happens to my recycled {material}?</Title>  
-        <Section>
-        </Section>
-    </div>
-    <div>
+        <Article>
+        {content ? content[material].what_happens: "no info"}
+
+        </Article>
+
+    </Section>
+    <Section>
         <Title>The impact of recycling our {material} </Title>  
-        <Section>
-        </Section>
-    </div>
+        <Article>
+        {content ? content[material].impact: "no info"}
+
+        </Article>
+    </Section>
   </>
   )
 }
-
-// Title
-// what material is recyclable? 
-// where can it be recycled
-// what happens to it when we recycle it?
-// the impact of recycling our plastic 
