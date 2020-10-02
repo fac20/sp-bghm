@@ -8,16 +8,15 @@ import RecyclingCategories from "./components/RecyclingCategories/RecyclingCateg
 import MoreInfo from "./components/MoreInfo/MoreInfo.jsx"
 const Title = styled.h1`
   text-transform: uppercase;
-  font-size: 1em;
   text-decoration: none;
   letter-spacing: 0.15em;
-  color: #1b4332;
+  color: var(--very-dark-green);
 `
 function App() {
   return (
     <div className="App">
       <Title>
-        <h1>Recycling in London</h1>
+        Recycling in London
       </Title>
       <main>
         <BrowserRouter>
