@@ -10,7 +10,7 @@ const LocationCheck = styled.span`
 
 const Div = styled.span`
   display: flex;
-  margin: 2rem;
+  margin-top: 2rem;
   justify-content: center;
   min-width: 500px;
 

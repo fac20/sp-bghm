@@ -11,7 +11,10 @@ const Title = styled.h1`
   text-decoration: none;
   letter-spacing: 0.15em;
   color: var(--very-dark-green);
+  text-align: center;
+  margin-bottom: 3rem;
 `
+
 function App() {
   return (
     <div className="App">

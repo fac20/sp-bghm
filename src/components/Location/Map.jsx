@@ -47,12 +47,13 @@ export default function Map({ userLocation, setUserLocation }) {
           borough="Havering"
           alt="Havering"
           id="havering"
-        ></path>
- <text>
+        >
+  </path>
+{/*  <text x="0" y="10" font-family="Verdana" font-size="55" fill="blue">
     <textPath href="#havering">
       Havering
     </textPath>
-  </text>
+  </text> */}
         <path
           fill="#74C69D"
           fillOpacity="1"
@@ -68,7 +69,14 @@ export default function Map({ userLocation, setUserLocation }) {
           borough="Bexley"
           className={"Bexley" === userLocation ? "clicked" : null}
           onClick={locateUser}
+          id="bexley"
         ></path>
+
+{/*  <text>
+    <textPath href="#bexley" x="200" y="20" font-family="Helvetica" font-size="20" fill="blue">
+      Bexley
+    </textPath>
+  </text> */}
         <path
           fill="#74C69D"
           fillOpacity="1"
@@ -222,8 +230,14 @@ export default function Map({ userLocation, setUserLocation }) {
           borough="Greenwich"
           className={"Greenwich" === userLocation ? "clicked" : null}
           onClick={locateUser}
+          id="greenwich"
           d="M616.75 460.427l7.462-7.463 33.362 33.362 18.437-15.364-4.39-5.268 12.291-13.608-.878-21.948-7.462-5.707 1.316-17.558 18.437-12.291 11.852.439 12.291-10.975-1.756-61.455-32.922 5.706-18.437 21.949-57.944 5.706-32.922-26.338-27.655 50.92 68.918 79.893z"
         ></path>
+        {/* <text>
+    <textPath href="#greenwich">
+      Greenwich
+    </textPath>
+  </text> */}
         <path
           fill="#74C69D"
           fillOpacity="1"
