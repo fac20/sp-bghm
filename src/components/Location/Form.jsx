@@ -4,10 +4,10 @@ import getLocation from "../.././utils/getPostcode.js";
 import { useHistory } from "react-router-dom";
 
 const PostcodeForm = styled.form`
-  background: #d8f3dc;
-  border: 2px solid #74c69d;
+  background: var(--very-light-green);
+  border: 2px solid var(--dark-green);
   border-radius: 20px;
-  color: #74c69d;
+  color: var(--dark-green);
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -29,12 +29,12 @@ const Input = styled.input`
   border: none;
   border-radius: 10px;
   box-sizing: border-box;
-  color: #74c69d;
+  color: var(--dark-green);
   margin: 0.5rem;
   padding: 10px;
   width: 100%;
   &:hover {
-    background: #ebfce1;
+    background: var(--very-light-green);
   }
 `;
 
