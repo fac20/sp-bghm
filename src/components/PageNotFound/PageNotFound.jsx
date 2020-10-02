@@ -1,7 +1,7 @@
 import React from "react";
 import {Link} from "react-router-dom"
 import styled from "styled-components"
-import errorImage from "../assets/page-not-found.svg";
+import errorImage from "../../assets/page-not-found.svg";
 
 const ErrorBg = styled.div`
   background-image: url(${errorImage});
