@@ -5,10 +5,16 @@
 :root {
   --main-orange: hsla(33, 98%, 50%, 1);
   --main-green: hsl(150, 42%, 62%);
+  --very-light-green: hsl(129, 53%, 90%);
+  --background-green: hsl(141, 45%, 81%);
+  --background-dark-blue: hsl(220, 13%, 18%);
+  --dark-green: hsl(155, 43%, 18%) ;
+  --very-dark-green: hsl(159, 56%, 7%);
+
   --mid-green: hsl(153, 40%, 30%);
   --card-background-green: hsl(129, 53%, 90%);
   --background-green: hsl(141, 45%, 81%);
-  --background-dark-blue: hsl(220, 13%, 18%);
+  --very-dark-blue: hsl(220, 13%, 18%);
   --nearly-white: hsl(98, 82%, 94%);
 }
 /* 

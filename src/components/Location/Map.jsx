@@ -43,8 +43,13 @@ export default function Map({ userLocation, setUserLocation }) {
           onClick={locateUser}
           borough="Havering"
           alt="Havering"
+          id="havering"
         ></path>
-
+ <text>
+    <textPath href="#havering">
+      Havering
+    </textPath>
+  </text>
         <path
           fill="#74C69D"
           fillOpacity="1"

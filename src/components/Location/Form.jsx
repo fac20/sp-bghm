@@ -3,11 +3,16 @@ import styled from "styled-components";
 import getLocation from "../.././utils/getPostcode.js";
 import { useHistory } from "react-router-dom";
 
+const Title = styled.h3`
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  color: var(--very-dark-green);
+`
 const PostcodeForm = styled.form`
   background: var(--card-background-green);
-  border: 2px solid var(--main-green);
+  border: 2px solid var(--very-dark-green);
   border-radius: 20px;
-  color: var(--main-green);
+  color: var(--very-dark-green);
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -29,7 +34,7 @@ const Input = styled.input`
   border: none;
   border-radius: 10px;
   box-sizing: border-box;
-  color: var(--main-green);
+  color: var(--very-dark-green);
   margin: 0.5rem;
   padding: 10px;
   width: 100%;
@@ -73,7 +78,7 @@ export default function Form() {
       <Label htmlFor="postcode">Enter your postcode:</Label>
       <PostCodeInput name="postcode" id="postcode" required />
       <SubmitInput type="submit" value="Let's recycle!" />
-      {postCodeError ? <h1>{postCodeError}</h1> : null}
+      {postCodeError ? <Title>{postCodeError}</Title> : null}
     </PostcodeForm>
   );
 }
