@@ -9,7 +9,7 @@ const Svg = styled.svg.attrs({
   height: "744",
 })`
   /* NOTE: Can change width within the backticks using media queries */
-  /* width: 900px; 
+  /*width: 900px; 
   height: 900px; */
   .clicked {
     fill: #fc8c03;
@@ -152,11 +152,10 @@ export default function Map({ userLocation, setUserLocation }) {
           className={"Bromley" === userLocation ? "clicked" : null}
           onClick={locateUser}
           d="M656.17 452.288l54.833 52.64 18.278-4.387 36.19 13.525 3.655 22.3-10.967 6.945-14.622 80.422-15.353 1.096-4.021 25.224-33.266 24.857 9.505 35.459-54.468 11.332-16.084-19.374-19.374 19.374-24.127-79.69-138.91-177.294 208.73-12.43z"
-        ></path>
-        <path
+          ></path>
+          <path 
           fill="#74c69d"
           fillOpacity="1"
-          fillRule="evenodd"
           stroke="#000"
           strokeDasharray="none"
           strokeLinecap="butt"
