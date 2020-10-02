@@ -5,8 +5,10 @@ const Svg = styled.svg.attrs({
   version: "1",
   xmlns: "http://www.w3.org/2000/svg",
   xmlnsXlink: "http://www.w3.org/1999/xlink",
-  width: "962",
-  height: "744",
+  width: "80%",
+  height: "auto",
+  display: "block",
+  viewBox: "0 0 960 960",
 })`
   /* NOTE: Can change width within the backticks using media queries */
   /*width: 900px; 
@@ -37,7 +39,7 @@ export default function Map({ userLocation, setUserLocation }) {
           strokeLinecap="butt"
           strokeLinejoin="miter"
           strokeOpacity="1"
-          strokeWidth="1"
+          strokeWidth="3.5"
           d="M729.646 121.096l35.825 1.462 65.8-15.353 40.941 31.437-4.386 16.085 10.235 3.655 25.589 64.338 29.244.73 24.858 38.75-77.497 20.47-2.925 24.127-17.547-13.89-45.328 88.463-96.507-7.31 11.698-252.964z"
           className={"Havering" === userLocation ? "clicked" : null}
           onClick={locateUser}
@@ -85,7 +87,7 @@ export default function Map({ userLocation, setUserLocation }) {
           strokeLinecap="butt"
           strokeLinejoin="miter"
           strokeOpacity="1"
-          strokeWidth="1"
+          strokeWidth="3.5"
           borough="Enfield"
           className={"Enfield" === userLocation ? "clicked" : null}
           onClick={locateUser}
@@ -115,7 +117,7 @@ export default function Map({ userLocation, setUserLocation }) {
           strokeLinecap="butt"
           strokeLinejoin="miter"
           strokeOpacity="1"
-          strokeWidth="1"
+          strokeWidth="3.5"
           borough="Sutton"
           className={"Sutton" === userLocation ? "clicked" : null}
           onClick={locateUser}
