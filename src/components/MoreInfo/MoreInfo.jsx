@@ -13,51 +13,52 @@ export default function MoreInfo() {
     const locationUrl = useLocation();
     const material = locationUrl.pathname.split("/")[3]
     console.log("material", material)
+    // Temporary api/database
     const content = {
-        "Plastic":{
-            "impact": "",
-            "what_happens": "",
-            "Haringey":{
-                "recyclable_material": "",
-                "how_to_recycle": ""},
-            "Islington":{
-                "recyclable_material": "",
-               "how_to_recycle": ""},
-            "Redbridge":{
-                "what_material": "",
-               "how_to_recycle": ""
+        "plastic":{
+            "impact": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam natus officia rerum praesentium accusantium obcaecati voluptas saepe? Alias natus, quibusdam ea repudiandae laudantium voluptas aut itaque minima! Iusto, fuga dolorem.",
+            "what_happens": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam natus officia rerum praesentium accusantium obcaecati voluptas saepe? Alias natus, quibusdam ea repudiandae laudantium voluptas aut itaque minima! Iusto, fuga dolorem.",
+            "haringey":{
+                "recyclable_material": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam natus officia rerum praesentium accusantium obcaecati voluptas saepe? Alias natus, quibusdam ea repudiandae laudantium voluptas aut itaque minima! Iusto, fuga dolorem.",
+                "how_to_recycle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam natus officia rerum praesentium accusantium obcaecati voluptas saepe? Alias natus, quibusdam ea repudiandae laudantium voluptas aut itaque minima! Iusto, fuga dolorem."},
+            "islington":{
+                "recyclable_material": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam natus officia rerum praesentium accusantium obcaecati voluptas saepe? Alias natus, quibusdam ea repudiandae laudantium voluptas aut itaque minima! Iusto, fuga dolorem.",
+               "how_to_recycle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam natus officia rerum praesentium accusantium obcaecati voluptas saepe? Alias natus, quibusdam ea repudiandae laudantium voluptas aut itaque minima! Iusto, fuga dolorem."},
+            "redbridge":{
+                "what_material": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam natus officia rerum praesentium accusantium obcaecati voluptas saepe? Alias natus, quibusdam ea repudiandae laudantium voluptas aut itaque minima! Iusto, fuga dolorem.",
+               "how_to_recycle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam natus officia rerum praesentium accusantium obcaecati voluptas saepe? Alias natus, quibusdam ea repudiandae laudantium voluptas aut itaque minima! Iusto, fuga dolorem."
             }
         },
-        "Metal":{
-            "impact": "",
-            "what_happens": "",
+        "metal":{
+            "impact": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam natus officia rerum praesentium accusantium obcaecati voluptas saepe? Alias natus, quibusdam ea repudiandae laudantium voluptas aut itaque minima! Iusto, fuga dolorem.",
+            "what_happens": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam natus officia rerum praesentium accusantium obcaecati voluptas saepe? Alias natus, quibusdam ea repudiandae laudantium voluptas aut itaque minima! Iusto, fuga dolorem.",
             "Haringey":{
-                "recyclable_material": "",
-               "how_to_recycle": ""
+                "recyclable_material": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam natus officia rerum praesentium accusantium obcaecati voluptas saepe? Alias natus, quibusdam ea repudiandae laudantium voluptas aut itaque minima! Iusto, fuga dolorem.",
+               "how_to_recycle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam natus officia rerum praesentium accusantium obcaecati voluptas saepe? Alias natus, quibusdam ea repudiandae laudantium voluptas aut itaque minima! Iusto, fuga dolorem."
             },
             "Islington":{
-                "recyclable_material": "",
-                "how_to_recycle": ""
+                "recyclable_material": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam natus officia rerum praesentium accusantium obcaecati voluptas saepe? Alias natus, quibusdam ea repudiandae laudantium voluptas aut itaque minima! Iusto, fuga dolorem.",
+                "how_to_recycle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam natus officia rerum praesentium accusantium obcaecati voluptas saepe? Alias natus, quibusdam ea repudiandae laudantium voluptas aut itaque minima! Iusto, fuga dolorem."
             },
             "Redbridge":{
-                "what_material": "",
-                "how_to_recycle": ""
+                "what_material": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam natus officia rerum praesentium accusantium obcaecati voluptas saepe? Alias natus, quibusdam ea repudiandae laudantium voluptas aut itaque minima! Iusto, fuga dolorem.",
+                "how_to_recycle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam natus officia rerum praesentium accusantium obcaecati voluptas saepe? Alias natus, quibusdam ea repudiandae laudantium voluptas aut itaque minima! Iusto, fuga dolorem."
             }
         },
-        "Glass":{
-            "impact": "",
-            "what_happens": "",
-            "Haringey":{
-                "recyclable_material": "",
-                "how_to_recycle": ""
+        "glass":{
+            "impact": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam natus officia rerum praesentium accusantium obcaecati voluptas saepe? Alias natus, quibusdam ea repudiandae laudantium voluptas aut itaque minima! Iusto, fuga dolorem.",
+            "what_happens": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam natus officia rerum praesentium accusantium obcaecati voluptas saepe? Alias natus, quibusdam ea repudiandae laudantium voluptas aut itaque minima! Iusto, fuga dolorem.",
+            "haringey":{
+                "recyclable_material": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam natus officia rerum praesentium accusantium obcaecati voluptas saepe? Alias natus, quibusdam ea repudiandae laudantium voluptas aut itaque minima! Iusto, fuga dolorem.",
+                "how_to_recycle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam natus officia rerum praesentium accusantium obcaecati voluptas saepe? Alias natus, quibusdam ea repudiandae laudantium voluptas aut itaque minima! Iusto, fuga dolorem."
             },
-            "Islington":{
-                "recyclable_material": "",
-                "how_to_recycle": ""
+            "islington":{
+                "recyclable_material": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam natus officia rerum praesentium accusantium obcaecati voluptas saepe? Alias natus, quibusdam ea repudiandae laudantium voluptas aut itaque minima! Iusto, fuga dolorem.",
+                "how_to_recycle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam natus officia rerum praesentium accusantium obcaecati voluptas saepe? Alias natus, quibusdam ea repudiandae laudantium voluptas aut itaque minima! Iusto, fuga dolorem."
             },
-            "Redbridge":{
-                "what_material": "",
-               "how_to_recycle": ""
+            "redbridge":{
+                "what_material": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam natus officia rerum praesentium accusantium obcaecati voluptas saepe? Alias natus, quibusdam ea repudiandae laudantium voluptas aut itaque minima! Iusto, fuga dolorem.",
+               "how_to_recycle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam natus officia rerum praesentium accusantium obcaecati voluptas saepe? Alias natus, quibusdam ea repudiandae laudantium voluptas aut itaque minima! Iusto, fuga dolorem."
             }
         }
     }
