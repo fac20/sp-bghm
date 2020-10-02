@@ -5,7 +5,7 @@ const Svg = styled.svg.attrs({
   version: "1",
   xmlns: "http://www.w3.org/2000/svg",
   xmlnsXlink: "http://www.w3.org/1999/xlink",
-  width: "80%",
+  width: "82%",
   height: "auto",
   display: "block",
   viewBox: "0 0 960 960",
@@ -18,6 +18,7 @@ const Svg = styled.svg.attrs({
   }
   &:hover {
     fill: #000;
+
   }
 `;
 
