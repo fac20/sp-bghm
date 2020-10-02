@@ -2,14 +2,14 @@ import React from "react";
 import Card from "../Card/Card.jsx";
 import styled from "styled-components";
 
-import batteries from "../assets/batteries.svg";
-import gardenWaste from "../assets/garden-waste.svg";
-import glass from "../assets/glass.svg";
-import plastic from "../assets/plastic.svg";
-import metal from "../assets/metal.svg";
-import otherWaste from "../assets/other-waste.svg";
-import paperAndCard from "../assets/paper-and-card.svg";
-import smallElectronics from "../assets/small-electronics.svg";
+import batteries from "../../assets/batteries.svg";
+import gardenWaste from "../../assets/garden-waste.svg";
+import glass from "../../assets/glass.svg";
+import plastic from "../../assets/plastic.svg";
+import metal from "../../assets/metal.svg";
+import otherWaste from "../../assets/other-waste.svg";
+import paperAndCard from "../../assets/paper-and-card.svg";
+import smallElectronics from "../../assets/small-electronics.svg";
 
 const Div = styled.div`
   background-color: var(--main-green);

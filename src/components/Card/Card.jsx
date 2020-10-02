@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import blueBin from "../assets/wheelie-bin-blue.svg";
+import blueBin from "../../assets/wheelie-bin-blue.svg";
 import {useHistory, useLocation} from "react-router-dom"
 
 const Container = styled.article`

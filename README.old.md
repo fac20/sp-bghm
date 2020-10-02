@@ -1,3 +1,0 @@
-# SP-BGHM
-
-student project
