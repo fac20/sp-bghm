@@ -47,7 +47,9 @@ export default function Map({ userLocation, setUserLocation }) {
           id="havering"
           alt="Havering"
         ></path>
-
+  <text href="#havering">
+    havering
+  </text>
         <path
           fill="#74C69D"
           fillOpacity="1"
