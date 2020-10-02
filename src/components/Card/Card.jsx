@@ -29,7 +29,9 @@ const FrontBack = styled.div`
   width: 100%;
 `;
 
-const Front = styled(FrontBack)``;
+const Front = styled(FrontBack)`
+
+`;
 
 const Back = styled(FrontBack)`
   transform: rotateY(180deg);
@@ -38,20 +40,31 @@ const Back = styled(FrontBack)`
 const Title = styled.span`
   background-color: var(--main-orange);
   color: var(--background-dark-blue);
+  font-weight: bold;
 `;
 
+const BackTitle = styled.span`
+  background-color: var(--main-orange);
+  color: var(--background-dark-blue);
+  font-weight: bold;
+  padding: 1rem;
+`;
 const CategoryIcon = styled.img`
-  height: 100%;
-  margin: 1rem;
+  height: 85%;
   width: auto;
+  margin: 1rem;
 `;
 
-const CategoryBinImage = styled.img``;
+const CategoryBinImage = styled.img`
+
+`;
 
 const Button = styled.button`
-  background-color: hsla(33, 98%, 50%, 0.8);
+  background-color: var(--main-orange);
   border: 1px;
+  color: var(--background-dark-blue);
   font: inherit;
+  font-weight: bold;
   line-height: 1;
   margin: 0;
   padding: 0.8rem;
@@ -73,11 +86,11 @@ function Card({ material, wasteOrganisation, src }) {
         <CategoryIcon src={src} alt={material} />
       </Front>
       <Back>
-        <Title>
+        <BackTitle>
           Put {material} in {wasteOrganisation}
-        </Title>
+        </BackTitle>
         <CategoryBinImage src={blueBin} alt="bin-type" />
-        <Button onClick={handleClick}>click for more information</Button>
+        <Button onClick={handleClick}>Click to read more</Button>
       </Back>
     </Container>
   );
