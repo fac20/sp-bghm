@@ -18,8 +18,8 @@ const Container = styled.article`
 
 const FrontBack = styled.div`
   backface-visibility: hidden;
-  background-color: var(--card-background-green);
-  color: var(--card-background-green);
+  background-color: var(--very-light-green);
+  color: var(--very-light-green);
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -30,7 +30,7 @@ const FrontBack = styled.div`
 `;
 
 const Front = styled(FrontBack)`
-;
+
 `;
 
 const Back = styled(FrontBack)`
