@@ -20,9 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "cov": "npm test -- --coverage --watchAll=false",
-    "commit": "git-cz",
-    "styleguidist": "styleguidist server --config styleguide.config.js",
-    "styleguidist build": "styleguidist build --config styleguide.config.js"
+    "commit": "git-cz"
   },
   "config": {
     "commitizen": {
@@ -49,10 +47,12 @@
   },
   "devDependencies": {
     "codecov": "^3.7.2",
-    "eslint-config-airbnb-base": "^14.2.0",
     "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.3",
+    "eslint-plugin-react-hooks": "^4.1.2",
     "husky": "^4.3.0",
     "lint-staged": "^10.4.0",
     "prettier": "^2.1.2"

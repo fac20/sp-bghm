@@ -1,13 +1,13 @@
 import React from "react";
 import styled from "styled-components";
-import getLocation from "../.././utils/getPostcode.js";
+import useLocation from "../../hooks/getPostcode.js";
 import { useHistory } from "react-router-dom";
 
 const Title = styled.h3`
   text-decoration: none;
   letter-spacing: 0.15em;
   color: var(--very-dark-green);
-`
+`;
 const PostcodeForm = styled.form`
   background: var(--card-background-green);
   border: 2px solid var(--very-dark-green);
@@ -30,7 +30,6 @@ const Label = styled.label`
 `;
 
 const Input = styled.input`
-
   border: none;
   border-radius: 10px;
   box-sizing: border-box;
@@ -48,29 +47,15 @@ const PostCodeInput = styled(Input)``;
 const SubmitInput = styled(Input)``;
 
 export default function Form() {
-  const [postCodeError, SetErrorMessage] = React.useState("");
+  const [postcode, setPostcode] = React.useState("");
+  const [postcodeErrorMessage, setPostcodeErrorMessage] = React.useState("");
   const history = useHistory();
+  useLocation({ postcode, setPostcodeErrorMessage, history });
   const storeLocation = (event) => {
-    //  prevemt default
+    //  prevent default
     event.preventDefault();
     //  get  postcode from user input
-    console.log(event.target);
-    console.log(event.target.postcode.value);
-    const postcode = event.target.postcode.value;
-
-    getLocation(postcode).then((data) => {
-      if (!data.result) {
-        SetErrorMessage("Borough Not Found! Please try again!");
-      } else {
-        const location = data.result.admin_district
-          .toLowerCase()
-          .split(" ")
-          .join("");
-        window.localStorage.setItem("location", location);
-        //take user to RecyclingCategories;
-        history.push("/categories/" + location);
-      }
-    });
+    setPostcode(event.target.postcode.value);
   };
 
   return (
@@ -78,7 +63,7 @@ export default function Form() {
       <Label htmlFor="postcode">Enter your postcode:</Label>
       <PostCodeInput name="postcode" id="postcode" required />
       <SubmitInput type="submit" value="Let's recycle!" />
-      {postCodeError ? <Title>{postCodeError}</Title> : null}
+      {postcodeErrorMessage ? <Title>{postcodeErrorMessage}</Title> : null}
     </PostcodeForm>
   );
 }
