@@ -1,28 +1,16 @@
 import React from "react";
-import Form from "./Form.jsx";
-import Map from "./Map.jsx";
+import PostcodeForm from "../../PostcodeForm/PostcodeForm.jsx";
+import LondonMap from "../../LondonMap/LondonMap.jsx";
 import { useHistory } from "react-router-dom";
-import styled from "styled-components";
-
-const LocationCheck = styled.span`
-  margin: auto;
-`;
-
-const Div = styled.span`
-  display: flex;
-  margin: 2rem;
-  justify-content: center;
-  min-width: 500px;
-
-`;
+import * as SC from "./Location.styles.jsx";
 
 export default function Location() {
   const [userLocation, setUserLocation] = React.useState("");
   const history = useHistory();
   return (
     <>
-      <Form />
-      <LocationCheck className={!userLocation ? "hidden" : "visible"}>
+      <PostcodeForm />
+      <SC.LocationCheck className={!userLocation ? "hidden" : "visible"}>
         <button
           onClick={() => {
             history.push(
@@ -32,11 +20,13 @@ export default function Location() {
         >
           <h2>Select {userLocation}</h2>
         </button>
-      </LocationCheck>
-      <Div>
-      <Map userLocation={userLocation} setUserLocation={setUserLocation} />
-      </Div>
-   
+      </SC.LocationCheck>
+      <SC.Div>
+        <LondonMap
+          userLocation={userLocation}
+          setUserLocation={setUserLocation}
+        />
+      </SC.Div>
     </>
   );
 }

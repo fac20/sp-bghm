@@ -1,28 +1,8 @@
 import React from "react";
-import styled from "styled-components";
 
-const Svg = styled.svg.attrs({
-  version: "1",
-  xmlns: "http://www.w3.org/2000/svg",
-  xmlnsXlink: "http://www.w3.org/1999/xlink",
-  width: "82%",
-  height: "auto",
-  display: "block",
-  viewBox: "0 0 960 960",
-})`
-  /* NOTE: Can change width within the backticks using media queries */
-  /*width: 900px; 
-  height: 900px; */
-  .clicked {
-    fill: #fc8c03;
-  }
-  &:hover {
-    fill: #000;
+import * as SC from "./LondonMap.styles.jsx";
 
-  }
-`;
-
-export default function Map({ userLocation, setUserLocation }) {
+export default function LondonMap({ userLocation, setUserLocation }) {
   function locateUser(event) {
     let newLocation = event.target.getAttribute("borough");
     setUserLocation(newLocation);
@@ -30,7 +10,7 @@ export default function Map({ userLocation, setUserLocation }) {
   }
 
   return (
-    <Svg>
+    <SC.Svg>
       <g>
         <path
           fill="#74C69D"
@@ -48,11 +28,10 @@ export default function Map({ userLocation, setUserLocation }) {
           alt="Havering"
           id="havering"
         ></path>
- <text>
-    <textPath href="#havering">
-      Havering
-    </textPath>
-  </text>
+         
+        <text>
+          <textPath href="#havering">Havering</textPath>
+        </text>
         <path
           fill="#74C69D"
           fillOpacity="1"
@@ -160,8 +139,8 @@ export default function Map({ userLocation, setUserLocation }) {
           className={"Bromley" === userLocation ? "clicked" : null}
           onClick={locateUser}
           d="M656.17 452.288l54.833 52.64 18.278-4.387 36.19 13.525 3.655 22.3-10.967 6.945-14.622 80.422-15.353 1.096-4.021 25.224-33.266 24.857 9.505 35.459-54.468 11.332-16.084-19.374-19.374 19.374-24.127-79.69-138.91-177.294 208.73-12.43z"
-          ></path>
-          <path 
+        ></path>
+        <path
           fill="#74c69d"
           fillOpacity="1"
           stroke="#000"
@@ -579,6 +558,6 @@ export default function Map({ userLocation, setUserLocation }) {
           d="M17.542 126.403l41.753 32.01 13.918-12.525 45.928 11.134 80.722-30.62 16.702-20.876 16.7 8.35 50.104-12.525 8.35-27.835 22.27-1.392 30.618-19.485 23.66-4.175 20.876-29.227 80.723-11.134 89.073 16.7 4.175 52.888 30.619 16.701 11.134 23.66 27.835 25.052 47.32 16.701 4.176-18.093 44.536-19.484h38.97l64.021-13.918 41.753 32.01-6.959 16.702 12.526 2.783 25.052 64.021 27.835-1.391 26.444 40.36-77.895 21.388-1.968 26.571-18.698-17.714-38.381 76.762 8.857 7.873-13.778 35.429-56.095 64.952 8.857 59.048-10.825 5.904-14.762 81.683-16.73.984-1.969 24.603-34.444 25.588 10.825 36.412-55.11 10.826-15.747-19.683-20.666 21.65-16.73-62-27.556-17.713-27.556 16.73-.984 9.841-41.333 11.81-.984 11.81-36.413 46.253-23.619-19.683-18.698-6.888-3.937-34.445-44.286-36.413-19.682 25.588-19.683-12.794 12.794-19.682-21.65-36.413-9.842 3.936v-31.492l-13.778 4.921-27.555 21.65L245.72 655.2l-23.62 17.714-6.634-6.727-3.207-34.606 18.699-40.35 8.857-8.857-10.826-22.634-8.857-.985-41.333-32.476-32.476-2.952-5.905-19.683h-12.794l-14.762-16.73-15.746 5.905-23.619-12.794-7.873-35.428L9.53 418.024l23.62-64.952-12.794-60.032 18.698-31.492-22.635-84.635 1.124-50.51z"
         ></path>
       </g>
-    </Svg>
+    </SC.Svg>
   );
 }
