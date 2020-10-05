@@ -6,6 +6,9 @@ import PageNotFound from "./components/PageNotFound/PageNotFound.jsx";
 import Location from "./components/Location/Location.jsx";
 import RecyclingCategories from "./components/RecyclingCategories/RecyclingCategories.jsx";
 import MoreInfo from "./components/MoreInfo/MoreInfo.jsx"
+import { Primary } from "./stories/Navbar.stories.js";
+
+
 const Title = styled.h1`
   text-transform: uppercase;
   text-decoration: none;
@@ -20,6 +23,13 @@ function App() {
       </Title>
       <main>
         <BrowserRouter>
+        <Primary
+  backgroundColor={null}
+  label="Navigation"
+  onClick={() => {}}
+  primary
+  size="medium"
+/>
           <Switch>
             <Route path="/" exact>
               <Location />
@@ -34,6 +44,7 @@ function App() {
               <PageNotFound />
             </Route>
           </Switch>
+
         </BrowserRouter>
       </main>
       {/* </Location>  */}
