@@ -2,6 +2,7 @@ import React from "react";
 
 import * as SC from "./LondonMap.styles.jsx";
 
+// eslint-disable-next-line react/prop-types
 export default function LondonMap({ userLocation, setUserLocation }) {
   function locateUser(event) {
     let newLocation = event.target.getAttribute("borough");
@@ -28,7 +29,6 @@ export default function LondonMap({ userLocation, setUserLocation }) {
           alt="Havering"
           id="havering"
         ></path>
-         
         <text>
           <textPath href="#havering">Havering</textPath>
         </text>
