@@ -25,7 +25,7 @@ export const Button = styled.button`
   z-index: 1;
   /* -webkit-backface-visibility: hidden; */
   -moz-osx-font-smoothing: grayscale;
-  background: hsl(141, 45%, 81%);
+  background: var(--light-green);
   color: #081c15;
   -webkit-transition: background-color 0.3s, color 0.3s;
   transition: background-color 0.3s, color 0.3s;
@@ -37,7 +37,7 @@ export const Button = styled.button`
     left: 0;
     width: 100%; //makes the orange borders cover the button
     height: 100%;
-    border: 2px solid hsla(33, 98%, 50%, 1);
+    border: 2px solid var(--main-orange);
     z-index: -1;
     border-radius: inherit;
     opacity: 0;
@@ -49,8 +49,8 @@ export const Button = styled.button`
 transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); */
   }
   &:hover {
-    background-color: #f8e6bf;
-    color: hsla(33, 98%, 50%, 1);
+    background-color: var(--light-orange);
+    color: var(--main-orange);
     box-shadow: 0px 15px 20px hsla(33, 98%, 50%, 0.2) inset;
   }
   &:hover:before {

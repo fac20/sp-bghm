@@ -9,7 +9,7 @@ export const Title = styled.h3`
   padding: 15px 20px; //to space out the underline
   position: relative;
   &:hover {
-    color: rgba(253, 187, 45, 1);
+    color: var(--main-orange);
   }
   &:after {
     background: none repeat scroll 0 0 transparent;
@@ -21,8 +21,8 @@ export const Title = styled.h3`
     position: absolute;
     background: linear-gradient(
       0deg,
-      rgba(148, 232, 183, 1) 0%,
-      rgba(253, 187, 45, 1) 100%
+      var(--light-green) 0%,
+      var(--main-orange) 100%
     );
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;

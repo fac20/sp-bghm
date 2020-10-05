@@ -13,7 +13,7 @@ export const Svg = styled.svg.attrs({
   /*width: 900px; 
   height: 900px; */
   .clicked {
-    fill: #fc8c03;
+    fill: var(--main-orange);
   }
   &:hover {
     fill: #000;
