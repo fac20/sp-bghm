@@ -74,11 +74,13 @@ export default function Form() {
   };
 
   return (
+    
     <PostcodeForm onSubmit={storeLocation}>
       <Label htmlFor="postcode">Enter your postcode:</Label>
       <PostCodeInput name="postcode" id="postcode" required />
       <SubmitInput type="submit" value="Let's recycle!" />
       {postCodeError ? <Title>{postCodeError}</Title> : null}
     </PostcodeForm>
+    
   );
 }
