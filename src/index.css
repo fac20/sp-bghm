@@ -3,19 +3,15 @@
 }
 
 :root {
-  --main-orange: hsla(33, 98%, 50%, 1);
-  --main-green: hsl(150, 42%, 62%);
+  --light-orange: hsl(33, 77%, 80%);
+  --main-orange: hsl(33, 77%, 58%);
   --very-light-green: hsl(129, 53%, 90%);
-  --background-green: hsl(141, 45%, 81%);
-  --background-dark-blue: hsl(220, 13%, 18%);
-  --dark-green: hsl(155, 43%, 18%) ;
+  --light-green: hsl(141, 45%, 81%);
+  --mid-light-green: hsl(150, 42%, 62%);
+  --mid-green: hsl(152, 41%, 52%);
+  --mid-dark-green: hsl(153, 40%, 30%);
+  --dark-green: hsl(155, 43%, 18%);
   --very-dark-green: hsl(159, 56%, 7%);
-
-  --mid-green: hsl(153, 40%, 30%);
-  --card-background-green: hsl(129, 53%, 90%);
-  --background-green: hsl(141, 45%, 81%);
-  --very-dark-blue: hsl(220, 13%, 18%);
-  --nearly-white: hsl(98, 82%, 94%);
 }
 /* 
 #d8f3dc
@@ -23,7 +19,7 @@
 #95d5b2
 #74c69d
 #52b788
-#40916c
+#40916c 
 #2d6a4f
 #1b4332
 #081c15
@@ -40,13 +36,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+main {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 label,
 input,
 button {
   font: inherit;
   color: inherit;
   display: block;
-
 }
 
 code {
@@ -54,9 +54,9 @@ code {
     monospace;
 }
 
-h1 {
+/* h1 {
   color: var(--nearly-white);
-}
+} */
 
 .hidden {
   display: none;
