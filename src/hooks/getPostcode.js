@@ -17,13 +17,12 @@ const useLocation = ({ postcode, setPostcodeErrorMessage, history }) => {
         if (!data.result) {
           setPostcodeErrorMessage("Borough Not Found! Please try again!");
         } else {
-          const location = data.result.admin_district
-            .toLowerCase()
-            .split(" ")
-            .join("");
+          const location = data.result.admin_district;
           window.localStorage.setItem("location", location);
           //take user to RecyclingCategories;
-          history.push("/categories/" + location);
+          history.push(
+            "/categories/" + location.toLowerCase().split(" ").join("")
+          );
         }
       })
       .catch((error) => setPostcodeErrorMessage(error.message));

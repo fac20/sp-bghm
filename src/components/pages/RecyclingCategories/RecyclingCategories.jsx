@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "../../Card/Card.jsx";
-import { useParams } from "react-router-dom";
 
 import batteries from "../../../assets/batteries.svg";
 import gardenWaste from "../../../assets/garden-waste.svg";
@@ -13,11 +12,12 @@ import smallElectronics from "../../../assets/small-electronics.svg";
 import * as SC from "./RecyclingCategories.styles.jsx";
 
 function RecyclingCategories() {
-  let { borough } = useParams();
+  const location = window.localStorage.getItem("location");
+
   return (
     <SC.Div>
       <SC.Span>
-        <h1>Hello {borough}. What do you want to recycle?</h1>
+        <h1>Hello, {location}! What do you want to recycle?</h1>
       </SC.Span>
       <SC.Section>
         <Card material="plastic" wasteOrganisation="" src={plastic} />

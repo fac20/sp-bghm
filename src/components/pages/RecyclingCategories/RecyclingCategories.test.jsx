@@ -1,14 +1,16 @@
 import React from "react";
-import { render, screen, fireEvent } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 
 import RecyclingCategories from "./RecyclingCategories.jsx";
 
-test("Recycling categories page renders", () => {
-  jest
-    .spyOn(RecyclingCategories, "useParams")
-    .mockReturnValue({ borough: "Hackney" });
-  render(<RecyclingCategories />);
-  screen.getByText(
-    "Contact your local authority for other waste services and requests"
-  );
+describe("<RecyclingCategories />", () => {
+  // Mock localStorage item
+  window.localStorage.getItem = () => "Hackney";
+
+  test("Recycling categories page renders", () => {
+    render(<RecyclingCategories />);
+    screen.getByText(
+      "Contact your local authority for other waste services and requests"
+    );
+  });
 });
