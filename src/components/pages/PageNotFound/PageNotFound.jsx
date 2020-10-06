@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import * as SC from "./PageNotFound.styles.jsx";
 
 export default function PageNotFound() {
@@ -7,7 +6,7 @@ export default function PageNotFound() {
     <SC.ErrorBg>
       <SC.Button>
         {" "}
-        <Link to="/">Go to Home</Link>{" "}
+        <a href="/">Go to Home</a>{" "}
       </SC.Button>
     </SC.ErrorBg>
   );
