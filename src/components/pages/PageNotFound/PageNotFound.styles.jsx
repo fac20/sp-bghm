@@ -32,7 +32,7 @@ export const Button = styled.button`
   /* this will create the orange border that appears on hover*/
   &:before {
     content: "";
-    position: absolute; //makes the content fit vertically within the buttom
+    position: absolute; //makes the content fit vertically within the button
     top: 0; //keeps content within button during hover
     left: 0;
     width: 100%; //makes the orange borders cover the button

@@ -12,10 +12,12 @@ import smallElectronics from "../../../assets/small-electronics.svg";
 import * as SC from "./RecyclingCategories.styles.jsx";
 
 function RecyclingCategories() {
+  const location = window.localStorage.getItem("location");
+
   return (
     <SC.Div>
       <SC.Span>
-        <h1>What type of recycling do you have?</h1>
+        <h1>Hello, {location}! What do you want to recycle?</h1>
       </SC.Span>
       <SC.Section>
         <Card material="plastic" wasteOrganisation="" src={plastic} />
