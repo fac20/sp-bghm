@@ -29,11 +29,10 @@ export const Navbar = ({ primary, backgroundColor, size, label, ...props }) => {
         name="slideItem"
         value="0%"
         id="slide-item-1"
-        checked="true"
         onChange={changeMargin}
       />
       <Label htmlFor="slide-item-1">
-        <PTag>icon1</PTag>
+        <PTag>★</PTag>
         <Span>Title</Span>
       </Label>
 
@@ -46,7 +45,7 @@ export const Navbar = ({ primary, backgroundColor, size, label, ...props }) => {
       />
 
       <Label htmlFor="slide-item-2">
-        <PTag>Icon2</PTag>
+        <PTag>★</PTag>
         <Span>Title</Span>
       </Label>
 
@@ -70,7 +69,7 @@ export const Navbar = ({ primary, backgroundColor, size, label, ...props }) => {
         onChange={changeMargin}
       />
       <Label htmlFor="slide-item-3">
-        <PTag>icon3</PTag>
+        <PTag>★</PTag>
         <Span>Title</Span>
       </Label>
 
@@ -82,7 +81,7 @@ export const Navbar = ({ primary, backgroundColor, size, label, ...props }) => {
         onChange={changeMargin}
       />
       <Label htmlFor="slide-item-4">
-        <PTag>icon4</PTag>
+        <PTag>★</PTag>
         <Span>Title</Span>
       </Label>
 

@@ -69,9 +69,9 @@ export const Label = styled.label`
 
 export const Input = styled.input`
   display: none;
-  opacity: 0;
-  :checked {
+  &:checked + label {
     opacity: 1;
+    display: block;
   }
 `;
 
