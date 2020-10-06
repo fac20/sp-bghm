@@ -22,7 +22,8 @@
     "cov": "npm test -- --coverage --watchAll=false",
     "commit": "git-cz",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "cypress:open": "cypress open"
   },
   "config": {
     "commitizen": {
