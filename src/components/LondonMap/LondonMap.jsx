@@ -29,9 +29,6 @@ export default function LondonMap({ userLocation, setUserLocation }) {
           id="havering"
         ></path>
          
-        <text>
-          <textPath href="#havering">Havering</textPath>
-        </text>
         <path
           fill="#74C69D"
           fillOpacity="1"

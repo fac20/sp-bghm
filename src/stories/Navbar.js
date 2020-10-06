@@ -32,8 +32,10 @@ export const Navbar = ({ primary, backgroundColor, size, label, ...props }) => {
         onChange={changeMargin}
       />
       <Label htmlFor="slide-item-1">
-        <PTag>★</PTag>
-        <Span>Title</Span>
+        <a href="#what">
+          <PTag>★</PTag>
+          <Span>What's recyclable?</Span>
+        </a>
       </Label>
 
       <Input
@@ -46,7 +48,9 @@ export const Navbar = ({ primary, backgroundColor, size, label, ...props }) => {
 
       <Label htmlFor="slide-item-2">
         <PTag>★</PTag>
-        <Span>Title</Span>
+        <Span>
+          <a href="#where">Where to recycle</a>
+        </Span>
       </Label>
 
       <Input
@@ -58,7 +62,9 @@ export const Navbar = ({ primary, backgroundColor, size, label, ...props }) => {
       />
       <Label htmlFor="home">
         <PTag>H</PTag>
-        <Span>Home</Span>
+        <Span>
+          <a href="/">Home</a>
+        </Span>
       </Label>
 
       <Input
@@ -70,7 +76,9 @@ export const Navbar = ({ primary, backgroundColor, size, label, ...props }) => {
       />
       <Label htmlFor="slide-item-3">
         <PTag>★</PTag>
-        <Span>Title</Span>
+        <Span>
+          <a href="#then">What happens?</a>
+        </Span>
       </Label>
 
       <Input
@@ -81,8 +89,10 @@ export const Navbar = ({ primary, backgroundColor, size, label, ...props }) => {
         onChange={changeMargin}
       />
       <Label htmlFor="slide-item-4">
-        <PTag>★</PTag>
-        <Span>Title</Span>
+        <a href="#impact">
+          <PTag>★</PTag>
+          <Span>Your Impact</Span>
+        </a>
       </Label>
 
       <DivClear />

@@ -3,12 +3,16 @@ import styled from "styled-components";
 export const Div = styled.div`
   color: var(--very-dark-green);
   text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
 `;
 export const Section = styled.section`
   display: grid;
   grid-template-columns: repeat(auto-fill, 15rem);
   grid-gap: 1rem 1rem;
   padding: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   width: 100%;
 `;
 

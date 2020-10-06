@@ -6,7 +6,6 @@ import PageNotFound from "./components/pages/PageNotFound/PageNotFound.jsx";
 import Location from "./components/pages/Location/Location.jsx";
 import RecyclingCategories from "./components/pages/RecyclingCategories/RecyclingCategories.jsx";
 import MoreInfo from "./components/pages/MoreInfo/MoreInfo.jsx";
-import { Primary } from "./stories/Navbar.stories.js";
 
 function App() {
   return (
@@ -16,13 +15,6 @@ function App() {
       </Title>
       <main>
         <BrowserRouter>
-          <Primary
-            backgroundColor={null}
-            label="Navigation"
-            onClick={() => {}}
-            primary
-            size="medium"
-          />
           <Switch>
             <Route path="/" exact>
               <Location />

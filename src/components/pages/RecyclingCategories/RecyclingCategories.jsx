@@ -1,12 +1,13 @@
 import React from "react";
 import Card from "../../Card/Card.jsx";
+import Navbar from "../../Navbar/Navbar.jsx";
 
 import batteries from "../../../assets/batteries.svg";
 import gardenWaste from "../../../assets/garden-waste.svg";
 import glass from "../../../assets/glass.svg";
-import plastic from "../../../assets/plastic.svg";
 import metal from "../../../assets/metal.svg";
 import otherWaste from "../../../assets/other-waste.svg";
+import plastic from "../../../assets/plastic.svg";
 import paperAndCard from "../../../assets/paper-and-card.svg";
 import smallElectronics from "../../../assets/small-electronics.svg";
 import * as SC from "./RecyclingCategories.styles.jsx";
@@ -16,6 +17,7 @@ function RecyclingCategories() {
 
   return (
     <SC.Div>
+      <Navbar />
       <SC.Span>
         <h1>Hello, {location}! What do you want to recycle?</h1>
       </SC.Span>

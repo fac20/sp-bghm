@@ -39,11 +39,14 @@ import styled from "styled-components";
 
 export const DivWrapper = styled.div``;
 export const Nav = styled.nav`
+  background-color: white;
+  bottom: 0;
   font-family: arial, sans-serif;
-
+  position: fixed;
   max-width: auto;
-  margin: 3.125rem auto;
+  margin: 0 1rem;
   overflow: hidden;
+  z-index: 1000;
 `;
 
 /*  ${Label} lets us point to siblings in styled components  */
