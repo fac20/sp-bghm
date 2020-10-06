@@ -1,35 +1,28 @@
 import React from "react";
-import { BrowserRouter, Route, Switch} from "react-router-dom";
-import styled from "styled-components"
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { Title } from "./App.style";
 
-import PageNotFound from "./components/PageNotFound/PageNotFound.jsx";
-import Location from "./components/Location/Location.jsx";
-import RecyclingCategories from "./components/RecyclingCategories/RecyclingCategories.jsx";
-import MoreInfo from "./components/MoreInfo/MoreInfo.jsx"
+import PageNotFound from "./components/pages/PageNotFound/PageNotFound.jsx";
+import Location from "./components/pages/Location/Location.jsx";
+import RecyclingCategories from "./components/pages/RecyclingCategories/RecyclingCategories.jsx";
+import MoreInfo from "./components/pages/MoreInfo/MoreInfo.jsx";
 import { Primary } from "./stories/Navbar.stories.js";
 
-
-const Title = styled.h1`
-  text-transform: uppercase;
-  text-decoration: none;
-  letter-spacing: 0.15em;
-  color: var(--very-dark-green);
-`
 function App() {
   return (
     <div className="App">
       <Title>
-        Recycling in London
+        <h1>Recycling in London</h1>
       </Title>
       <main>
         <BrowserRouter>
-        <Primary
-  backgroundColor={null}
-  label="Navigation"
-  onClick={() => {}}
-  primary
-  size="medium"
-/>
+          <Primary
+            backgroundColor={null}
+            label="Navigation"
+            onClick={() => {}}
+            primary
+            size="medium"
+          />
           <Switch>
             <Route path="/" exact>
               <Location />
@@ -38,13 +31,12 @@ function App() {
               <RecyclingCategories />
             </Route>
             <Route path="/categories/:borough/:material">
-              <MoreInfo/>
+              <MoreInfo />
             </Route>
             <Route>
               <PageNotFound />
             </Route>
           </Switch>
-
         </BrowserRouter>
       </main>
       {/* </Location>  */}
