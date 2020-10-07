@@ -39,7 +39,5 @@ async function getInfo(borough) {
   browser.close();
 }
 
-getInfo("haringey");
-// boroughs.forEach((b) => getInfo(b));
-
-// var myJSON = JSON.stringify(obj);
+// getInfo("haringey");
+boroughs.forEach((b) => getInfo(b));
