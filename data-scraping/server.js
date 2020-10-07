@@ -1,4 +1,5 @@
 const puppeteer = require("puppeteer");
+const fs = require("fs");
 
 const boroughsTitleCase = require("./london-boroughs");
 const boroughs = boroughsTitleCase.map((borough) =>
@@ -16,12 +17,29 @@ async function getInfo(borough) {
   //   close the popup
   await page.click("#cookie-dismiss");
 
-  await page.screenshot({ path: `./data-scraping/screenshots/${borough}.png` });
-  // await page.evaluate((".m-wysiwyg").textContent) => {
-  //     results.push(".m-wysiwyg").textContent)
-  // })
+  // collect recycling info from page
+  const recyclingInformation = await page.$$eval(".slider", (nodeList) =>
+    nodeList.map((slide) =>
+      slide.textContent.replace(/\t/g, "").replace(/\n+/g, "/\n/")
+    )
+  );
+
+  // create string from colected data
+  // const infoForBorough = recyclingInformation.join("||").replace(/\s\s/g, "_");
+  const infoForBorough = JSON.stringify(recyclingInformation);
+
+  // write recycling information into a text file
+  fs.writeFile(
+    `./data-scraping/data/${borough}.txt`,
+    infoForBorough,
+    "utf8",
+    () => {}
+  );
 
   browser.close();
 }
 
-boroughs.forEach((b) => getInfo(b));
+getInfo("haringey");
+// boroughs.forEach((b) => getInfo(b));
+
+// var myJSON = JSON.stringify(obj);
