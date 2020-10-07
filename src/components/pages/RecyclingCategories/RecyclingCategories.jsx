@@ -1,6 +1,11 @@
 import React from "react";
+
+import { IconContext } from "react-icons/lib";
+import { AiOutlineHome } from "react-icons/ai";
+
 import Card from "../../Card/Card.jsx";
 import Navbar from "../../Navbar/Navbar.jsx";
+import * as SC from "./RecyclingCategories.styles.jsx";
 
 import batteries from "../../../assets/batteries.svg";
 import gardenWaste from "../../../assets/garden-waste.svg";
@@ -10,14 +15,15 @@ import otherWaste from "../../../assets/other-waste.svg";
 import plastic from "../../../assets/plastic.svg";
 import paperAndCard from "../../../assets/paper-and-card.svg";
 import smallElectronics from "../../../assets/small-electronics.svg";
-import * as SC from "./RecyclingCategories.styles.jsx";
 
 function RecyclingCategories() {
   const location = window.localStorage.getItem("location");
-
   return (
     <SC.Div>
-      <Navbar />
+      {/* <IconContext.Provider value={{ color: "var(--main-orange)" , size: '50px', float: 'left'}}>
+        <AiOutlineHome/>
+      </IconContext.Provider> */}
+
       <SC.Span>
         <h1>Hello, {location}! What do you want to recycle?</h1>
       </SC.Span>
