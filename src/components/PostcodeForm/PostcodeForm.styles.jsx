@@ -6,24 +6,20 @@ export const Title = styled.h3`
   color: var(--very-dark-green);
 `;
 export const Form = styled.form`
-  background: var(--light-green);
+  background: var(--very-light-green);
   border: 2px solid var(--very-dark-green);
   border-radius: 20px;
   color: var(--very-dark-green);
   display: flex;
   flex-direction: column;
-  margin: 2rem auto;
-  padding: 2rem;
-  width: 50vw;
+  margin: 1rem auto;
+  padding: 1rem 2rem;
+  max-width: 60ch;
 `;
 export const Label = styled.label`
   font-weight: 600;
   font-size: 1em;
-  margin: 0.5em;
-  padding: 0.25em 1em;
-  &:hover {
-    border-radius: 3px;
-  }
+  margin: 0;
 `;
 
 export const Input = styled.input`
@@ -31,14 +27,20 @@ export const Input = styled.input`
   border-radius: 10px;
   box-sizing: border-box;
   color: var(--very-dark-green);
-  margin: 0.5rem;
-  padding: 10px;
+  margin: 0.5rem 0 0 0;
+  padding: 1ch;
   width: 100%;
   &:hover {
-    background: var(--very-light-green);
+    background: var(--mid-light-green);
   }
 `;
 
 export const PostCodeInput = styled(Input)``;
 
-export const SubmitInput = styled(Input)``;
+export const SubmitInput = styled(Input)`
+  background: var(--light-green);
+  &:hover {
+    background: var(--mid-green);
+    color: white;
+  }
+`;
