@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -48,4 +49,10 @@ code {
 
 .hidden {
   display: none;
+}
+
+.home-icon{
+  float:left;
+  margin: 1rem 2rem;
+
 }
