@@ -39,6 +39,7 @@ export const PostCodeInput = styled(Input)``;
 
 export const SubmitInput = styled(Input)`
   background: var(--light-green);
+  font-weight: 500;
   &:hover {
     background: var(--mid-green);
     color: white;

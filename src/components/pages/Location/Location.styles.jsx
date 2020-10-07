@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const LocationButton = styled.button`
   margin: 1rem auto 0 auto;
   color: var(--very-dark-green);
-  background-color: var(--very-light-green);
+  background-color: var(--light-green);
   border: 2px solid var(--very-dark-green);
   border-radius: 2rem;
   padding: 0 2rem;
