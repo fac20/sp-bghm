@@ -1,55 +1,22 @@
 import styled from "styled-components";
 
-/* <nav class="slidemenu">
-  
-    <!-- Item 1 -->
-    <input type="radio" name="slideItem" id="slide-item-1" class="slide-toggle" checked/>
-    <label for="slide-item-1"><p class="icon">♬</p><span>What can be recycled?</span></label>
-    
-    <!-- Item 2 -->
-    <input type="radio" name="slideItem" id="slide-item-2" class="slide-toggle"/>
-    <label for="slide-item-2"><p class="icon">★</p><span>Where to recycle it</span></label>
-    
-    <!-- Item 3 -->
-    <input type="radio" name="slideItem" id="slide-item-3" class="slide-toggle"/>
-    <label for="slide-item-3"><p class="icon">✈</p><span>What happens to it?</span></label>
-    
-    <!-- Item 4 -->
-    <input type="radio" name="slideItem" id="slide-item-4" class="slide-toggle"/>
-    <label for="slide-item-4"><p class="icon">✎</p><span>Impact of recycling</span></label>
-    
-    <div class="clear"></div>
-    
-    <!-- Bar -->
-    <div class="slider">
-      <div class="bar"></div>
-    </div>
-    
-  </nav> */
-
-/* 
-     input
- label
- p tag 
- span 
- div of class clear
- div class slider
- div class bar 
- */
-
-export const DivWrapper = styled.div``;
 export const Nav = styled.nav`
   background-color: white;
   bottom: 0;
+  height: 20vh;
   font-family: arial, sans-serif;
   position: fixed;
   max-width: auto;
+  width: 100%;
   margin: 0 1rem;
   overflow: hidden;
-  z-index: 1000;
+  z-index: 8;
+  @media (min-width: 780px){
+    top: 82.88px;
+    /* bottom: 90vh; */
+  }
+  
 `;
-
-/*  ${Label} lets us point to siblings in styled components  */
 
 export const Label = styled.label`
   width: 20%;
@@ -85,37 +52,6 @@ export const DivBar = styled.div`
   border-radius: 0.1rem;
   margin-left: ${(props) => props.margin};
 `;
-// (e) => setCheck(e.target.value === "inputone")
-
-// export const Input1 = styled(Input)`
-
-// `
-
-// export const Input2 = styled(Input)`
-
-// `
-
-// export const Input3 = styled(Input)`
-// &:checked{
-//     ${DivBar}{
-//         margin-left: 40%;
-//     }
-// }
-// `
-// export const Input4 = styled(Input)`
-// &:checked{
-//     DivBar{
-//         margin-left: 60%;
-//     }
-// }
-// `
-// export const Input5 = styled(Input)`
-// &:checked{
-//     DivBar{
-//         margin-left: 8%;
-//     }
-// }
-// `
 
 export const PTag = styled.p`
   font-size: 1.2 rem;

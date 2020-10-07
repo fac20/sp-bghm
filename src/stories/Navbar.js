@@ -1,5 +1,9 @@
 import React, { useState } from "react";
-import PropTypes from "prop-types";
+import { BiRecycle } from "react-icons/bi";
+import { AiOutlineHome } from "react-icons/ai";
+import { IconContext } from "react-icons/lib";
+// import { AiOutlineHome } from "react-icons/ai";
+
 import {
   Nav,
   Label,
@@ -10,6 +14,7 @@ import {
   DivSlider,
   DivBar,
 } from "../components/Navbar/Navbar.styles.jsx";
+
 
 export const Navbar = ({ primary, backgroundColor, size, label, ...props }) => {
   const [margin, setMargin] = useState("0%");
@@ -24,6 +29,8 @@ export const Navbar = ({ primary, backgroundColor, size, label, ...props }) => {
     // style={backgroundColor && { backgroundColor }}
     // {...props}
     >
+
+      <a href="#what">
       <Input
         type="radio"
         name="slideItem"
@@ -32,11 +39,14 @@ export const Navbar = ({ primary, backgroundColor, size, label, ...props }) => {
         onChange={changeMargin}
       />
       <Label htmlFor="slide-item-1">
-        <a href="#what">
-          <PTag>★</PTag>
+          <PTag>
+          <IconContext.Provider value={{ color: "var(--very-dark-green)" , size: '50px', }}>
+        <BiRecycle/>
+      </IconContext.Provider>
+            </PTag>
           <Span>What's recyclable?</Span>
-        </a>
       </Label>
+        </a>
 
       <Input
         type="radio"
@@ -47,10 +57,14 @@ export const Navbar = ({ primary, backgroundColor, size, label, ...props }) => {
       />
 
       <Label htmlFor="slide-item-2">
-        <PTag>★</PTag>
-        <Span>
-          <a href="#where">Where to recycle</a>
-        </Span>
+      <a href="#where">
+          <PTag>
+          <IconContext.Provider value={{ color: "var(--very-dark-green)" , size: '50px', }}>
+        <BiRecycle/>
+      </IconContext.Provider>
+            </PTag>
+          <Span>Where to recycle</Span>
+        </a>
       </Label>
 
       <Input
@@ -61,7 +75,11 @@ export const Navbar = ({ primary, backgroundColor, size, label, ...props }) => {
         onChange={changeMargin}
       />
       <Label htmlFor="home">
-        <PTag>H</PTag>
+        <PTag>
+        <IconContext.Provider value={{ color: "var(--main-orange)" , size: '3em', margin: "auto" }}>
+        <AiOutlineHome/>
+      </IconContext.Provider>
+        </PTag>
         <Span>
           <a href="/">Home</a>
         </Span>
@@ -75,10 +93,15 @@ export const Navbar = ({ primary, backgroundColor, size, label, ...props }) => {
         onChange={changeMargin}
       />
       <Label htmlFor="slide-item-3">
-        <PTag>★</PTag>
-        <Span>
-          <a href="#then">What happens?</a>
-        </Span>
+      <a href="#then">
+          <PTag>
+          <IconContext.Provider value={{ color: "var(--very-dark-green)" , size: '50px', }}>
+        <BiRecycle/>
+      </IconContext.Provider>
+            </PTag>
+          <Span>What happens</Span>
+        </a>
+
       </Label>
 
       <Input

@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Title = styled.h3`
   text-transform: uppercase;
   text-decoration: none;
-  letter-spacing: 0.15em;
+  letter-spacing: .15em;
 
   display: inline-block;
   padding: 15px 20px; //to space out the underline
@@ -32,8 +32,12 @@ export const Title = styled.h3`
     left: 23%;
   }
 `;
-export const Section = styled.section``;
+export const Section = styled.section`
+margin: 10%;
+letter-spacing: 2rem;`;
 export const Article = styled.article`
+letter-spacing: 1rem;
+line-height: 8rem;
   margin: 0 auto;
   padding: 0 2rem;
 `;
