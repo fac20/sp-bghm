@@ -1,20 +1,18 @@
 import React from "react";
 
-import { IconContext } from "react-icons/lib";
-import { AiOutlineHome } from "react-icons/ai";
-
 import Card from "../../Card/Card.jsx";
-import Navbar from "../../Navbar/Navbar.jsx";
 import * as SC from "./RecyclingCategories.styles.jsx";
 
 import batteries from "../../../assets/batteries.svg";
 import gardenWaste from "../../../assets/garden-waste.svg";
 import glass from "../../../assets/glass.svg";
 import metal from "../../../assets/metal.svg";
+import organicWaste from " ./../../src/assets/organic-waste.svg";
 import otherWaste from "../../../assets/other-waste.svg";
 import plastic from "../../../assets/plastic.svg";
 import paperAndCard from "../../../assets/paper-and-card.svg";
 import smallElectronics from "../../../assets/small-electronics.svg";
+
 
 function RecyclingCategories() {
   const location = window.localStorage.getItem("location");
@@ -37,6 +35,11 @@ function RecyclingCategories() {
         <Card material="metal" wasteOrganisation="" src={metal} />
         <Card material="glass" wasteOrganisation="" src={glass} />
         <Card material="garden waste" wasteOrganisation="" src={gardenWaste} />
+        <Card
+          material="organic waste"
+          wasteOrganisation=""
+          src={organicWaste}
+        />
         <Card
           material="small electronics"
           wasteOrganisation=""
