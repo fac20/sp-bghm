@@ -11,21 +11,23 @@ function Card({ material, wasteOrganisation, src }) {
   }
 
   return (
-    <SC.Container tabIndex="0">
-      <SC.Front>
-        <SC.Title>
-          <h2>{material}</h2>
-        </SC.Title>
-        <SC.CategoryIcon src={src} alt={material} />
-      </SC.Front>
-      <SC.Back>
-        <SC.BackTitle>
-          Put {material} in {wasteOrganisation}
-        </SC.BackTitle>
-        <SC.CategoryBinImage src={blueBin} alt="bin-type" />
-        <SC.Button onClick={handleClick}>Click to read more</SC.Button>
-      </SC.Back>
-    </SC.Container>
+    <SC.OuterContainer>
+      <SC.Container tabIndex="0">
+        <SC.Front>
+          <SC.Title>
+            <h2>{material}</h2>
+          </SC.Title>
+          <SC.CategoryIcon src={src} alt={material} />
+        </SC.Front>
+        <SC.Back>
+          <SC.BackTitle>
+            Put {material} in {wasteOrganisation}
+          </SC.BackTitle>
+          <SC.CategoryBinImage src={blueBin} alt="bin-type" />
+          <SC.Button onClick={handleClick}>Click to read more</SC.Button>
+        </SC.Back>
+      </SC.Container>
+    </SC.OuterContainer>
   );
 }
 

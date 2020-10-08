@@ -8,7 +8,10 @@ export const Container = styled.article`
   transform-style: preserve-3d;
   transition: transform 0.3s;
   width: 100%;
-  &:hover {
+`;
+
+export const OuterContainer = styled.div`
+  &:hover ${Container} {
     transform: rotateY(180deg);
   }
 `;
