@@ -4,7 +4,6 @@ import * as SC from "./Card.styles.jsx";
 import { allRecyclingImports } from "./allRecyclingInfoImports.js";
 
 function Card({ material, src }) {
-  // console.log(boroughInfo)
   let history = useHistory();
   const location = useLocation();
   function handleClick() {
@@ -13,40 +12,33 @@ function Card({ material, src }) {
   const { borough } = useParams();
   const boroughInfo = allRecyclingImports[borough];
 
-  // Assign a wast type depending on the material
-  // let wasteType;
-  // switch (material) {
-  //   case "plastic" || "paper and card" || "metal" || "glass":
-  //     wasteType = "Recycling";
-  //     break;
-  //   case "food waste":
-  //     wasteType = "Food Waste recycling";
-  //     break;
-  //   default:
-  //     wasteType = "Rubbish";
-  // }
-
-  // if material === "plastic" {
-  //   wasteType = "Recycling"
-  // } else if
-  const wasteType =
-    material === "food waste"
-      ? "Food waste recycling"
-      : material === /plastic|paper and card|metal|glass/
-      ? "Recycling"
-      : "Rubbish";
+  var wasteType = "";
+  switch (material) {
+    case "food waste":
+      wasteType = "Food waste recycling";
+      break;
+    case "plastic":
+      wasteType = "Recycling";
+      break;
+    case "metal":
+      wasteType = "Recycling";
+      break;
+    case "paper and card":
+      wasteType = "Recycling";
+      break;
+    case "glass":
+      wasteType = "Recycling";
+      break;
+    default:
+      wasteType = "Rubbish";
+  }
   console.log(wasteType);
-
   let binInfoArray = boroughInfo.filter((obj) => obj[wasteType]);
+  console.log(binInfoArray);
   binInfoArray = binInfoArray.map((obj) => obj[wasteType]);
   const bin = binInfoArray.join("<br> or <br>");
-  // boroughInfo[]
+  console.log(bin);
 
-  // garden waste
-  // organic waste
-  // small electronics
-  // batteries
-  // other waste
   return (
     <SC.Container tabIndex="0">
       <SC.Front>
@@ -64,19 +56,3 @@ function Card({ material, src }) {
 }
 
 export default Card;
-
-// function caseInSwitch(val) {
-//   var answer = "";
-//   switch (/plastic|paper and card|metal|glass/) {
-//     case 1:
-//       return "Recycling";
-//       break;
-//     case 2:
-//       return "";
-//       break;
-//     case 3:
-//       return "gamma";
-//       break;
-//   }
-//   return answer;
-// }

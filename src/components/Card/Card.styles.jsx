@@ -41,9 +41,11 @@ export const BackText = styled.p`
   /* background-color: var(--very-dark-green); */
   color: var(--very-dark-green);
   /* font-weight: bold; */
+  font-size: 0.7em;
   margin: 0;
   padding: 1rem;
 `;
+
 export const CategoryIcon = styled.img`
   height: 85%;
   width: auto;

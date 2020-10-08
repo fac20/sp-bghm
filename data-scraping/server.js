@@ -27,7 +27,9 @@ async function getInfo(borough) {
           const category = node.querySelector("h3");
           const categoryText = category ? category.textContent : null;
           const bin = node.querySelector("p");
-          const binText = bin ? bin.textContent : null;
+          const binText = bin
+            ? bin.textContent
+            : `There aren't yet any provided bins for ${categoryText} `;
           return { [categoryText]: binText };
         }
         // node.textContent.replace(/\t/g, "").replace(/\n+/g, "/\n/")
@@ -39,11 +41,7 @@ async function getInfo(borough) {
   const infoForBorough = JSON.stringify(recyclingInformation);
 
   // write recycling information into a text file
-  fs.writeFile(
-    `./data-scraping/data/${borough}.json`,
-    infoForBorough,
-    () => {}
-  );
+  fs.writeFile(`./src/data/${borough}.json`, infoForBorough, () => {});
 
   browser.close();
 }
