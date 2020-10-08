@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
+import useAirtable from "../../../hooks/useAirtable";
 import Card from "../../Card/Card.jsx";
+import * as SC from "./RecyclingCategories.styles.jsx";
 
 import batteries from "../../../assets/batteries.svg";
 import gardenWaste from "../../../assets/garden-waste.svg";
@@ -9,15 +11,24 @@ import metal from "../../../assets/metal.svg";
 import otherWaste from "../../../assets/other-waste.svg";
 import paperAndCard from "../../../assets/paper-and-card.svg";
 import smallElectronics from "../../../assets/small-electronics.svg";
-import * as SC from "./RecyclingCategories.styles.jsx";
 
 function RecyclingCategories() {
-  const location = window.localStorage.getItem("location");
+  const borough = window.localStorage.getItem("location");
+
+  const [linkToLocalAuthority, setLinkToLocalAuthority] = useState("");
+
+  useAirtable({ borough, linkToLocalAuthority, setLinkToLocalAuthority });
+
+  const openPage = (event) => {
+    event.preventDefault();
+    console.log("link", linkToLocalAuthority);
+    window.open(linkToLocalAuthority, "_blank");
+  };
 
   return (
     <SC.Div>
       <SC.Span>
-        <h1>Hello, {location}! What do you want to recycle?</h1>
+        <h1>Hello, {borough}! What do you want to recycle?</h1>
       </SC.Span>
       <SC.Section>
         <Card material="plastic" wasteOrganisation="" src={plastic} />
@@ -37,7 +48,7 @@ function RecyclingCategories() {
         <Card material="batteries" wasteOrganisation="" src={batteries} />
         <Card material="other waste" wasteOrganisation="" src={otherWaste} />
       </SC.Section>
-      <SC.Button>
+      <SC.Button onClick={openPage}>
         Contact your local authority for other waste services and requests
       </SC.Button>
     </SC.Div>
@@ -45,3 +56,10 @@ function RecyclingCategories() {
 }
 
 export default RecyclingCategories;
+/*
+<a href="www.ealing.gov.uk">
+Contact your local authority for other waste services and requests
+</a>
+
+takes us to localhost:3000/categories/www.ealing.gov.uk
+*/

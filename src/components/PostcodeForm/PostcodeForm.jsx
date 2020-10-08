@@ -1,5 +1,5 @@
 import React from "react";
-import useLocation from "../../hooks/getPostcode.js";
+import useLocation from "../../hooks/useLocation.js";
 import { useHistory } from "react-router-dom";
 import * as SC from "./PostcodeForm.styles.jsx";
 
