@@ -23,7 +23,7 @@ export const Span = styled.span`
 
 export const Button = styled.button`
   margin: 1rem auto;
-  background-color: var(--mid-dark-green);
+  background-color: var(--very-dark-green);
   border: 1px;
   color: var(--very-light-green);
   font: inherit;

@@ -18,9 +18,9 @@ export const Div = styled.div`
 `;
 
 export const InstructionArticle = styled.article`
-  background-color: var(--dark-green);
+  background-color: var(--very-dark-green);
   border-radius: 1rem;
-  border: 1px solid var(--dark-green);
+  border: 1px solid var(--very-dark-green);
   color: var(--very-light-green);
   font-weight: 900;
   margin: 1rem auto;
