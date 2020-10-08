@@ -1,28 +1,46 @@
 import React from "react";
-import blueBin from "../../assets/wheelie-bin-blue.svg";
 import { useHistory, useLocation, useParams } from "react-router-dom";
 import * as SC from "./Card.styles.jsx";
-import haringeyInfo from "../../data/haringey.json";
+import { allRecyclingImports } from "./allRecyclingInfoImports.js";
 
 function Card({ material, src }) {
+  // console.log(boroughInfo)
   let history = useHistory();
   const location = useLocation();
   function handleClick() {
     history.push(location.pathname + "/" + material);
   }
   const { borough } = useParams();
-  // Assign a wast type depending on the material
-  const wasteType =
-    material === /plastic|paper and card|metal|glass/
-      ? "Recycling"
-      : material === "food waste"
-      ? "Food waste recycling"
-      : "Rubbish";
+  const boroughInfo = allRecyclingImports[borough];
 
-  let binInfoArry = haringeyInfo.filter((obj) => obj[wasteType]);
-  binInfoArry = binInfoArry.map((obj) => obj[wasteType]);
-  const bin = binInfoArry.join(" or <br>");
-  // haringeyInfo[]
+  // Assign a wast type depending on the material
+  // let wasteType;
+  // switch (material) {
+  //   case "plastic" || "paper and card" || "metal" || "glass":
+  //     wasteType = "Recycling";
+  //     break;
+  //   case "food waste":
+  //     wasteType = "Food Waste recycling";
+  //     break;
+  //   default:
+  //     wasteType = "Rubbish";
+  // }
+
+  // if material === "plastic" {
+  //   wasteType = "Recycling"
+  // } else if
+  const wasteType =
+    material === "food waste"
+      ? "Food waste recycling"
+      : material === /plastic|paper and card|metal|glass/
+      ? "Recycling"
+      : "Rubbish";
+  console.log(wasteType);
+
+  let binInfoArray = boroughInfo.filter((obj) => obj[wasteType]);
+  binInfoArray = binInfoArray.map((obj) => obj[wasteType]);
+  const bin = binInfoArray.join("<br> or <br>");
+  // boroughInfo[]
 
   // garden waste
   // organic waste
@@ -38,8 +56,7 @@ function Card({ material, src }) {
         <SC.CategoryIcon src={src} alt={material} />
       </SC.Front>
       <SC.Back>
-        <SC.BackTitle dangerouslySetInnerHTML={{ __html: bin }} />
-        <SC.CategoryBinImage src={blueBin} alt="bin-type" />
+        <SC.BackText dangerouslySetInnerHTML={{ __html: bin }} />
         <SC.Button onClick={handleClick}>Click to read more</SC.Button>
       </SC.Back>
     </SC.Container>
@@ -47,3 +64,19 @@ function Card({ material, src }) {
 }
 
 export default Card;
+
+// function caseInSwitch(val) {
+//   var answer = "";
+//   switch (/plastic|paper and card|metal|glass/) {
+//     case 1:
+//       return "Recycling";
+//       break;
+//     case 2:
+//       return "";
+//       break;
+//     case 3:
+//       return "gamma";
+//       break;
+//   }
+//   return answer;
+// }

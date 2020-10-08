@@ -48,16 +48,5 @@ async function getInfo(borough) {
   browser.close();
 }
 
-getInfo("haringey");
-// boroughs.forEach((b) => getInfo(b));
-
-/*
-
- -- create one file called data.json which will have the data for all the boroughs
- --- 
-{<boroughName>:{
-  plastic: bin-colour
-}}
-
-
-*/
+// getInfo("haringey");
+boroughs.forEach((b) => getInfo(b));
