@@ -19,7 +19,7 @@ export default function PostcodeForm() {
     <SC.Form onSubmit={storeLocation}>
       <SC.Label htmlFor="postcode">Enter your postcode:</SC.Label>
       <SC.PostCodeInput name="postcode" id="postcode" required />
-      <SC.SubmitInput type="submit" value="Let's recycle!" />
+      <SC.SubmitInput type="submit" value="Let's recycle!"></SC.SubmitInput>
       {postcodeErrorMessage ? (
         <SC.Title>{postcodeErrorMessage}</SC.Title>
       ) : null}
