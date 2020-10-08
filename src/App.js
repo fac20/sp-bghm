@@ -1,8 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-
-import TitleBar from "./components/Title/TitleBar.jsx";
-import TitleNohome from "./components/TitleNohome/TitleNohome.jsx"
+import Navbar from "./components/Navbar/Navbar.jsx";
 
 import PageNotFound from "./components/pages/PageNotFound/PageNotFound.jsx";
 import Location from "./components/pages/Location/Location.jsx";
@@ -13,23 +11,22 @@ function App() {
   return (
     <div className="App">
      
-      
       <main>
         <BrowserRouter>
           <Switch>
             <Route path="/" exact>
+              <Navbar/>
               <Location />
             </Route>
             <Route path="/categories/:borough" exact>
-              <TitleBar/>
+              <Navbar/>
               <RecyclingCategories />
             </Route>
             <Route path="/categories/:borough/:material">
-              <TitleNohome/>
+              <Navbar/>
               <MoreInfo />
             </Route>
             <Route>
-              <TitleBar/>
               <PageNotFound />
             </Route>
           </Switch>

@@ -1,7 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 
-import Navbar from "../../Navbar/Navbar.jsx";
 import content from "./MoreInfo.database.jsx";
 import * as SC from "./MoreInfo.styles";
 
@@ -12,7 +11,6 @@ export default function MoreInfo() {
 
   return (
     <>
-      <Navbar />
       <SC.Section>
         <SC.Title id="what">What's recyclable?</SC.Title>
         <SC.Article>

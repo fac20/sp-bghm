@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
 export const Title = styled.h3`
-  text-transform: uppercase;
-  text-decoration: none;
-  letter-spacing: .15em;
 
   display: inline-block;
-  padding: 15px 20px; //to space out the underline
+  letter-spacing: .15em;
+  padding: 70px 15px 20px; //to space out the underline
   position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
   &:hover {
     color: var(--main-orange);
   }
@@ -33,7 +33,6 @@ export const Title = styled.h3`
   }
 `;
 export const Section = styled.section`
-margin: 10%;
 letter-spacing: 2rem;`;
 export const Article = styled.article`
 letter-spacing: 1rem;
