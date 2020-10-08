@@ -6,8 +6,9 @@ export const Svg = styled.svg.attrs({
   xmlnsXlink: "http://www.w3.org/1999/xlink",
   width: "82%",
   height: "auto",
+  cursor: "pointer",
   display: "block",
-  viewBox: "0 0 960 960",
+  viewBox: "0 0 1500 1500",
 })`
   /* NOTE: Can change width within the backticks using media queries */
   /*width: 900px; 
