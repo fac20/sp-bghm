@@ -1,0 +1,40 @@
+[
+  {
+    "categoryText": "Recycling",
+    "binText": "Black wheelie bin with green lid | Collected weekly"
+  },
+  { "categoryText": "Recycling", "binText": "Green sack | Collected weekly" },
+  {
+    "categoryText": "Rubbish",
+    "binText": "Black wheelie bin | Collected every 2 weeks"
+  },
+  {
+    "categoryText": "Food waste recycling (indoors)",
+    "binText": "Small black caddy"
+  },
+  {
+    "categoryText": "Food waste recycling (outdoors)",
+    "binText": "Large green caddy | Collected weekly"
+  },
+  {
+    "categoryText": "Recycling",
+    "binText": "Black communal bin | Collected weekly"
+  },
+  {
+    "categoryText": "Rubbish",
+    "binText": "Grey communal bin | Collected at least weekly"
+  },
+  {
+    "categoryText": "Food waste recycling",
+    "binText": "Grey with brown lid | Collected weekly"
+  },
+  {
+    "categoryText": "Recycling",
+    "binText": "Green sacks | Collected twice a day, 7 days a week"
+  },
+  {
+    "categoryText": "Rubbish",
+    "binText": "Black bags | Collected twice a day, 7 days a week"
+  },
+  { "categoryText": "Sorry, no food waste recycling", "binText": null }
+]
