@@ -32,17 +32,20 @@ export const Back = styled(FrontBack)`
 `;
 
 export const Title = styled.span`
-  background-color: var(--mid-dark-green);
+  background-color: var(--very-dark-green);
   color: var(--very-light-green);
   font-weight: bold;
 `;
 
-export const BackTitle = styled.span`
-  background-color: var(--mid-dark-green);
-  color: var(--very-light-green);
-  font-weight: bold;
+export const BackText = styled.p`
+  /* background-color: var(--very-dark-green); */
+  color: var(--very-dark-green);
+  /* font-weight: bold; */
+  font-size: 0.7em;
+  margin: 0;
   padding: 1rem;
 `;
+
 export const CategoryIcon = styled.img`
   height: 85%;
   width: auto;
@@ -52,7 +55,7 @@ export const CategoryIcon = styled.img`
 export const CategoryBinImage = styled.img``;
 
 export const Button = styled.button`
-  background-color: var(--mid-dark-green);
+  background-color: var(--very-dark-green);
   color: var(--very-light-green);
   font: inherit;
   font-weight: bold;
