@@ -37,10 +37,11 @@ export const Title = styled.span`
   font-weight: bold;
 `;
 
-export const BackTitle = styled.span`
+export const BackTitle = styled.p`
   background-color: var(--mid-dark-green);
   color: var(--very-light-green);
-  font-weight: bold;
+  /* font-weight: bold; */
+  margin: 0;
   padding: 1rem;
 `;
 export const CategoryIcon = styled.img`

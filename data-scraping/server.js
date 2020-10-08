@@ -28,7 +28,7 @@ async function getInfo(borough) {
           const categoryText = category ? category.textContent : null;
           const bin = node.querySelector("p");
           const binText = bin ? bin.textContent : null;
-          return { categoryText, binText };
+          return { [categoryText]: binText };
         }
         // node.textContent.replace(/\t/g, "").replace(/\n+/g, "/\n/")
       )
