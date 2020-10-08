@@ -6,8 +6,9 @@ const MapSVG = styled.svg.attrs({
   xmlnsXlink: "http://www.w3.org/1999/xlink",
   width: "100%",
   height: "auto",
+  cursor: "pointer",
   display: "block",
-  viewBox: "0 0 960 742",
+  viewBox: "0 0 1500 1160",
 })`
   .clicked {
     fill: var(--main-orange);
