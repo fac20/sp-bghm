@@ -37,22 +37,11 @@ button {
   color: inherit;
   display: block;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-/* h1 {
-  color: var(--nearly-white);
-} */
-
 .hidden {
   display: none;
-}
-
-.home-icon{
-  float:left;
-  margin: 1rem 2rem;
-
 }

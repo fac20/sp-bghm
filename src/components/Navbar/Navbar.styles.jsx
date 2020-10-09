@@ -70,9 +70,9 @@ export const NavLink = styled.li`
 
 `
 export const AnchorTag = styled.a`
+   text-decoration: none;
+
    &:hover, &:focus {
-    border-radius: 50%;
-    border: 1px solid white;
      cursor: pointer;
      color: var(--main-orange);
    }

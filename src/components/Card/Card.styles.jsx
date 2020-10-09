@@ -45,19 +45,18 @@ export const BackTitle = styled.span`
 `;
 export const CategoryIcon = styled.img`
   height: 85%;
-  width: auto;
   margin: 1rem;
+  width: auto;
 `;
 
 export const CategoryBinImage = styled.img``;
 
 export const Button = styled.button`
   background-color: var(--mid-dark-green);
-  color: var(--very-light-green);
-  font: inherit;
-  font-weight: bold;
-  line-height: 1;
-  /* margin: 0; */
-  padding: 0.8rem;
   border: 3px solid var(--very-light-green);
+  color: var(--very-light-green);
+  font-weight: bold;
+  font: inherit;
+  line-height: 1;
+  padding: 0.8rem;
 `;

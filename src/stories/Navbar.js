@@ -39,6 +39,7 @@ export const Navbar = ({ primary, backgroundColor, size, label, ...props }) => {
   };
   return (
     <Nav>
+      <NavLinks>
 {page === "home"?
  <Title>
    <h1>Recycling in London fnp</h1>
@@ -51,9 +52,8 @@ export const Navbar = ({ primary, backgroundColor, size, label, ...props }) => {
     </AnchorTag>
     <h1>Recycling in London</h1>
   </Title>:
-
-  <NavLinks value="0%">
-  <NavLink >
+<>
+  <NavLink value="0%">
     <AnchorTag href="/" onClick={changeMargin}>
     <HomeIcon size="30" title="Go to homepage"/>
       <Span>Home</Span>
@@ -86,10 +86,10 @@ export const Navbar = ({ primary, backgroundColor, size, label, ...props }) => {
   <Span>Impact</Span>
 </AnchorTag>
 </NavLink>
-</NavLinks>
+</>
 }
 
-
+</NavLinks>
 
 </Nav>
   );
