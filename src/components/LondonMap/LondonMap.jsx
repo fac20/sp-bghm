@@ -74,7 +74,12 @@ export default function LondonMap({ userLocation, setUserLocation }) {
             c8.506-0.9,17.511-2.802,26.116-4.703c10.406-2.302,21.113-4.603,31.82-5.304c0.6-5.003-1.401-8.705-3.603-12.607
             C1432.498,382.655,1431.798,381.354,1431.097,379.954L1431.097,379.954z"
       ></path>
-      <text transform="matrix(1 0 0 1 1204.0107 334.9995)" fontSize="27.7821">
+      <text
+        onClick={locateUser}
+        borough="Havering"
+        transform="matrix(1 0 0 1 1204.0107 334.9995)"
+        fontSize="27.7821"
+      >
         Havering
       </text>
        
@@ -134,7 +139,12 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c-3.102-1.701-6.104-4.203-9.606-4.903c-3.102-0.7-5.703,0.601-8.505,1.602c-1.901,0.7-4.303,1.7-5.003,2.701
 		c-1.501,2.001-0.9,8.105-0.5,12.508C1080.078,503.23,1080.178,504.932,1080.178,506.133L1080.178,506.133z"
       ></path>
-      <text transform="matrix(1 0 0 1 1061.5439 643.1958)" fontSize="27.7821">
+      <text
+        onClick={locateUser}
+        borough="Bexley"
+        transform="matrix(1 0 0 1 1061.5439 643.1958)"
+        fontSize="27.7821"
+      >
         Bexley
       </text>
       <path
@@ -183,7 +193,12 @@ export default function LondonMap({ userLocation, setUserLocation }) {
             c0.9,0.2,2.201,0,3.502-0.1c2.001-0.3,4.003-0.5,5.403,0.4c5.304,3.402,4.203,10.606,3.103,17.511
             c-1.101,7.004-2.102,13.608,2.901,16.31C989.722,404.169,1000.429,401.467,1003.931,400.566L1003.931,400.566z"
       ></path>
-      <text transform="matrix(1 0 0 1 916.9287 298.3921)" fontSize="27.7821">
+      <text
+        onClick={locateUser}
+        borough="Redbridge"
+        transform="matrix(1 0 0 1 916.9287 298.3921)"
+        fontSize="27.7821"
+      >
         Redbridge
       </text>
       <path
@@ -232,7 +247,12 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c-2.501,3.302-5.103,6.704-8.605,8.605c0.901,2.101-0.1,5.503-1.101,8.706c-0.6,1.901-1.101,3.602-1.101,4.803
 		C550.048,89.172,552.149,89.373,554.351,89.673L554.351,89.673z"
       ></path>
-      <text transform="matrix(1 0 0 1 672.8984 137.6685)" fontSize="27.7821">
+      <text
+        onClick={locateUser}
+        borough="Enfield"
+        transform="matrix(1 0 0 1 672.8984 137.6685)"
+        fontSize="27.7821"
+      >
         Enfield
       </text>
       <path
@@ -277,6 +297,8 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c-0.2,0-0.4,0-0.501,0.1C843.431,132.5,843.23,136.502,842.83,140.404L842.83,140.404z"
       ></path>
       <text
+        onClick={locateUser}
+        borough="Waltham Forest"
         transform="matrix(0.3419 -0.9397 0.9397 0.3419 809.9492 342.9468)"
         fontSize="27.7891"
       >
@@ -339,7 +361,12 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c0.4,0.199,0.9,0.5,1.301,0.701c0.7,0.4,1.501,0.9,2.201,1.5c0.501,0.4,1.001,0.701,1.501,1
 		C621.492,1019.252,622.393,1018.952,624.594,1018.252L624.594,1018.252z"
       ></path>
-      <text transform="matrix(1 0 0 1 534.3428 914.4966)" fontSize="27.7821">
+      <text
+        onClick={locateUser}
+        borough="Sutton"
+        transform="matrix(1 0 0 1 534.3428 914.4966)"
+        fontSize="27.7821"
+      >
         Sutton
       </text>
       <path
@@ -389,6 +416,8 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		L466.396,847.344z"
       ></path>
       <text
+        onClick={locateUser}
+        borough="Kingston upon Thames"
         transform="matrix(0.5 -0.866 0.866 0.5 379.7188 894.4321)"
         fontSize="27.7809"
       >
@@ -457,7 +486,12 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c0.2-0.699-1.601-2.701-3.402-4.602c-5.003-5.504-7.805-12.809-10.506-19.812c-1.401-3.502-2.802-7.105-4.403-10.508
 		C1139.215,771.499,1138.915,771.499,1138.614,771.499L1138.614,771.499z"
       ></path>
-      <text transform="matrix(1 0 0 1 934.3105 885.3765)" fontSize="27.7821">
+      <text
+        onClick={locateUser}
+        borough="Bromley"
+        transform="matrix(1 0 0 1 934.3105 885.3765)"
+        fontSize="27.7821"
+      >
         Bromley
       </text>
       <path
@@ -531,7 +565,12 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c-0.3-2.002-0.601-3.902-1.801-6.004c-0.4-0.701-0.701-1.301-1.001-1.902c-1.901-3.402-2.702-4.703,0.3-7.504
 		c1.401-1.301,3.103-2.201,4.903-3.102c1.101-0.602,2.201-1.102,3.202-1.803L625.095,1019.752L625.095,1019.752z"
       ></path>
-      <text transform="matrix(1 0 0 1 703.4629 914.4966)" fontSize="27.7821">
+      <text
+        onClick={locateUser}
+        borough="Croydon"
+        transform="matrix(1 0 0 1 703.4629 914.4966)"
+        fontSize="27.7821"
+      >
         Croydon
       </text>
       <path
@@ -578,10 +617,20 @@ export default function LondonMap({ userLocation, setUserLocation }) {
           c4.604-6.404,10.106-13.709,15.71-20.213c4.803-5.604,10.106-15.31,10.507-21.813
           C1192.948,370.748,1191.447,366.846,1190.047,363.844L1190.047,363.844z"
       ></path>
-      <text transform="matrix(1 0 0 1 1028.4092 420.2437)" fontSize="24.6952">
+      <text
+        onClick={locateUser}
+        borough="Barking and Dagenham"
+        transform="matrix(1 0 0 1 1028.4092 420.2437)"
+        fontSize="24.6952"
+      >
         Barking &amp;
       </text>
-      <text transform="matrix(1 0 0 1 1028.4092 444.9399)" fontSize="24.6952">
+      <text
+        onClick={locateUser}
+        borough="Barking and Dagenham"
+        transform="matrix(1 0 0 1 1028.4092 444.9399)"
+        fontSize="24.6952"
+      >
         Dagenham
       </text>
       <path
@@ -627,7 +676,12 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c-0.7-0.7-1.4-1.4-2.201-2.201c-2.902-3.102-2.802-4.903-2.702-8.605c0-0.7,0.101-1.601,0.101-2.501L828.021,369.547
 		L828.021,369.547z"
       ></path>
-      <text transform="matrix(1 0 0 1 871.2002 449.2964)" fontSize="27.7821">
+      <text
+        onClick={locateUser}
+        borough="Newham"
+        transform="matrix(1 0 0 1 871.2002 449.2964)"
+        fontSize="27.7821"
+      >
         Newham
       </text>
       <path
@@ -682,7 +736,12 @@ export default function LondonMap({ userLocation, setUserLocation }) {
           c-1.201-0.602-2.401-1.301-3.502-1.801c0.1,0.299,0.2,0.699,0.2,1C831.223,569.573,831.123,570.772,831.123,571.874
           L831.123,571.874z"
       ></path>
-      <text transform="matrix(1 0 0 1 905.2852 580.3384)" fontSize="27.7821">
+      <text
+        onClick={locateUser}
+        borough="Greenwich"
+        transform="matrix(1 0 0 1 905.2852 580.3384)"
+        fontSize="27.7821"
+      >
         Greenwich
       </text>
       <path
@@ -719,10 +778,20 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c0.901-2.802,1.802-5.704,3.903-6.904c4.702,5.704,10.105,4.103,15.31,2.502c4.103-1.201,8.405-2.502,12.607-0.3L841.529,410.873
 		L841.529,410.873z"
       ></path>
-      <text transform="matrix(1 0 0 1 763.7822 461.9351)" fontSize="24.6952">
+      <text
+        onClick={locateUser}
+        borough="Towerhamlets"
+        transform="matrix(1 0 0 1 763.7822 461.9351)"
+        fontSize="24.6952"
+      >
         Tower
       </text>
-      <text transform="matrix(1 0 0 1 763.7822 486.6304)" fontSize="24.6952">
+      <text
+        onClick={locateUser}
+        borough="Towerhamlets"
+        transform="matrix(1 0 0 1 763.7822 486.6304)"
+        fontSize="24.6952"
+      >
         Hamlets
       </text>
       <path
@@ -762,6 +831,8 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c1.001,0,1.802-0.1,2.702-0.2c5.303-0.3,7.704-0.5,12.708,2.802c1.4,0.9,2.901,2.201,4.103,3.302L826.521,370.248L826.521,370.248z"
       ></path>
       <text
+        onClick={locateUser}
+        borough="Hackney"
         transform="matrix(0.3419 0.9397 -0.9397 0.3419 728.6875 334.2275)"
         fontSize="27.7891"
       >
@@ -804,6 +875,8 @@ export default function LondonMap({ userLocation, setUserLocation }) {
           C705.345,436.289,710.647,433.688,715.251,431.386L715.251,431.386z"
       ></path>
       <text
+        onClick={locateUser}
+        borough="Islington"
         transform="matrix(0.3419 0.9397 -0.9397 0.3419 650.7441 350.7026)"
         fontSize="27.7891"
       >
@@ -837,7 +910,12 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c7.005-0.9,14.109-1.801,21.214-1.101c7.204,0.701,14.309,2.401,21.213,4.604c3.902,1.301,7.805,2.501,11.107,2.401
 		c-0.801-0.7-1.501-1.501-1.802-2.502C736.264,503.531,736.364,502.03,737.164,500.429z"
       ></path>
-      <text transform="matrix(1 0 0 1 690.5557 496.8979)" fontSize="23.1518">
+      <text
+        onClick={locateUser}
+        borough="City of London"
+        transform="matrix(1 0 0 1 690.5557 496.8979)"
+        fontSize="23.1518"
+      >
         City
       </text>
       <path
@@ -890,7 +968,12 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c-0.6,0-1.301,0.602-2.001,1.201c-1.301,1.102-3.102,2.701-5.703,0.801c-2.502-1.9-1.501-5.703-0.9-7.904L552.749,710.86
 		L552.749,710.86z"
       ></path>
-      <text transform="matrix(1 0 0 1 493.1865 785.6929)" fontSize="27.7821">
+      <text
+        onClick={locateUser}
+        borough="Merton"
+        transform="matrix(1 0 0 1 493.1865 785.6929)"
+        fontSize="27.7821"
+      >
         Merton
       </text>
       <path
@@ -945,7 +1028,12 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c2.102-1.101,7.104-1.301,9.206-0.4c1.601,0.7,2.401,2.401,3.302,4.303c0.4,0.801,0.801,1.701,1.301,2.502
 		c1.001,1.701,2.401,3.301,3.803,5.002c1.601,1.801,3.202,3.703,4.202,5.703L829.021,566.77L829.021,566.77z"
       ></path>
-      <text transform="matrix(1 0 0 1 786.8086 700.9634)" fontSize="27.7821">
+      <text
+        onClick={locateUser}
+        borough="Lewisham"
+        transform="matrix(1 0 0 1 786.8086 700.9634)"
+        fontSize="27.7821"
+      >
         Lewisham
       </text>
       <path
@@ -991,6 +1079,8 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		C689.435,510.235,690.235,511.136,690.836,512.136L690.836,512.136z"
       ></path>
       <text
+        onClick={locateUser}
+        borough="Southwark"
         transform="matrix(0.3419 0.9397 -0.9397 0.3419 715.5693 538.3921)"
         fontSize="27.7891"
       >
@@ -1036,7 +1126,12 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c0.5-1,1.301-1.901,2.001-2.802c0.701-0.9,1.301-1.701,1.701-2.401c1.201-2.602,1.602-7.305-0.8-9.005l-0.501-0.4l0.301-0.601
 		C703.043,325.02,707.746,324.819,711.948,324.519z"
       ></path>
-      <text transform="matrix(1 0 0 1 628.3643 289.9907)" fontSize="27.7821">
+      <text
+        onClick={locateUser}
+        borough="Haringey"
+        transform="matrix(1 0 0 1 628.3643 289.9907)"
+        fontSize="27.7821"
+      >
         Haringey
       </text>
       <path
@@ -1088,6 +1183,8 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c-0.2,4.903-0.301,9.506-0.9,14.209C667.521,552.362,666.12,566.069,660.116,570.172L660.116,570.172z"
       ></path>
       <text
+        onClick={locateUser}
+        borough="Lambeth"
         transform="matrix(0.3419 0.9397 -0.9397 0.3419 650.7432 625.1978)"
         fontSize="27.7891"
       >
@@ -1139,7 +1236,12 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c1.4-1.4,2.101-2.1,2.901-4.803c0.3-0.801,0.7-1.701,1.201-2.602c0.7-1.201,1.4-2.502,1.4-3.701c0,0.4-2.302,1.801-2.602,2.102
 		c-0.9,0.699-1.901,1.301-2.901,1.801C644.507,579.479,634.3,579.278,624.294,579.377L624.294,579.377z"
       ></path>
-      <text transform="matrix(1 0 0 1 463.9053 670.0591)" fontSize="27.7821">
+      <text
+        onClick={locateUser}
+        borough="Wandsworth"
+        transform="matrix(1 0 0 1 463.9053 670.0591)"
+        fontSize="27.7821"
+      >
         Wandsworth
       </text>
       <path
@@ -1183,6 +1285,8 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c-1.201-0.101-2.302-0.4-3.102-0.801C668.021,501.729,667.421,499.929,666.82,498.228L666.82,498.228z"
       ></path>
       <text
+        onClick={locateUser}
+        borough="Westminster"
         transform="matrix(0.6429 0.7659 -0.7659 0.6429 554.6523 449.2964)"
         fontSize="24.6968"
       >
@@ -1228,7 +1332,12 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c2.802,0.801,3.702-0.2,5.003-1.801c0.3-0.4,0.7-0.901,1.101-1.301c-1.4-1.302-2.001-2.502-0.4-5.704
 		C663.418,485.22,665.319,483.218,667.221,482.317L667.221,482.317z"
       ></path>
-      <text transform="matrix(1 0 0 1 534.3428 407.5103)" fontSize="27.7821">
+      <text
+        onClick={locateUser}
+        borough="Camden"
+        transform="matrix(1 0 0 1 534.3428 407.5103)"
+        fontSize="27.7821"
+      >
         Camden
       </text>
       <path
@@ -1288,7 +1397,12 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c-3.103,0.3-5.203,1.101-7.405,1.901c-1.501,0.601-3.102,1.101-5.003,1.601c-4.603,1-16.91,1.101-21.813-2.001
 		c0,0.701,0,1.401,0,2.202C345.22,172.925,346.421,179.729,352.425,184.232L352.425,184.232z"
       ></path>
-      <text transform="matrix(1 0 0 1 472.6719 226.7778)" fontSize="27.7821">
+      <text
+        onClick={locateUser}
+        borough="Barnet"
+        transform="matrix(1 0 0 1 472.6719 226.7778)"
+        fontSize="27.7821"
+      >
         Barnet
       </text>
       <path
@@ -1325,6 +1439,8 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c2.802-6.605,9.306-11.709,19.713-15.51C584.869,578.077,601.68,572.073,617.99,571.374L617.99,571.374z"
       ></path>
       <text
+        onClick={locateUser}
+        borough="Kensington and Chelsea"
         transform="matrix(0.6429 0.7659 -0.7659 0.6429 502.5781 489.1899)"
         fontSize="18.5226"
       >
@@ -1365,12 +1481,16 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		C477.202,561.467,491.511,567.77,492.111,582.78z"
       ></path>
       <text
+        onClick={locateUser}
+        borough="Hammersmith and Fulham"
         transform="matrix(0.6429 0.7659 -0.7659 0.6429 466.2227 510.1382)"
         fontSize="18.5226"
       >
         Hammersmith
       </text>
       <text
+        onClick={locateUser}
+        borough="Hammersmith and Fulham"
         transform="matrix(0.6429 0.7659 -0.7659 0.6429 453.8076 520.5571)"
         fontSize="18.5226"
       >
@@ -1427,7 +1547,12 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c1.001,0.4,1.901,0.7,2.902,1.101l0.7-0.3c0.1,0.2,0.2,0.4,0.3,0.7c6.404,2.102,13.409,3.803,20.313,4.903
 		C501.617,450.298,503.519,447.596,508.722,445.995z"
       ></path>
-      <text transform="matrix(1 0 0 1 363.6064 390.8687)" fontSize="27.7821">
+      <text
+        onClick={locateUser}
+        borough="Brent"
+        transform="matrix(1 0 0 1 363.6064 390.8687)"
+        fontSize="27.7821"
+      >
         Brent
       </text>
       <path
@@ -1478,7 +1603,12 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c-2.472,0.769-4.937,1.036-7.322,1.299c-3.505,0.384-6.812,0.747-9.877,2.606c-3.906,2.369-10.426,4.859-16.622,4.707
 		c0.641,0.926,1.234,2.159,1.774,3.702c1.525,3.173,1.77,7.108,2,10.86L178.358,250.415L178.358,250.415z"
       ></path>
-      <text transform="matrix(1 0 0 1 237.2969 281.2759)" fontSize="27.7773">
+      <text
+        onClick={locateUser}
+        borough="Harrow"
+        transform="matrix(1 0 0 1 237.2969 281.2759)"
+        fontSize="27.7773"
+      >
         Harrow
       </text>
       <path
@@ -1544,7 +1674,12 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		v-0.701h0.7c4.303-0.199,8.505,0.301,12.607,1.402c-1.9-2.402-3.201-5.104-4.103-8.707c-1-3.902-1.2-7.604-1.501-11.307
 		c-0.5-7.004-1-13.607-6.304-19.713C478.203,568.471,474.801,565.469,470.098,565.069L470.098,565.069z"
       ></path>
-      <text transform="matrix(1 0 0 1 272.3438 708.1187)" fontSize="27.7821">
+      <text
+        onClick={locateUser}
+        borough="Richmond upon Thames"
+        transform="matrix(1 0 0 1 272.3438 708.1187)"
+        fontSize="27.7821"
+      >
         Richmond
       </text>
       <path
@@ -1615,7 +1750,12 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c0.7,2.902,1.4,5.904,1.4,8.906c0,2.201-0.3,4.002-0.9,5.703c-0.1,0.199-0.9,0.6-1.001,0.801
 		C448.685,570.874,444.982,577.176,443.882,584.782L443.882,584.782z"
       ></path>
-      <text transform="matrix(1 0 0 1 186.8818 617.4614)" fontSize="27.7821">
+      <text
+        onClick={locateUser}
+        borough="Hounslow"
+        transform="matrix(1 0 0 1 186.8818 617.4614)"
+        fontSize="27.7821"
+      >
         Hounslow
       </text>
       <path
@@ -1674,7 +1814,12 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c4.103,2.701,7.805,3.102,12.208,3.701c1.001,0.1,2.102,0.301,3.202,0.4c3.502,0.5,6.304,1.602,9.105,2.902L92.863,663.03
 		L92.863,663.03z"
       ></path>
-      <text transform="matrix(1 0 0 1 64.1763 361.4897)" fontSize="27.7821">
+      <text
+        onClick={locateUser}
+        borough="Hillingdon"
+        transform="matrix(1 0 0 1 64.1763 361.4897)"
+        fontSize="27.7821"
+      >
         Hillingdon
       </text>
       <path
@@ -1730,7 +1875,12 @@ export default function LondonMap({ userLocation, setUserLocation }) {
           c-1.401,4.702-2.702,8.805-8.405,13.308c-6.404,5.003-10.807,9.406-16.311,15.41c-0.3,0.3-0.5,0.6-0.8,0.8L179.417,543.155
           L179.417,543.155z"
       ></path>
-      <text transform="matrix(1 0 0 1 264.8262 484.7241)" fontSize="27.7821">
+      <text
+        onClick={locateUser}
+        borough="Ealing"
+        transform="matrix(1 0 0 1 264.8262 484.7241)"
+        fontSize="27.7821"
+      >
         Ealing
       </text>
       <path
