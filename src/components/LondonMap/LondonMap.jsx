@@ -10,23 +10,23 @@ export default function LondonMap({ userLocation, setUserLocation }) {
   }
 
   return (
-      <SC.SVG>
-          <path
-            fill="#74C69D"
-            fillOpacity="1"
-            fillRule="evenodd"
-            stroke="#000"
-            strokeLinecap="butt"
-            strokeLinejoin="miter"
-            strokeOpacity="1"
-            strokeWidth="3.5"
-            className={"Havering" === userLocation ? "clicked" : null}
-            onClick={locateUser}
-            borough="Havering"
-            alt="Havering"
-            id="havering"
-            title="Havering"
-            d="M1431.097,379.954c-0.5-1.101-1-2.301-1.501-3.502c-1.901-4.503-3.802-9.206-7.204-11.607
+    <SC.SVG>
+      <path
+        fill="#74C69D"
+        fillOpacity="1"
+        fillRule="evenodd"
+        stroke="#000"
+        strokeLinecap="butt"
+        strokeLinejoin="miter"
+        strokeOpacity="1"
+        strokeWidth="3.5"
+        className={"Havering" === userLocation ? "clicked" : null}
+        onClick={locateUser}
+        borough="Havering"
+        alt="Havering"
+        id="havering"
+        title="Havering"
+        d="M1431.097,379.954c-0.5-1.101-1-2.301-1.501-3.502c-1.901-4.503-3.802-9.206-7.204-11.607
             c-1.101-0.8-2.401-1.601-3.702-2.401c-4.203-2.602-8.905-5.604-11.708-10.006c-2.101-3.402-2.701-7.705-3.201-11.807
             c-0.301-2.702-0.701-5.303-1.401-7.505c-4.002-0.6-8.905,0.2-13.508,1c-2.302,0.4-4.403,0.801-6.404,1.001
             c-6.704,0.6-14.009,0.8-21.213,0.4h-0.601l-0.101-0.601c-1.101-6.404-2.602-15.109-5.403-20.813c-0.6-1.301-1.2-2.501-1.801-3.602
@@ -73,30 +73,27 @@ export default function LondonMap({ userLocation, setUserLocation }) {
             c2.002,0,5.604-0.101,6.404-1.101c0.4-0.501,0.4-2.502,0.301-4.003c0-1.401-0.101-2.802,0.199-3.602l0.101-0.5l0.5-0.1
             c8.506-0.9,17.511-2.802,26.116-4.703c10.406-2.302,21.113-4.603,31.82-5.304c0.6-5.003-1.401-8.705-3.603-12.607
             C1432.498,382.655,1431.798,381.354,1431.097,379.954L1431.097,379.954z"
-          ></path>
-          <text
-            transform="matrix(1 0 0 1 1204.0107 334.9995)"
-            font-size="27.7821"
-          >
-            Havering
-          </text>
-           
-          <path
-            fill="#74C69D"
-            fillOpacity="1"
-            fillRule="evenodd"
-            stroke="#000"
-            strokeDasharray="none"
-            strokeLinecap="butt"
-            strokeLinejoin="round"
-            strokeMiterlimit="4"
-            strokeOpacity="1"
-            strokeWidth="3.5"
-            borough="Bexley"
-            className={"Bexley" === userLocation ? "clicked" : null}
-            onClick={locateUser}
-            title="Bexley"
-            d="M1080.178,506.133c0,3.102,0.101,6.203,0.2,9.105c0.101,3.002,0.2,6.204,0.2,9.306c0,3.302,0,6.604,0,10.006
+      ></path>
+      <text transform="matrix(1 0 0 1 1204.0107 334.9995)" fontSize="27.7821">
+        Havering
+      </text>
+       
+      <path
+        fill="#74C69D"
+        fillOpacity="1"
+        fillRule="evenodd"
+        stroke="#000"
+        strokeDasharray="none"
+        strokeLinecap="butt"
+        strokeLinejoin="round"
+        strokeMiterlimit="4"
+        strokeOpacity="1"
+        strokeWidth="3.5"
+        borough="Bexley"
+        className={"Bexley" === userLocation ? "clicked" : null}
+        onClick={locateUser}
+        title="Bexley"
+        d="M1080.178,506.133c0,3.102,0.101,6.203,0.2,9.105c0.101,3.002,0.2,6.204,0.2,9.306c0,3.302,0,6.604,0,10.006
 		c0,6.504-0.1,13.309,0,19.914c0.101,5.803,1.602,11.605,3.103,17.209c0.9,3.504,1.801,7.105,2.401,10.707l0.2,1.201l-1.201-0.4
 		c-0.9-0.301-1.801-0.699-2.602-1.1c-3.102-1.402-5.203-2.402-7.905,1.301c-1.101,1.5-2.001,3.102-2.901,4.703
 		c-1.201,2.201-2.502,4.402-4.303,6.402l-0.4,0.4l-0.5-0.299c-2.002-1.102-2.702-2.602-3.303-3.803
@@ -136,29 +133,26 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c-1.001-5.503-2.702-11.006-5.904-15.709c-6.904-10.207-18.611-8.205-29.018-10.407c-9.605-2.101-17.711-7.604-26.116-12.407
 		c-3.102-1.701-6.104-4.203-9.606-4.903c-3.102-0.7-5.703,0.601-8.505,1.602c-1.901,0.7-4.303,1.7-5.003,2.701
 		c-1.501,2.001-0.9,8.105-0.5,12.508C1080.078,503.23,1080.178,504.932,1080.178,506.133L1080.178,506.133z"
-          ></path>
-          <text
-            transform="matrix(1 0 0 1 1061.5439 643.1958)"
-            font-size="27.7821"
-          >
-            Bexley
-          </text>
-          <path
-            fill="#74C69D"
-            fillOpacity="1"
-            fillRule="evenodd"
-            stroke="#000"
-            strokeDasharray="none"
-            strokeLinecap="butt"
-            strokeLinejoin="miter"
-            strokeMiterlimit="4"
-            strokeOpacity="1"
-            strokeWidth="3.5"
-            borough="Redbridge"
-            className={"Redbridge" === userLocation ? "clicked" : null}
-            onClick={locateUser}
-            title="Redbridge"
-            d="M1003.931,400.566c3.502-0.9,5.903-1.801,9.406-3.602c1.101-0.6,2.501-1.801,3.902-3.002
+      ></path>
+      <text transform="matrix(1 0 0 1 1061.5439 643.1958)" fontSize="27.7821">
+        Bexley
+      </text>
+      <path
+        fill="#74C69D"
+        fillOpacity="1"
+        fillRule="evenodd"
+        stroke="#000"
+        strokeDasharray="none"
+        strokeLinecap="butt"
+        strokeLinejoin="miter"
+        strokeMiterlimit="4"
+        strokeOpacity="1"
+        strokeWidth="3.5"
+        borough="Redbridge"
+        className={"Redbridge" === userLocation ? "clicked" : null}
+        onClick={locateUser}
+        title="Redbridge"
+        d="M1003.931,400.566c3.502-0.9,5.903-1.801,9.406-3.602c1.101-0.6,2.501-1.801,3.902-3.002
             c1.901-1.701,3.702-3.202,5.203-3.602c3.902-0.801,5.903,0.4,7.505,1.501c1.7,1.101,3.001,1.901,6.604,0.3
             c4.003-1.801,8.405-5.304,12.908-10.006c0.9-0.901,1.401-1.701,1.901-2.501c0.7-1.101,1.501-2.202,3.102-3.502
             c1.001-0.8,2.102-1.301,3.303-1.801c1.4-0.6,2.802-1.201,3.702-2.201c1.101-1.201,1.501-2.201,1.901-3.302
@@ -188,27 +182,24 @@ export default function LondonMap({ userLocation, setUserLocation }) {
             c0.601,0.8,1.2,1.501,1.801,2.102c0.601,0.6,1.101,1.301,1.701,2.001c2.102,2.501,4.103,4.903,7.505,5.804
             c0.9,0.2,2.201,0,3.502-0.1c2.001-0.3,4.003-0.5,5.403,0.4c5.304,3.402,4.203,10.606,3.103,17.511
             c-1.101,7.004-2.102,13.608,2.901,16.31C989.722,404.169,1000.429,401.467,1003.931,400.566L1003.931,400.566z"
-          ></path>
-          <text
-            transform="matrix(1 0 0 1 916.9287 298.3921)"
-            font-size="27.7821"
-          >
-            Redbridge
-          </text>
-          <path
-            fill="#74C69D"
-            fillOpacity="1"
-            fillRule="evenodd"
-            stroke="#000"
-            strokeLinecap="butt"
-            strokeLinejoin="miter"
-            strokeOpacity="1"
-            strokeWidth="3.5"
-            borough="Enfield"
-            className={"Enfield" === userLocation ? "clicked" : null}
-            onClick={locateUser}
-            title="Enfield"
-            d="M554.351,89.673c2.001,0.3,4.103,0.5,5.903,1.301c0.7,0.3,1.401,0.601,2.102,0.9c2.802,1.301,5.104,2.302,8.605,3.002
+      ></path>
+      <text transform="matrix(1 0 0 1 916.9287 298.3921)" fontSize="27.7821">
+        Redbridge
+      </text>
+      <path
+        fill="#74C69D"
+        fillOpacity="1"
+        fillRule="evenodd"
+        stroke="#000"
+        strokeLinecap="butt"
+        strokeLinejoin="miter"
+        strokeOpacity="1"
+        strokeWidth="3.5"
+        borough="Enfield"
+        className={"Enfield" === userLocation ? "clicked" : null}
+        onClick={locateUser}
+        title="Enfield"
+        d="M554.351,89.673c2.001,0.3,4.103,0.5,5.903,1.301c0.7,0.3,1.401,0.601,2.102,0.9c2.802,1.301,5.104,2.302,8.605,3.002
 		c6.904,1.401,14.209,4.203,22.814,8.906l0.6,0.3c4.003,2.201,5.104,2.802,6.704,7.504c0.301,1,0.701,2.001,1.001,3.002
 		c0.9,2.501,1.701,5.203,2.502,7.905c0.3,1.001,0.5,2.001,0.7,2.902c1.701,6.804,2.802,10.907,8.104,16.31
 		c0.701,0.701,1.401,1.301,2.002,1.901c1.701,1.601,3.102,2.902,4.603,5.604c2.401,4.503,4.103,5.503,8.305,7.905l0.2,0.1
@@ -240,29 +231,26 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c-1.001,0.4-1.301,0.8-2.002,1.601c-0.2,0.2-0.4,0.5-0.6,0.8c-0.801,0.901-1.501,1.901-2.202,2.902
 		c-2.501,3.302-5.103,6.704-8.605,8.605c0.901,2.101-0.1,5.503-1.101,8.706c-0.6,1.901-1.101,3.602-1.101,4.803
 		C550.048,89.172,552.149,89.373,554.351,89.673L554.351,89.673z"
-          ></path>
-          <text
-            transform="matrix(1 0 0 1 672.8984 137.6685)"
-            font-size="27.7821"
-          >
-            Enfield
-          </text>
-          <path
-            fill="#74C69D"
-            fillOpacity="1"
-            fillRule="evenodd"
-            stroke="#000"
-            strokeDasharray="none"
-            strokeLinecap="butt"
-            strokeLinejoin="round"
-            strokeMiterlimit="4"
-            strokeOpacity="1"
-            strokeWidth="3.5"
-            borough="Waltham Forest"
-            className={"Waltham Forest" === userLocation ? "clicked" : null}
-            onClick={locateUser}
-            title="Waltham Forest"
-            d="M842.83,140.404c-0.5,5.003-2.102,9.506-3.603,13.909c-0.8,2.202-1.601,4.603-2.301,6.904
+      ></path>
+      <text transform="matrix(1 0 0 1 672.8984 137.6685)" fontSize="27.7821">
+        Enfield
+      </text>
+      <path
+        fill="#74C69D"
+        fillOpacity="1"
+        fillRule="evenodd"
+        stroke="#000"
+        strokeDasharray="none"
+        strokeLinecap="butt"
+        strokeLinejoin="round"
+        strokeMiterlimit="4"
+        strokeOpacity="1"
+        strokeWidth="3.5"
+        borough="Waltham Forest"
+        className={"Waltham Forest" === userLocation ? "clicked" : null}
+        onClick={locateUser}
+        title="Waltham Forest"
+        d="M842.83,140.404c-0.5,5.003-2.102,9.506-3.603,13.909c-0.8,2.202-1.601,4.603-2.301,6.904
 		c-2.302,8.105-6.104,16.21-11.907,25.616c-1.802,2.902-3.603,6.204-5.304,9.306c-1.501,2.802-3.102,5.704-4.703,8.405
 		c-1.101,1.801-2.401,3.502-3.802,5.303c-2.402,3.002-4.804,6.104-5.804,9.306c-0.701,2.102-0.2,3.202,0.4,4.603
 		c0.3,0.801,0.7,1.801,1,3.002c0.801,4.203-1.801,6.704-4.303,8.806l-0.8,0.6c-2.202,1.801-5.204,4.303-8.306,4.403
@@ -287,27 +275,27 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c-6.004-0.601-10.307-1.801-14.909-3.603c-1.101-0.4-2.001-0.5-2.901-0.7c-1.401-0.2-2.803-0.4-4.503-1.901
 		c-1.401-1.101-1.401-2.401-1.501-3.302c-0.101-0.801-0.101-1.401-0.801-2.001c-0.601,1.201-1.4,1.401-2.401,1.501
 		c-0.2,0-0.4,0-0.501,0.1C843.431,132.5,843.23,136.502,842.83,140.404L842.83,140.404z"
-          ></path>
-          <text
-            transform="matrix(0.3419 -0.9397 0.9397 0.3419 809.9492 342.9468)"
-            font-size="27.7891"
-          >
-            Waltham Forest
-          </text>
-          <path
-            fill="#74C69D"
-            fillOpacity="1"
-            fillRule="evenodd"
-            stroke="#000"
-            strokeLinecap="butt"
-            strokeLinejoin="miter"
-            strokeOpacity="1"
-            strokeWidth="3.5"
-            borough="Sutton"
-            className={"Sutton" === userLocation ? "clicked" : null}
-            onClick={locateUser}
-            title="Sutton"
-            d="M624.594,1018.252c0.501-0.201,1.102-0.301,1.701-0.502l1.001-0.299c3.502-0.9,8.405-2.201,10.206-5.305
+      ></path>
+      <text
+        transform="matrix(0.3419 -0.9397 0.9397 0.3419 809.9492 342.9468)"
+        fontSize="27.7891"
+      >
+        Waltham Forest
+      </text>
+      <path
+        fill="#74C69D"
+        fillOpacity="1"
+        fillRule="evenodd"
+        stroke="#000"
+        strokeLinecap="butt"
+        strokeLinejoin="miter"
+        strokeOpacity="1"
+        strokeWidth="3.5"
+        borough="Sutton"
+        className={"Sutton" === userLocation ? "clicked" : null}
+        onClick={locateUser}
+        title="Sutton"
+        d="M624.594,1018.252c0.501-0.201,1.102-0.301,1.701-0.502l1.001-0.299c3.502-0.9,8.405-2.201,10.206-5.305
 		c0.801-1.301,0.901-2.801,0.4-4.602c-0.3-1.201-1.501-2.201-2.701-3.203c-1.201-1-2.401-2-2.802-3.301
 		c-0.4-1.402-0.501-2.402,0-3.203c0.6-1.1,1.801-1.4,3.002-1.701c1.2-0.299,2.301-0.6,2.701-1.6c0.5-1.002-1-6.404-1.801-8.307
 		c-0.4-0.799-1.001-1.701-1.801-2.701c-1.401-1.9-2.803-3.803-2.803-5.703c0-1.801,0.601-2.402,1.201-3.102
@@ -350,31 +338,26 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c0.2,0,0.4,0,0.601,0h0.7v0.699c0.1,1.701-0.1,3.402-0.4,5.004c-0.5,3.701-1,6.904,3.103,10.006c0.7,0.5,1.501,0.9,2.301,1.301
 		c0.4,0.199,0.9,0.5,1.301,0.701c0.7,0.4,1.501,0.9,2.201,1.5c0.501,0.4,1.001,0.701,1.501,1
 		C621.492,1019.252,622.393,1018.952,624.594,1018.252L624.594,1018.252z"
-          ></path>
-          <text
-            transform="matrix(1 0 0 1 534.3428 914.4966)"
-            font-size="27.7821"
-          >
-            Sutton
-          </text>
-          <path
-            fill="#74C69D"
-            fillOpacity="1"
-            fillRule="evenodd"
-            stroke="#000"
-            strokeDasharray="none"
-            strokeLinecap="butt"
-            strokeLinejoin="miter"
-            strokeMiterlimit="4"
-            strokeOpacity="1"
-            strokeWidth="3.5"
-            borough="Kingston upon Thames"
-            className={
-              "Kingston upon Thames" === userLocation ? "clicked" : null
-            }
-            onClick={locateUser}
-            title="Kingston upon Thames"
-            d="M466.396,847.344c0.7-1.6,1.901-3.002,3.002-4.402c1.4-1.801,2.802-3.402,3.202-5.402c1.2-5.604-3.502-9.307-7.905-13.008
+      ></path>
+      <text transform="matrix(1 0 0 1 534.3428 914.4966)" fontSize="27.7821">
+        Sutton
+      </text>
+      <path
+        fill="#74C69D"
+        fillOpacity="1"
+        fillRule="evenodd"
+        stroke="#000"
+        strokeDasharray="none"
+        strokeLinecap="butt"
+        strokeLinejoin="miter"
+        strokeMiterlimit="4"
+        strokeOpacity="1"
+        strokeWidth="3.5"
+        borough="Kingston upon Thames"
+        className={"Kingston upon Thames" === userLocation ? "clicked" : null}
+        onClick={locateUser}
+        title="Kingston upon Thames"
+        d="M466.396,847.344c0.7-1.6,1.901-3.002,3.002-4.402c1.4-1.801,2.802-3.402,3.202-5.402c1.2-5.604-3.502-9.307-7.905-13.008
 		c-1.801-1.402-3.402-2.803-4.703-4.203c-5.203-5.904-3.002-9.207-0.8-12.709c1.601-2.4,3.202-4.902,2.701-8.605
 		c-0.3-2.201-2.102-7.404-3.202-10.406l-0.4-1.1c-1.5-4.303-2.101-6.504-2.401-11.107c-0.2-2.701-0.9-4.104-1.901-6.104
 		c-0.399-0.701-0.7-1.4-1.101-2.301c-1.2-2.602-1.2-4.805-1.301-7.105c0-1,0-2.002-0.1-3.201c-0.4-3.703-1.701-6.904-3.002-9.906
@@ -404,29 +387,29 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c1.401-2.4,2.802-4.902,4.603-5.703c1.802-0.9,4.403-0.9,7.005-1c2.001,0,4.103-0.102,5.604-0.502
 		c2.501-0.799,8.104-3.002,10.106-4.803c1.901-1.701,2.701-4.102,3.402-6.604C465.395,850.047,465.795,848.747,466.396,847.344
 		L466.396,847.344z"
-          ></path>
-          <text
-            transform="matrix(0.5 -0.866 0.866 0.5 379.7188 894.4321)"
-            font-size="27.7809"
-          >
-            Kingston
-          </text>
-          <path
-            fill="#74C69D"
-            fillOpacity="1"
-            fillRule="evenodd"
-            stroke="#000"
-            strokeDasharray="none"
-            strokeLinecap="butt"
-            strokeLinejoin="miter"
-            strokeMiterlimit="4"
-            strokeOpacity="1"
-            strokeWidth="3.5"
-            borough="Bromley"
-            className={"Bromley" === userLocation ? "clicked" : null}
-            onClick={locateUser}
-            title="Bromley"
-            d="M1138.614,771.499l-0.1-0.9l-29.019-18.713c-6.504-1.201-12.308,0.5-18.611,2.301c-5.003,1.502-10.307,2.902-15.81,2.902
+      ></path>
+      <text
+        transform="matrix(0.5 -0.866 0.866 0.5 379.7188 894.4321)"
+        fontSize="27.7809"
+      >
+        Kingston
+      </text>
+      <path
+        fill="#74C69D"
+        fillOpacity="1"
+        fillRule="evenodd"
+        stroke="#000"
+        strokeDasharray="none"
+        strokeLinecap="butt"
+        strokeLinejoin="miter"
+        strokeMiterlimit="4"
+        strokeOpacity="1"
+        strokeWidth="3.5"
+        borough="Bromley"
+        className={"Bromley" === userLocation ? "clicked" : null}
+        onClick={locateUser}
+        title="Bromley"
+        d="M1138.614,771.499l-0.1-0.9l-29.019-18.713c-6.504-1.201-12.308,0.5-18.611,2.301c-5.003,1.502-10.307,2.902-15.81,2.902
 		c-14.409-0.1-29.419-12.707-39.425-21.012c-3.603-3.002-6.404-7.006-9.105-10.908c-5.403-7.604-10.407-14.908-21.113-14.508
 		c-2.201,3.402-11.007,16.709-14.209,17.51c-9.605,1.801-11.808-0.1-18.312-5.803l-1.2-1.002c-3.402-3.002-5.403-6.402-7.205-9.705
 		c-1.501-2.602-3.001-5.404-5.403-7.904c-3.702-4.104-6.904-7.605-10.206-11.309l-3.803-4.303
@@ -473,28 +456,25 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		l1.001-0.199c2.602-0.6,5.203-1,7.705-1.301c3.201-0.5,6.203-0.9,9.205-1.701l0.601-0.199c3.502-0.902,6.104-1.602,6.304-2.303
 		c0.2-0.699-1.601-2.701-3.402-4.602c-5.003-5.504-7.805-12.809-10.506-19.812c-1.401-3.502-2.802-7.105-4.403-10.508
 		C1139.215,771.499,1138.915,771.499,1138.614,771.499L1138.614,771.499z"
-          ></path>
-          <text
-            transform="matrix(1 0 0 1 934.3105 885.3765)"
-            font-size="27.7821"
-          >
-            Bromley
-          </text>
-          <path
-            fill="#74c69d"
-            fillOpacity="1"
-            stroke="#000"
-            strokeDasharray="none"
-            strokeLinecap="butt"
-            strokeLinejoin="miter"
-            strokeMiterlimit="4"
-            strokeOpacity="1"
-            strokeWidth="3.5"
-            borough="Croydon"
-            className={"Croydon" === userLocation ? "clicked" : null}
-            onClick={locateUser}
-            title="Croydon"
-            d="M625.095,1019.752c0.5-0.199,1-0.301,1.601-0.5l1.001-0.301c3.802-1,9.006-2.4,11.106-6.004
+      ></path>
+      <text transform="matrix(1 0 0 1 934.3105 885.3765)" fontSize="27.7821">
+        Bromley
+      </text>
+      <path
+        fill="#74c69d"
+        fillOpacity="1"
+        stroke="#000"
+        strokeDasharray="none"
+        strokeLinecap="butt"
+        strokeLinejoin="miter"
+        strokeMiterlimit="4"
+        strokeOpacity="1"
+        strokeWidth="3.5"
+        borough="Croydon"
+        className={"Croydon" === userLocation ? "clicked" : null}
+        onClick={locateUser}
+        title="Croydon"
+        d="M625.095,1019.752c0.5-0.199,1-0.301,1.601-0.5l1.001-0.301c3.802-1,9.006-2.4,11.106-6.004
 		c1.001-1.6,1.101-3.602,0.601-5.703c-0.4-1.701-1.801-2.801-3.202-4.002c-1.101-0.9-2.102-1.801-2.401-2.703
 		c-0.3-0.9-0.4-1.6-0.1-2c0.3-0.5,1.101-0.701,2.101-1c1.301-0.301,3.002-0.801,3.702-2.402c0.801-1.801-1.2-8.105-1.801-9.506
 		c-0.4-0.9-1.101-1.9-1.901-2.902c-1.2-1.602-2.501-3.402-2.501-4.803c0-1.201,0.3-1.602,0.8-2.102c0.301-0.4,0.701-0.801,1.101-1.5
@@ -550,31 +530,26 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c0-3.203-1.401-4.303-2.802-5.404c-1.001-0.801-2.102-1.701-2.802-3.701c-0.501-1.602-0.801-3.002-1.001-4.303
 		c-0.3-2.002-0.601-3.902-1.801-6.004c-0.4-0.701-0.701-1.301-1.001-1.902c-1.901-3.402-2.702-4.703,0.3-7.504
 		c1.401-1.301,3.103-2.201,4.903-3.102c1.101-0.602,2.201-1.102,3.202-1.803L625.095,1019.752L625.095,1019.752z"
-          ></path>
-          <text
-            transform="matrix(1 0 0 1 703.4629 914.4966)"
-            font-size="27.7821"
-          >
-            Croydon
-          </text>
-          <path
-            fill="#74C69D"
-            fillOpacity="1"
-            fillRule="evenodd"
-            stroke="#000"
-            strokeDasharray="none"
-            strokeLinecap="butt"
-            strokeLinejoin="miter"
-            strokeMiterlimit="4"
-            strokeOpacity="1"
-            strokeWidth="3.5"
-            borough="Barking and Dagenham"
-            className={
-              "Barking and Dagenham" === userLocation ? "clicked" : null
-            }
-            onClick={locateUser}
-            title="Barking and Dagenham"
-            d="M1190.047,363.844c-0.7-1.701-1.901-3.102-3.103-4.403c-1.4-1.701-2.901-3.402-3.502-5.704c-0.9-3.102-1-8.305-0.7-12.408
+      ></path>
+      <text transform="matrix(1 0 0 1 703.4629 914.4966)" fontSize="27.7821">
+        Croydon
+      </text>
+      <path
+        fill="#74C69D"
+        fillOpacity="1"
+        fillRule="evenodd"
+        stroke="#000"
+        strokeDasharray="none"
+        strokeLinecap="butt"
+        strokeLinejoin="miter"
+        strokeMiterlimit="4"
+        strokeOpacity="1"
+        strokeWidth="3.5"
+        borough="Barking and Dagenham"
+        className={"Barking and Dagenham" === userLocation ? "clicked" : null}
+        onClick={locateUser}
+        title="Barking and Dagenham"
+        d="M1190.047,363.844c-0.7-1.701-1.901-3.102-3.103-4.403c-1.4-1.701-2.901-3.402-3.502-5.704c-0.9-3.102-1-8.305-0.7-12.408
           c-4.903-1.601-14.009-1-18.712-0.3c-2.602,0.4-5.103,1.501-7.604,2.602c-2.602,1.201-5.403,2.301-8.205,2.702
           c-5.403,0.7-8.605-2.501-12.007-5.804c-1.201-1.101-2.402-2.301-3.703-3.402c-0.6-0.5-2.001-1.301-3.402-2.101
           c-4.702-2.702-7.704-4.503-7.504-6.404c0.1-0.901,1-1.401,1.601-1.601c0.101-3.703-1.4-7.004-2.901-10.607
@@ -602,35 +577,29 @@ export default function LondonMap({ userLocation, setUserLocation }) {
           c1.101-6.704,2.102-12.508,6.504-18.411c2.602-3.402,4.403-7.405,6.204-11.207c1.701-3.702,3.402-7.404,5.903-10.807
           c4.604-6.404,10.106-13.709,15.71-20.213c4.803-5.604,10.106-15.31,10.507-21.813
           C1192.948,370.748,1191.447,366.846,1190.047,363.844L1190.047,363.844z"
-          ></path>
-          <text
-            transform="matrix(1 0 0 1 1028.4092 420.2437)"
-            font-size="24.6952"
-          >
-            Barking &amp;
-          </text>
-          <text
-            transform="matrix(1 0 0 1 1028.4092 444.9399)"
-            font-size="24.6952"
-          >
-            Dagenham
-          </text>
-        <path
-          fill="#74C69D"
-          fillOpacity="1"
-          fillRule="evenodd"
-          stroke="#000"
-          strokeDasharray="none"
-          strokeLinecap="butt"
-          strokeLinejoin="round"
-          strokeMiterlimit="4"
-          strokeOpacity="1"
-          strokeWidth="3.5"
-          borough="Newham"
-          className={"Newham" === userLocation ? "clicked" : null}
-          onClick={locateUser}
-          title="Newham"
-          d="M828.021,369.547c2.602,2.802,4.703,6.004,6.604,8.906c3.502,5.503,4.603,5.803,8.605,6.504c1.101,0.2,2.502,0.4,4.202,0.8
+      ></path>
+      <text transform="matrix(1 0 0 1 1028.4092 420.2437)" fontSize="24.6952">
+        Barking &amp;
+      </text>
+      <text transform="matrix(1 0 0 1 1028.4092 444.9399)" fontSize="24.6952">
+        Dagenham
+      </text>
+      <path
+        fill="#74C69D"
+        fillOpacity="1"
+        fillRule="evenodd"
+        stroke="#000"
+        strokeDasharray="none"
+        strokeLinecap="butt"
+        strokeLinejoin="round"
+        strokeMiterlimit="4"
+        strokeOpacity="1"
+        strokeWidth="3.5"
+        borough="Newham"
+        className={"Newham" === userLocation ? "clicked" : null}
+        onClick={locateUser}
+        title="Newham"
+        d="M828.021,369.547c2.602,2.802,4.703,6.004,6.604,8.906c3.502,5.503,4.603,5.803,8.605,6.504c1.101,0.2,2.502,0.4,4.202,0.8
 		c2.302,0.5,3.803,1.401,5.004,2.102c2.301,1.401,4.103,2.501,9.705,0.2c0.701-0.3,1.602-0.701,2.502-1.201
 		c3.102-1.5,7.305-3.502,9.807-2.301c1.101,0.5,1.801,1.601,2.201,3.402l0.1,0.5l0.5,0.1c6.905,1,8.205-1.601,9.606-4.403
 		c0.801-1.501,1.501-3.102,3.202-4.402c3.202-2.602,7.805-0.1,10.206-2.502c0.9-0.9,1.301-2.401,1.301-4.703
@@ -657,26 +626,26 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c1.502-1.101,3.103-2.401,3.803-5.103c1.701-6.104-2.001-17.411-5.003-23.115c-1.301-2.501-3.002-4.203-4.903-6.104
 		c-0.7-0.7-1.4-1.4-2.201-2.201c-2.902-3.102-2.802-4.903-2.702-8.605c0-0.7,0.101-1.601,0.101-2.501L828.021,369.547
 		L828.021,369.547z"
-        ></path>
-        <text transform="matrix(1 0 0 1 871.2002 449.2964)" font-size="27.7821">
-          Newham
-        </text>
-        <path
-          fill="#74C69D"
-          fillOpacity="1"
-          fillRule="evenodd"
-          stroke="#000"
-          strokeDasharray="none"
-          strokeLinecap="butt"
-          strokeLinejoin="round"
-          strokeMiterlimit="4"
-          strokeOpacity="1"
-          strokeWidth="3.5"
-          borough="Greenwich"
-          className={"Greenwich" === userLocation ? "clicked" : null}
-          onClick={locateUser}
-          title="Greenwich"
-          d="M831.123,571.874c-0.101,2.201-0.2,4.002,1.2,5.703c1.001,1.102,2.402,1.602,3.803,2.002
+      ></path>
+      <text transform="matrix(1 0 0 1 871.2002 449.2964)" fontSize="27.7821">
+        Newham
+      </text>
+      <path
+        fill="#74C69D"
+        fillOpacity="1"
+        fillRule="evenodd"
+        stroke="#000"
+        strokeDasharray="none"
+        strokeLinecap="butt"
+        strokeLinejoin="round"
+        strokeMiterlimit="4"
+        strokeOpacity="1"
+        strokeWidth="3.5"
+        borough="Greenwich"
+        className={"Greenwich" === userLocation ? "clicked" : null}
+        onClick={locateUser}
+        title="Greenwich"
+        d="M831.123,571.874c-0.101,2.201-0.2,4.002,1.2,5.703c1.001,1.102,2.402,1.602,3.803,2.002
           c1.101,0.299,2.102,0.6,3.002,1.301c2.201,1.5,3.102,3.701,2.901,7.004c-0.1,2.301-0.5,2.902-1.601,3.402
           c-0.3,0.199-0.7,0.301-1.201,1c-1.9,2.703-0.9,4.004,0.701,6.205c0.5,0.6,1,1.301,1.4,2c0.701,1.201,1.201,2.703,1.602,4.104
           c0.8,2.801,1.601,5.504,4.702,6.104c0.901,0.199,1.602,0.1,2.002-0.201c1-0.9,0.8-3.602,0.601-5.703
@@ -712,26 +681,26 @@ export default function LondonMap({ userLocation, setUserLocation }) {
           c-5.804,6.305-11.106,7.506-18.312,7.506h-0.3c-4.303,0-7.905,0-11.808-1.402c-1.301-0.5-2.702-1.199-4.103-2
           c-1.201-0.602-2.401-1.301-3.502-1.801c0.1,0.299,0.2,0.699,0.2,1C831.223,569.573,831.123,570.772,831.123,571.874
           L831.123,571.874z"
-        ></path>
-        <text transform="matrix(1 0 0 1 905.2852 580.3384)" font-size="27.7821">
-          Greenwich
-        </text>
-        <path
-          fill="#74C69D"
-          fillOpacity="1"
-          fillRule="evenodd"
-          stroke="#000"
-          strokeDasharray="none"
-          strokeLinecap="butt"
-          strokeLinejoin="round"
-          strokeMiterlimit="4"
-          strokeOpacity="1"
-          strokeWidth="3.5"
-          borough="Towerhamlets"
-          className={"Towerhamlets" === userLocation ? "clicked" : null}
-          onClick={locateUser}
-          title="Tower Hamlets"
-          d="M841.529,410.873c-0.1,0.601-0.2,1.101-0.3,1.601c-0.601,2.202-1.901,3.202-3.303,4.303c-1,0.801-2.101,1.701-2.901,3.002
+      ></path>
+      <text transform="matrix(1 0 0 1 905.2852 580.3384)" fontSize="27.7821">
+        Greenwich
+      </text>
+      <path
+        fill="#74C69D"
+        fillOpacity="1"
+        fillRule="evenodd"
+        stroke="#000"
+        strokeDasharray="none"
+        strokeLinecap="butt"
+        strokeLinejoin="round"
+        strokeMiterlimit="4"
+        strokeOpacity="1"
+        strokeWidth="3.5"
+        borough="Towerhamlets"
+        className={"Towerhamlets" === userLocation ? "clicked" : null}
+        onClick={locateUser}
+        title="Tower Hamlets"
+        d="M841.529,410.873c-0.1,0.601-0.2,1.101-0.3,1.601c-0.601,2.202-1.901,3.202-3.303,4.303c-1,0.801-2.101,1.701-2.901,3.002
 		c-2.102,3.503,0,7.104,1.701,10.007c0.3,0.5,0.601,1,0.801,1.4c2.101,3.902,3.602,6.504,6.804,9.706
 		c1.201,1.201,2.502,2.302,3.803,3.402c2.001,1.701,4.103,3.402,5.604,5.304c2.501,3.302,3.102,7.304,3.702,11.206
 		c0.601,3.903,1.2,7.806,3.702,10.907c2.201,2.702,5.403,5.003,8.505,7.204c5.104,3.703,10.407,7.405,11.508,13.209
@@ -749,29 +718,29 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c3.703-0.2,7.605-0.399,10.607-2.001c4.303-2.201,9.105-7.104,11.406-11.607c0.601-1.2,1.001-2.501,1.501-3.902
 		c0.901-2.802,1.802-5.704,3.903-6.904c4.702,5.704,10.105,4.103,15.31,2.502c4.103-1.201,8.405-2.502,12.607-0.3L841.529,410.873
 		L841.529,410.873z"
-        ></path>
-        <text transform="matrix(1 0 0 1 763.7822 461.9351)" font-size="24.6952">
-          Tower
-        </text>
-        <text transform="matrix(1 0 0 1 763.7822 486.6304)" font-size="24.6952">
-          Hamlets
-        </text>
-        <path
-          fill="#74C69D"
-          fillOpacity="1"
-          fillRule="evenodd"
-          stroke="#000"
-          strokeDasharray="none"
-          strokeLinecap="butt"
-          strokeLinejoin="round"
-          strokeMiterlimit="4"
-          strokeOpacity="1"
-          strokeWidth="3.5"
-          borough="Hackney"
-          className={"Hackney" === userLocation ? "clicked" : null}
-          onClick={locateUser}
-          title="Hackney"
-          d="M826.521,370.248c0,0.901,0,1.701-0.101,2.402c-0.1,3.802-0.2,6.104,3.102,9.606c0.801,0.8,1.501,1.501,2.202,2.201
+      ></path>
+      <text transform="matrix(1 0 0 1 763.7822 461.9351)" fontSize="24.6952">
+        Tower
+      </text>
+      <text transform="matrix(1 0 0 1 763.7822 486.6304)" fontSize="24.6952">
+        Hamlets
+      </text>
+      <path
+        fill="#74C69D"
+        fillOpacity="1"
+        fillRule="evenodd"
+        stroke="#000"
+        strokeDasharray="none"
+        strokeLinecap="butt"
+        strokeLinejoin="round"
+        strokeMiterlimit="4"
+        strokeOpacity="1"
+        strokeWidth="3.5"
+        borough="Hackney"
+        className={"Hackney" === userLocation ? "clicked" : null}
+        onClick={locateUser}
+        title="Hackney"
+        d="M826.521,370.248c0,0.901,0,1.701-0.101,2.402c-0.1,3.802-0.2,6.104,3.102,9.606c0.801,0.8,1.501,1.501,2.202,2.201
 		c1.801,1.801,3.401,3.402,4.603,5.704c2.502,4.803,5.304,13.108,5.304,18.912l-1.301-0.8c-4.703-2.501-9.307-1.201-13.709,0.2
 		c-5.304,1.601-10.006,3.002-14.108-2.501l-0.301-0.5l-0.5,0.2c-3.102,1.301-4.303,4.903-5.304,8.005
 		c-0.4,1.401-0.8,2.602-1.4,3.702c-2.201,4.303-6.704,8.906-10.707,11.007c-2.802,1.401-6.504,1.602-10.106,1.802
@@ -791,29 +760,29 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c2.501,3.602,5.604,5.904,8.605,8.105c1.301,1,2.701,2.001,4.103,3.102c2.401,2.001,5.303,5.003,6.504,7.104
 		c0.4,0.8,0.601,1.901,0.7,3.102c0.2,1.601,0.4,3.302,1.501,4.703c3.402,4.002,11.307,3.502,16.511,3.202l1-0.1
 		c1.001,0,1.802-0.1,2.702-0.2c5.303-0.3,7.704-0.5,12.708,2.802c1.4,0.9,2.901,2.201,4.103,3.302L826.521,370.248L826.521,370.248z"
-        ></path>
-        <text
-          transform="matrix(0.3419 0.9397 -0.9397 0.3419 728.6875 334.2275)"
-          font-size="27.7891"
-        >
-          Hackney
-        </text>
-        <path
-          fill="#74C69D"
-          fillOpacity="1"
-          fillRule="evenodd"
-          stroke="#000"
-          strokeDasharray="none"
-          strokeLinecap="butt"
-          strokeLinejoin="round"
-          strokeMiterlimit="4"
-          strokeOpacity="1"
-          strokeWidth="3.5"
-          borough="Islington"
-          className={"Islington" === userLocation ? "clicked" : null}
-          onClick={locateUser}
-          title="Islington"
-          d="M715.251,431.386c1.801-0.9,3.502-1.701,4.902-2.802c4.804-3.603,5.204-10.307,5.604-16.71
+      ></path>
+      <text
+        transform="matrix(0.3419 0.9397 -0.9397 0.3419 728.6875 334.2275)"
+        fontSize="27.7891"
+      >
+        Hackney
+      </text>
+      <path
+        fill="#74C69D"
+        fillOpacity="1"
+        fillRule="evenodd"
+        stroke="#000"
+        strokeDasharray="none"
+        strokeLinecap="butt"
+        strokeLinejoin="round"
+        strokeMiterlimit="4"
+        strokeOpacity="1"
+        strokeWidth="3.5"
+        borough="Islington"
+        className={"Islington" === userLocation ? "clicked" : null}
+        onClick={locateUser}
+        title="Islington"
+        d="M715.251,431.386c1.801-0.9,3.502-1.701,4.902-2.802c4.804-3.603,5.204-10.307,5.604-16.71
           c0.301-3.903,0.501-8.005,1.802-11.308l0.2-0.4l0.4-0.1c2.101-0.4,4.303-0.1,6.304,0.1c1.2,0.1,2.401,0.3,3.602,0.3
           c-0.8-5.104-4.002-9.406-8.905-12.208c-1.701-1-3.603-1.401-5.403-1.901c-3.702-0.901-7.505-1.901-9.105-6.904
           c-0.7-2.001-1.101-3.902-1.401-5.503c-1.2-5.403-2.001-9.006-8.805-10.707c-6.104-1.501-11.308-5.503-13.809-10.707l0.199-0.1
@@ -833,29 +802,29 @@ export default function LondonMap({ userLocation, setUserLocation }) {
           c0.7-1.4,1.101-3.102,1.601-5.003c0.801-3.002,1.601-6.204,3.502-8.104c-1.001-0.601-1.901-1.201-2.901-1.802
           c-1.802-1.101-3.603-2.301-5.604-3.302l-0.501-0.2c-6.203-3.102-13.308-6.604-14.608-15.01
           C705.345,436.289,710.647,433.688,715.251,431.386L715.251,431.386z"
-        ></path>
-        <text
-          transform="matrix(0.3419 0.9397 -0.9397 0.3419 650.7441 350.7026)"
-          font-size="27.7891"
-        >
-          Islington
-        </text>
-        <path
-          fill="#74C69D"
-          fillOpacity="1"
-          fillRule="evenodd"
-          stroke="#000"
-          strokeDasharray="none"
-          strokeLinecap="butt"
-          strokeLinejoin="round"
-          strokeMiterlimit="4"
-          strokeOpacity="1"
-          strokeWidth="3.5"
-          borough="City of London"
-          className={"City of London" === userLocation ? "clicked" : null}
-          onClick={locateUser}
-          title="City of London"
-          d="M737.164,500.429c0.901-1.701,2.102-2.602,3.303-3.502c1.601-1.201,2.901-2.201,3.302-4.803
+      ></path>
+      <text
+        transform="matrix(0.3419 0.9397 -0.9397 0.3419 650.7441 350.7026)"
+        fontSize="27.7891"
+      >
+        Islington
+      </text>
+      <path
+        fill="#74C69D"
+        fillOpacity="1"
+        fillRule="evenodd"
+        stroke="#000"
+        strokeDasharray="none"
+        strokeLinecap="butt"
+        strokeLinejoin="round"
+        strokeMiterlimit="4"
+        strokeOpacity="1"
+        strokeWidth="3.5"
+        borough="City of London"
+        className={"City of London" === userLocation ? "clicked" : null}
+        onClick={locateUser}
+        title="City of London"
+        d="M737.164,500.429c0.901-1.701,2.102-2.602,3.303-3.502c1.601-1.201,2.901-2.201,3.302-4.803
 		c0.5-3.402-1.101-5.904-2.702-8.506c-0.6-1-1.301-2.001-1.801-3.102c-2.102-4.203-1.401-6.304-0.5-8.806
 		c0.4-1.301,0.9-2.701,1.101-4.703l0.1-0.7c-3.402-0.1-6.104-1.201-8.705-2.602c-1.801,1.601-2.602,4.703-3.402,7.705
 		c-0.5,2.101-1.101,4.103-1.901,5.703l-0.2,0.4h-0.4c-3.401,0-8.005-3.102-11.307-5.403c-0.801-0.601-1.601-1.101-2.302-1.501
@@ -867,26 +836,26 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c0.801,1.001,1.201,2.202,1.501,3.303c0.501,1.501,1.001,2.901,2.302,3.802c3.603,2.202,10.707,0.301,14.509-0.2
 		c7.005-0.9,14.109-1.801,21.214-1.101c7.204,0.701,14.309,2.401,21.213,4.604c3.902,1.301,7.805,2.501,11.107,2.401
 		c-0.801-0.7-1.501-1.501-1.802-2.502C736.264,503.531,736.364,502.03,737.164,500.429z"
-        ></path>
-        <text transform="matrix(1 0 0 1 690.5557 496.8979)" font-size="23.1518">
-          City
-        </text>
-        <path
-          fill="#74C69D"
-          fillOpacity="1"
-          fillRule="evenodd"
-          stroke="#000"
-          strokeDasharray="none"
-          strokeLinecap="butt"
-          strokeLinejoin="miter"
-          strokeMiterlimit="4"
-          strokeOpacity="1"
-          strokeWidth="3.5"
-          borough="Merton"
-          className={"Merton" === userLocation ? "clicked" : null}
-          onClick={locateUser}
-          title="Merton"
-          d="M552.749,710.86c1.301-5.004,2.802-15.51,0.501-17.311c-2.202-1.602-10.007,2.102-13.809,3.902
+      ></path>
+      <text transform="matrix(1 0 0 1 690.5557 496.8979)" fontSize="23.1518">
+        City
+      </text>
+      <path
+        fill="#74C69D"
+        fillOpacity="1"
+        fillRule="evenodd"
+        stroke="#000"
+        strokeDasharray="none"
+        strokeLinecap="butt"
+        strokeLinejoin="miter"
+        strokeMiterlimit="4"
+        strokeOpacity="1"
+        strokeWidth="3.5"
+        borough="Merton"
+        className={"Merton" === userLocation ? "clicked" : null}
+        onClick={locateUser}
+        title="Merton"
+        d="M552.749,710.86c1.301-5.004,2.802-15.51,0.501-17.311c-2.202-1.602-10.007,2.102-13.809,3.902
 		c-0.9,0.4-1.701,0.801-2.302,1.102c-1.101,0.5-2.102,1-3.002,1.5c-1.701,0.9-3.302,1.801-5.503,2.201l-2.102,0.4
 		c-4.203,0.9-8.105,1.701-12.608,1.701h-3.502c-7.004,0-13.608-0.1-20.112,1.102c-1.501,0.299-3.102,0.199-4.703,0.199
 		c-1.701-0.1-3.502-0.1-5.103,0.301c-2.702,0.699-5.104,2.602-7.605,4.402c-0.9,0.701-1.801,1.301-2.602,1.9
@@ -920,26 +889,26 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c-5.104-1.9-11.508-4.203-13.209-9.406c-0.4-1.1-0.4-3.301-0.5-5.803c-0.1-4.002-0.2-10.607-2.302-10.607l0,0
 		c-0.6,0-1.301,0.602-2.001,1.201c-1.301,1.102-3.102,2.701-5.703,0.801c-2.502-1.9-1.501-5.703-0.9-7.904L552.749,710.86
 		L552.749,710.86z"
-        ></path>
-        <text transform="matrix(1 0 0 1 493.1865 785.6929)" font-size="27.7821">
-          Merton
-        </text>
-        <path
-          fill="#74C69D"
-          fillOpacity="1"
-          fillRule="evenodd"
-          stroke="#000"
-          strokeDasharray="none"
-          strokeLinecap="butt"
-          strokeLinejoin="round"
-          strokeMiterlimit="4"
-          strokeOpacity="1"
-          strokeWidth="3.5"
-          borough="Lewisham"
-          className={"Lewisham" === userLocation ? "clicked" : null}
-          onClick={locateUser}
-          title="Lewisham"
-          d="M829.021,566.77c0.2,0.6,0.4,1.201,0.5,1.801c0.101,1.102,0.101,2.102,0,3.203c-0.1,2.301-0.2,4.602,1.602,6.703
+      ></path>
+      <text transform="matrix(1 0 0 1 493.1865 785.6929)" fontSize="27.7821">
+        Merton
+      </text>
+      <path
+        fill="#74C69D"
+        fillOpacity="1"
+        fillRule="evenodd"
+        stroke="#000"
+        strokeDasharray="none"
+        strokeLinecap="butt"
+        strokeLinejoin="round"
+        strokeMiterlimit="4"
+        strokeOpacity="1"
+        strokeWidth="3.5"
+        borough="Lewisham"
+        className={"Lewisham" === userLocation ? "clicked" : null}
+        onClick={locateUser}
+        title="Lewisham"
+        d="M829.021,566.77c0.2,0.6,0.4,1.201,0.5,1.801c0.101,1.102,0.101,2.102,0,3.203c-0.1,2.301-0.2,4.602,1.602,6.703
 		c1.301,1.502,3.002,2.002,4.503,2.402c1,0.301,1.901,0.6,2.602,1.1c1.801,1.201,2.401,2.902,2.301,5.705c-0.1,1.9-0.3,2-0.7,2.1
 		c-0.4,0.201-1.001,0.502-1.701,1.402c-2.602,3.602-0.9,5.803,0.7,7.904c0.501,0.6,0.901,1.201,1.401,1.9
 		c0.601,1.002,1.001,2.303,1.401,3.703c0.9,3.002,1.9,6.305,5.803,7.104c1.401,0.301,2.502,0.102,3.303-0.6
@@ -975,26 +944,26 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c2.602,0.5,5.304,0.9,7.104,0.1c1.701-0.799,2.302-2.5,2.902-4.002c0.6-1.5,1.101-2.902,2.501-3.602
 		c2.102-1.101,7.104-1.301,9.206-0.4c1.601,0.7,2.401,2.401,3.302,4.303c0.4,0.801,0.801,1.701,1.301,2.502
 		c1.001,1.701,2.401,3.301,3.803,5.002c1.601,1.801,3.202,3.703,4.202,5.703L829.021,566.77L829.021,566.77z"
-        ></path>
-        <text transform="matrix(1 0 0 1 786.8086 700.9634)" font-size="27.7821">
-          Lewisham
-        </text>
-        <path
-          fill="#74C69D"
-          fillOpacity="1"
-          fillRule="evenodd"
-          stroke="#000"
-          strokeDasharray="none"
-          strokeLinecap="butt"
-          strokeLinejoin="round"
-          strokeMiterlimit="4"
-          strokeOpacity="1"
-          strokeWidth="3.5"
-          borough="Southwark"
-          className={"Southwark" === userLocation ? "clicked" : null}
-          onClick={locateUser}
-          title="Southwark"
-          d="M690.836,512.136c2.602,4.604,0.8,11.308,0.3,13.309c-0.601,1.901-1.201,3.603-1.901,5.304
+      ></path>
+      <text transform="matrix(1 0 0 1 786.8086 700.9634)" fontSize="27.7821">
+        Lewisham
+      </text>
+      <path
+        fill="#74C69D"
+        fillOpacity="1"
+        fillRule="evenodd"
+        stroke="#000"
+        strokeDasharray="none"
+        strokeLinecap="butt"
+        strokeLinejoin="round"
+        strokeMiterlimit="4"
+        strokeOpacity="1"
+        strokeWidth="3.5"
+        borough="Southwark"
+        className={"Southwark" === userLocation ? "clicked" : null}
+        onClick={locateUser}
+        title="Southwark"
+        d="M690.836,512.136c2.602,4.604,0.8,11.308,0.3,13.309c-0.601,1.901-1.201,3.603-1.901,5.304
 		c-0.601,1.601-1.301,3.302-1.801,5.103c-0.9,3.103-1.201,5.504,0.7,7.805c1.801,2.202,6.004,4.903,7.305,5.604
 		c0.601,0.4,1.2,0.501,1.601,0.601c1.201,0.301,1.901,0.6,2.202,2.502c0.3,1.701-0.801,2.9-1.602,3.801
 		c-0.2,0.301-0.5,0.602-0.7,0.902l-0.101,0.199c-3.401,4.803-6.504,9.406-3.702,15.01c0.301,0.6,0.9,1.4,1.602,2.301
@@ -1020,29 +989,29 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c-4.503,4.903-9.105,10.007-16.01,10.707c-10.906,1.001-21.714-3.202-32.12-7.305c-4.503-1.801-8.705-3.402-13.008-4.703
 		c-2.502-0.7-4.803-1.601-7.005-2.401c-5.203-1.901-10.105-3.702-16.91-4.002c-5.504-0.301-11.707-0.4-16.91,1.301
 		C689.435,510.235,690.235,511.136,690.836,512.136L690.836,512.136z"
-        ></path>
-        <text
-          transform="matrix(0.3419 0.9397 -0.9397 0.3419 715.5693 538.3921)"
-          font-size="27.7891"
-        >
-          Southwark
-        </text>
-        <path
-          fill="#74C69D"
-          fillOpacity="1"
-          fillRule="evenodd"
-          stroke="#000"
-          strokeDasharray="none"
-          strokeLinecap="butt"
-          strokeLinejoin="round"
-          strokeMiterlimit="4"
-          strokeOpacity="1"
-          strokeWidth="3.5"
-          borough="Haringey"
-          className={"Haringey" === userLocation ? "clicked" : null}
-          onClick={locateUser}
-          title="Haringey"
-          d="M711.948,324.519c1.401-0.1,2.802-0.2,3.703-0.3c2.101-0.4,4.303-0.801,6.504-1.101c2.701-0.4,5.303-0.9,7.504-1.301
+      ></path>
+      <text
+        transform="matrix(0.3419 0.9397 -0.9397 0.3419 715.5693 538.3921)"
+        fontSize="27.7891"
+      >
+        Southwark
+      </text>
+      <path
+        fill="#74C69D"
+        fillOpacity="1"
+        fillRule="evenodd"
+        stroke="#000"
+        strokeDasharray="none"
+        strokeLinecap="butt"
+        strokeLinejoin="round"
+        strokeMiterlimit="4"
+        strokeOpacity="1"
+        strokeWidth="3.5"
+        borough="Haringey"
+        className={"Haringey" === userLocation ? "clicked" : null}
+        onClick={locateUser}
+        title="Haringey"
+        d="M711.948,324.519c1.401-0.1,2.802-0.2,3.703-0.3c2.101-0.4,4.303-0.801,6.504-1.101c2.701-0.4,5.303-0.9,7.504-1.301
 		c3.402-0.7,7.005-1.201,10.507-1.701c5.304-0.701,10.707-1.501,15.61-3.002c4.603-1.401,6.604-5.704,8.805-10.207
 		c1.301-2.702,2.702-5.503,4.604-7.805c2.001-2.401,4.303-5.203,5.804-8.605c1.4-3.002,0.9-4.703,0.2-7.104
 		c-0.301-1-0.701-2.201-0.901-3.602c-1.501-9.806,3.603-16.11,8.605-22.114c4.003-4.903,8.205-10.006,9.006-17.111
@@ -1066,26 +1035,26 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c2.002-0.1,4.003-2.201,5.203-3.802c0.701-0.9,0.901-1.501,1.101-2.301c0.2-0.601,0.301-1.201,0.801-2.001
 		c0.5-1,1.301-1.901,2.001-2.802c0.701-0.9,1.301-1.701,1.701-2.401c1.201-2.602,1.602-7.305-0.8-9.005l-0.501-0.4l0.301-0.601
 		C703.043,325.02,707.746,324.819,711.948,324.519z"
-        ></path>
-        <text transform="matrix(1 0 0 1 628.3643 289.9907)" font-size="27.7821">
-          Haringey
-        </text>
-        <path
-          fill="#74C69D"
-          fillOpacity="1"
-          fillRule="evenodd"
-          stroke="#000"
-          strokeDasharray="none"
-          strokeLinecap="butt"
-          strokeLinejoin="round"
-          strokeMiterlimit="4"
-          strokeOpacity="1"
-          strokeWidth="3.5"
-          borough="Lambeth"
-          className={"Lambeth" === userLocation ? "clicked" : null}
-          onClick={locateUser}
-          title="Lambeth"
-          d="M660.116,570.172c0.4,1.801-0.601,3.602-1.501,5.104c-0.5,0.801-0.9,1.602-1.101,2.301c-0.9,3.002-1.801,3.902-3.202,5.404
+      ></path>
+      <text transform="matrix(1 0 0 1 628.3643 289.9907)" fontSize="27.7821">
+        Haringey
+      </text>
+      <path
+        fill="#74C69D"
+        fillOpacity="1"
+        fillRule="evenodd"
+        stroke="#000"
+        strokeDasharray="none"
+        strokeLinecap="butt"
+        strokeLinejoin="round"
+        strokeMiterlimit="4"
+        strokeOpacity="1"
+        strokeWidth="3.5"
+        borough="Lambeth"
+        className={"Lambeth" === userLocation ? "clicked" : null}
+        onClick={locateUser}
+        title="Lambeth"
+        d="M660.116,570.172c0.4,1.801-0.601,3.602-1.501,5.104c-0.5,0.801-0.9,1.602-1.101,2.301c-0.9,3.002-1.801,3.902-3.202,5.404
 		c-0.4,0.4-0.8,0.9-1.4,1.4c-2.401,2.701-3.303,5.703-4.303,9.006c-0.601,2.102-1.301,4.303-2.302,6.404
 		c-1.501,3.102-3.803,4.703-6.304,6.604c-0.5,0.4-1.101,0.801-1.601,1.201c-5.004,3.803-10.007,8.205-13.909,12.408
 		c-4.103,4.402-3.402,8.205-2.401,13.008c0.2,1.199,0.5,2.5,0.7,3.801c0.801,5.604,1.601,12.008,2.001,18.012
@@ -1117,29 +1086,29 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c0.6-1.601,1.301-3.302,1.801-5.203c0.5-1.801,2.102-8.105-0.1-12.208c-0.901-1.601-2.302-2.602-4.103-3.102
 		c-3.002-0.801-5.704-0.4-8.105,1.301c-6.304,4.603-8.505,17.11-8.705,23.015c-0.101,1.4-0.101,2.701-0.2,4.002
 		c-0.2,4.903-0.301,9.506-0.9,14.209C667.521,552.362,666.12,566.069,660.116,570.172L660.116,570.172z"
-        ></path>
-        <text
-          transform="matrix(0.3419 0.9397 -0.9397 0.3419 650.7432 625.1978)"
-          font-size="27.7891"
-        >
-          Lambeth
-        </text>
-        <path
-          fill="#74C69D"
-          fillOpacity="1"
-          fillRule="evenodd"
-          stroke="#000"
-          strokeDasharray="none"
-          strokeLinecap="butt"
-          strokeLinejoin="round"
-          strokeMiterlimit="4"
-          strokeOpacity="1"
-          strokeWidth="3.5"
-          borough="Wandsworth"
-          className={"Wandsworth" === userLocation ? "clicked" : null}
-          onClick={locateUser}
-          title="Wandsworth"
-          d="M624.294,579.377c-4.703,0-9.306,0.102-13.809,0.801c-6.504,1.002-12.808,2.902-19.111,4.904
+      ></path>
+      <text
+        transform="matrix(0.3419 0.9397 -0.9397 0.3419 650.7432 625.1978)"
+        fontSize="27.7891"
+      >
+        Lambeth
+      </text>
+      <path
+        fill="#74C69D"
+        fillOpacity="1"
+        fillRule="evenodd"
+        stroke="#000"
+        strokeDasharray="none"
+        strokeLinecap="butt"
+        strokeLinejoin="round"
+        strokeMiterlimit="4"
+        strokeOpacity="1"
+        strokeWidth="3.5"
+        borough="Wandsworth"
+        className={"Wandsworth" === userLocation ? "clicked" : null}
+        onClick={locateUser}
+        title="Wandsworth"
+        d="M624.294,579.377c-4.703,0-9.306,0.102-13.809,0.801c-6.504,1.002-12.808,2.902-19.111,4.904
 		c-5.304,1.701-11.008,4.002-14.409,8.705c-3.103,4.303-4.604,10.307-5.804,15.609l-0.101,0.199
 		c-2.802,11.709-12.207,22.215-24.215,24.615c-6.304,1.301-13.408,1.201-19.612-0.4c-3.502-0.9-7.004-2.201-10.206-3.701
 		c-7.905-3.902-14.309-10.006-20.913-15.609c-0.601-0.5-1.701-2.002-2.401-2.303c-4.403-1.301-8.906-2.1-13.608-2
@@ -1169,26 +1138,26 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c1.001-2.002,1.602-4.104,2.202-6.205c1-3.303,2.001-6.703,4.603-9.605c0.5-0.602,1.001-1.102,1.401-1.502
 		c1.4-1.4,2.101-2.1,2.901-4.803c0.3-0.801,0.7-1.701,1.201-2.602c0.7-1.201,1.4-2.502,1.4-3.701c0,0.4-2.302,1.801-2.602,2.102
 		c-0.9,0.699-1.901,1.301-2.901,1.801C644.507,579.479,634.3,579.278,624.294,579.377L624.294,579.377z"
-        ></path>
-        <text transform="matrix(1 0 0 1 463.9053 670.0591)" font-size="27.7821">
-          Wandsworth
-        </text>
-        <path
-          fill="#74C69D"
-          fillOpacity="1"
-          fillRule="evenodd"
-          stroke="#000"
-          strokeDasharray="none"
-          strokeLinecap="butt"
-          strokeLinejoin="miter"
-          strokeMiterlimit="4"
-          strokeOpacity="1"
-          strokeWidth="3.5"
-          borough="Westminster"
-          className={"Westminster" === userLocation ? "clicked" : null}
-          onClick={locateUser}
-          title="Westminster"
-          d="M666.82,498.228c-0.4-1.101-0.7-2.102-1.301-2.901c-0.5-0.701-1.101-1.201-1.601-1.701c-0.4,0.399-0.801,0.8-1.101,1.301
+      ></path>
+      <text transform="matrix(1 0 0 1 463.9053 670.0591)" fontSize="27.7821">
+        Wandsworth
+      </text>
+      <path
+        fill="#74C69D"
+        fillOpacity="1"
+        fillRule="evenodd"
+        stroke="#000"
+        strokeDasharray="none"
+        strokeLinecap="butt"
+        strokeLinejoin="miter"
+        strokeMiterlimit="4"
+        strokeOpacity="1"
+        strokeWidth="3.5"
+        borough="Westminster"
+        className={"Westminster" === userLocation ? "clicked" : null}
+        onClick={locateUser}
+        title="Westminster"
+        d="M666.82,498.228c-0.4-1.101-0.7-2.102-1.301-2.901c-0.5-0.701-1.101-1.201-1.601-1.701c-0.4,0.399-0.801,0.8-1.101,1.301
 		c-1.401,1.801-2.802,3.401-6.604,2.301c-2.201-0.601-3.902-3.002-5.503-5.103c-0.501-0.601-0.901-1.301-1.401-1.802
 		c-2.001-2.301-4.903-4.803-7.805-7.104c-2.102-1.701-4.303-3.502-6.004-5.303c-2.802-2.802-4.202-4.604-6.404-7.805
 		c-0.9-1.401-2.101-2.202-3.502-3.103c-1.101-0.7-2.301-1.501-3.402-2.701c-3.602-3.702-5.403-10.407-6.904-15.811
@@ -1212,29 +1181,29 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c2.901,0,5.903,0,8.806-0.301c6.704-0.699,9.705-1.701,14.008-6.404c7.305-8.004,7.705-19.211,8.105-30.118l0.2-4.903
 		c0.2-5.203,0.4-10.606,1.701-15.41c1.4-5.003,4.503-6.604,7.805-8.305c0.9-0.5,1.901-1.001,2.802-1.601
 		c-1.201-0.101-2.302-0.4-3.102-0.801C668.021,501.729,667.421,499.929,666.82,498.228L666.82,498.228z"
-        ></path>
-        <text
-          transform="matrix(0.6429 0.7659 -0.7659 0.6429 554.6523 449.2964)"
-          font-size="24.6968"
-        >
-          Westminster
-        </text>
-        <path
-          fill="#74C69D"
-          fillOpacity="1"
-          fillRule="evenodd"
-          stroke="#000"
-          strokeDasharray="none"
-          strokeLinecap="butt"
-          strokeLinejoin="round"
-          strokeMiterlimit="4"
-          strokeOpacity="1"
-          strokeWidth="3.5"
-          borough="Camden"
-          className={"Camden" === userLocation ? "clicked" : null}
-          onClick={locateUser}
-          title="Camden"
-          d="M667.221,482.317c2.102-1,6.204-1,10.507-0.9c4.803,0.101,10.206,0.2,11.407-1.501c1.101-1.501-1.701-8.305-3.303-9.806
+      ></path>
+      <text
+        transform="matrix(0.6429 0.7659 -0.7659 0.6429 554.6523 449.2964)"
+        fontSize="24.6968"
+      >
+        Westminster
+      </text>
+      <path
+        fill="#74C69D"
+        fillOpacity="1"
+        fillRule="evenodd"
+        stroke="#000"
+        strokeDasharray="none"
+        strokeLinecap="butt"
+        strokeLinejoin="round"
+        strokeMiterlimit="4"
+        strokeOpacity="1"
+        strokeWidth="3.5"
+        borough="Camden"
+        className={"Camden" === userLocation ? "clicked" : null}
+        onClick={locateUser}
+        title="Camden"
+        d="M667.221,482.317c2.102-1,6.204-1,10.507-0.9c4.803,0.101,10.206,0.2,11.407-1.501c1.101-1.501-1.701-8.305-3.303-9.806
 		c-1.301-1.201-2.301-1.802-3.202-2.401c-1.9-1.201-3.201-2.102-4.902-5.604c-0.801-1.701-2.002-3.002-3.202-4.303
 		c-1.101-1.201-2.201-2.402-3.102-4.003c-0.501-1.001-0.501-1.901-0.4-2.602c0.1-0.9,0.1-1.4-0.801-2.201
 		c-0.801-0.601-1.701-0.601-2.802-0.501c-1.001,0.101-2.001,0.2-2.902-0.3c-4.002-1.801-4.202-7.905-4.502-13.809
@@ -1258,27 +1227,26 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c2.902,2.401,5.904,4.903,8.005,7.305c0.4,0.501,0.901,1.201,1.401,1.802c1.4,1.9,3.002,4.103,4.703,4.603
 		c2.802,0.801,3.702-0.2,5.003-1.801c0.3-0.4,0.7-0.901,1.101-1.301c-1.4-1.302-2.001-2.502-0.4-5.704
 		C663.418,485.22,665.319,483.218,667.221,482.317L667.221,482.317z"
-        ></path>
-        <text transform="matrix(1 0 0 1 534.3428 407.5103)" font-size="27.7821">
-          Camden
-        </text>
-
-        <path
-          fill="#74C69D"
-          fillOpacity="1"
-          fillRule="evenodd"
-          stroke="#000"
-          strokeDasharray="none"
-          strokeLinecap="butt"
-          strokeLinejoin="round"
-          strokeMiterlimit="4"
-          strokeOpacity="1"
-          strokeWidth="3.5"
-          borough="Barnet"
-          className={"Barnet" === userLocation ? "clicked" : null}
-          onClick={locateUser}
-          title="Barnet"
-          d="M352.425,184.232c0.9,0.7,1.801,1.301,2.602,1.901c2.602,1.801,5.103,3.502,6.904,6.504c1,1.601,1.901,3.502,2.701,5.303
+      ></path>
+      <text transform="matrix(1 0 0 1 534.3428 407.5103)" fontSize="27.7821">
+        Camden
+      </text>
+      <path
+        fill="#74C69D"
+        fillOpacity="1"
+        fillRule="evenodd"
+        stroke="#000"
+        strokeDasharray="none"
+        strokeLinecap="butt"
+        strokeLinejoin="round"
+        strokeMiterlimit="4"
+        strokeOpacity="1"
+        strokeWidth="3.5"
+        borough="Barnet"
+        className={"Barnet" === userLocation ? "clicked" : null}
+        onClick={locateUser}
+        title="Barnet"
+        d="M352.425,184.232c0.9,0.7,1.801,1.301,2.602,1.901c2.602,1.801,5.103,3.502,6.904,6.504c1,1.601,1.901,3.502,2.701,5.303
 		c0.801,1.601,1.602,3.202,2.402,4.703c1.4,2.402,3.502,4.603,5.703,7.004c1.901,2.001,3.902,4.103,5.403,6.404
 		c2.201,3.102,4.703,5.804,7.404,8.505c1.602,1.701,3.303,3.402,4.903,5.303c2.602,3.002,4.603,6.404,6.504,9.806
 		c1.501,2.501,2.802,4.903,4.403,7.004c1,1.401,2.301,2.901,3.602,4.502c3.402,4.203,7.005,8.505,8.405,13.008l0.2,0.601l0,0
@@ -1319,29 +1287,26 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c-1.401,1.301-2.202,2.702-2.902,4.103c-1.2,2.102-2.401,4.203-5.403,5.804c-3.603,1.901-9.006,3.402-13.208,3.802
 		c-3.103,0.3-5.203,1.101-7.405,1.901c-1.501,0.601-3.102,1.101-5.003,1.601c-4.603,1-16.91,1.101-21.813-2.001
 		c0,0.701,0,1.401,0,2.202C345.22,172.925,346.421,179.729,352.425,184.232L352.425,184.232z"
-        ></path>
-        <text transform="matrix(1 0 0 1 472.6719 226.7778)" font-size="27.7821">
-          Barnet
-        </text>
-
-        <path
-          fill="#74C69D"
-          fillOpacity="1"
-          fillRule="evenodd"
-          stroke="#000"
-          strokeDasharray="none"
-          strokeLinecap="butt"
-          strokeLinejoin="round"
-          strokeMiterlimit="4"
-          strokeOpacity="1"
-          strokeWidth="3.5"
-          borough="Kensington and Chelsea"
-          className={
-            "Kensington and Chelsea" === userLocation ? "clicked" : null
-          }
-          onClick={locateUser}
-          title="Kensington and Chelsea"
-          d="M617.99,571.374c-4.603-4.303-8.105-10.508-9.506-17.512c-0.501-2.301-0.601-4.502-0.601-6.804c0-1.2-0.1-2.501-0.2-3.802 
+      ></path>
+      <text transform="matrix(1 0 0 1 472.6719 226.7778)" fontSize="27.7821">
+        Barnet
+      </text>
+      <path
+        fill="#74C69D"
+        fillOpacity="1"
+        fillRule="evenodd"
+        stroke="#000"
+        strokeDasharray="none"
+        strokeLinecap="butt"
+        strokeLinejoin="round"
+        strokeMiterlimit="4"
+        strokeOpacity="1"
+        strokeWidth="3.5"
+        borough="Kensington and Chelsea"
+        className={"Kensington and Chelsea" === userLocation ? "clicked" : null}
+        onClick={locateUser}
+        title="Kensington and Chelsea"
+        d="M617.99,571.374c-4.603-4.303-8.105-10.508-9.506-17.512c-0.501-2.301-0.601-4.502-0.601-6.804c0-1.2-0.1-2.501-0.2-3.802 
 		c-0.4-4.903-1.601-7.705-3.502-11.808c-0.301-0.601-0.501-1.301-0.9-2.001c-1.101-2.702-2.602-6.404-4.903-7.005
 		c-1.101-0.3-2.502,0.101-4.003,1.301c-1.2,0.9-2.401,3.002-3.401,4.804c-0.601,1.101-1.201,2.101-1.802,2.802
 		c-2.302,3.102-3.603,3.902-7.305,5.403c-7.404,3.002-14.209,2.101-19.212-2.302c-4.002-3.603-7.705-12.708-8.905-17.711
@@ -1358,31 +1323,29 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c4.902,5.303,10.506,11.306,12.308,16.71c8.305,3.303,13.308,10.707,18.312,17.91c1,1.402,1.9,2.803,2.901,4.104
 		c2.502,3.502,5.304,5.904,8.205,8.506c0.9,0.799,1.801,1.6,2.802,2.5c0.9,0.801,1.601,1.502,2.201,2.203
 		c2.802-6.605,9.306-11.709,19.713-15.51C584.869,578.077,601.68,572.073,617.99,571.374L617.99,571.374z"
-        ></path>
-        <text
-          transform="matrix(0.6429 0.7659 -0.7659 0.6429 502.5781 489.1899)"
-          font-size="18.5226"
-        >
-          Ken &amp; Chelsea
-        </text>
-        <path
-          fill="#74C69D"
-          fillOpacity="1"
-          fillRule="evenodd"
-          stroke="#000"
-          strokeDasharray="none"
-          strokeLinecap="butt"
-          strokeLinejoin="round"
-          strokeMiterlimit="4"
-          strokeOpacity="1"
-          strokeWidth="3.5"
-          borough="Hammersmith and Fulham"
-          className={
-            "Hammersmith and Fulham" === userLocation ? "clicked" : null
-          }
-          onClick={locateUser}
-          title="Hammersmith and Fulham"
-          d="M492.111,582.78c0.101,3.303,0.801,6.604,1.602,9.807c1.801,7.305,5.403,14.709,10.807,20.113
+      ></path>
+      <text
+        transform="matrix(0.6429 0.7659 -0.7659 0.6429 502.5781 489.1899)"
+        fontSize="18.5226"
+      >
+        Ken &amp; Chelsea
+      </text>
+      <path
+        fill="#74C69D"
+        fillOpacity="1"
+        fillRule="evenodd"
+        stroke="#000"
+        strokeDasharray="none"
+        strokeLinecap="butt"
+        strokeLinejoin="round"
+        strokeMiterlimit="4"
+        strokeOpacity="1"
+        strokeWidth="3.5"
+        borough="Hammersmith and Fulham"
+        className={"Hammersmith and Fulham" === userLocation ? "clicked" : null}
+        onClick={locateUser}
+        title="Hammersmith and Fulham"
+        d="M492.111,582.78c0.101,3.303,0.801,6.604,1.602,9.807c1.801,7.305,5.403,14.709,10.807,20.113
 		c2.301,2.301,4.803,4.201,7.604,5.902c5.203,3.203,11.007,5.504,16.91,7.004c2.802,0.701,5.604,1.301,8.506,1.602
 		c2.602,0.301,5.203,0.4,7.705,0.1c8.905-1.1,14.208-7.504,17.21-15.51c0.701-2,1.301-4.102,1.802-6.203
 		c0.6-2.602,2.001-5.803,1.301-8.506c-0.2-0.699-0.4-1.301-0.9-1.9c-0.601-0.801-1.401-1.602-2.602-2.701
@@ -1400,35 +1363,35 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c3.002-0.1,3.603,2.602,3.902,4.503c0.2,1.101,0.5,2.201,0.801,3.202c0.7,3.002,1.501,6.104,1.501,9.307
 		c0,1.301-0.101,2.5-0.301,3.602c1.701-1.4,3.603-2.502,5.004-2.902c5.203-1.5,9.506-1.1,14.608,1.502
 		C477.202,561.467,491.511,567.77,492.111,582.78z"
-        ></path>
-        <text
-          transform="matrix(0.6429 0.7659 -0.7659 0.6429 466.2227 510.1382)"
-          font-size="18.5226"
-        >
-          Hammersmith
-        </text>
-        <text
-          transform="matrix(0.6429 0.7659 -0.7659 0.6429 453.8076 520.5571)"
-          font-size="18.5226"
-        >
-          &amp; Fulham
-        </text>
-        <path
-          fill="#74C69D"
-          fillOpacity="1"
-          fillRule="evenodd"
-          stroke="#000"
-          strokeDasharray="none"
-          strokeLinecap="butt"
-          strokeLinejoin="round"
-          strokeMiterlimit="4"
-          strokeOpacity="1"
-          strokeWidth="3.5"
-          borough="Brent"
-          className={"Brent" === userLocation ? "clicked" : null}
-          onClick={locateUser}
-          title="Brent"
-          d="M508.722,445.995c1.001-0.301,2.002-0.7,3.002-1.001c3.103-1.101,6.304-2.301,9.906-2.102
+      ></path>
+      <text
+        transform="matrix(0.6429 0.7659 -0.7659 0.6429 466.2227 510.1382)"
+        fontSize="18.5226"
+      >
+        Hammersmith
+      </text>
+      <text
+        transform="matrix(0.6429 0.7659 -0.7659 0.6429 453.8076 520.5571)"
+        fontSize="18.5226"
+      >
+        &amp; Fulham
+      </text>
+      <path
+        fill="#74C69D"
+        fillOpacity="1"
+        fillRule="evenodd"
+        stroke="#000"
+        strokeDasharray="none"
+        strokeLinecap="butt"
+        strokeLinejoin="round"
+        strokeMiterlimit="4"
+        strokeOpacity="1"
+        strokeWidth="3.5"
+        borough="Brent"
+        className={"Brent" === userLocation ? "clicked" : null}
+        onClick={locateUser}
+        title="Brent"
+        d="M508.722,445.995c1.001-0.301,2.002-0.7,3.002-1.001c3.103-1.101,6.304-2.301,9.906-2.102
 		c5.804,0.4,12.208,7.405,14.309,13.409c0.4-1.001,0.901-2.002,1.401-3.002c0.9-1.802,1.901-3.603,2.201-5.403
 		c0.601-3.503,1.001-7.905,1.001-11.607c-0.101-4.903-4.203-8.706-8.205-12.408c-1.801-1.601-3.502-3.202-4.803-4.803
 		c-2.402-2.901-4.003-6.004-5.704-9.006c-1.4-2.602-2.901-5.303-4.803-7.805c-1.301-1.801-3.002-3.702-4.703-5.803
@@ -1463,27 +1426,26 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c2.102,0.9,4.903,0.301,7.604-0.3c1.501-0.301,3.002-0.701,4.303-0.701c4.403-0.199,8.105-0.1,11.907,1.401
 		c1.001,0.4,1.901,0.7,2.902,1.101l0.7-0.3c0.1,0.2,0.2,0.4,0.3,0.7c6.404,2.102,13.409,3.803,20.313,4.903
 		C501.617,450.298,503.519,447.596,508.722,445.995z"
-        ></path>
-        <text transform="matrix(1 0 0 1 363.6064 390.8687)" font-size="27.7821">
-          Brent
-        </text>
-
-        <path
-          fill="#74C69D"
-          fillOpacity="1"
-          fillRule="evenodd"
-          stroke="#000"
-          strokeDasharray="none"
-          strokeLinecap="butt"
-          strokeLinejoin="round"
-          strokeMiterlimit="4"
-          strokeOpacity="1"
-          strokeWidth="3.5"
-          borough="Harrow"
-          className={"Harrow" === userLocation ? "clicked" : null}
-          onClick={locateUser}
-          title="Harrow"
-          d="M178.358,250.415c0.125,2.16,0.23,4.166,0.54,6.129c0.958,6.403,2.933,12.268,4.938,18.517
+      ></path>
+      <text transform="matrix(1 0 0 1 363.6064 390.8687)" fontSize="27.7821">
+        Brent
+      </text>
+      <path
+        fill="#74C69D"
+        fillOpacity="1"
+        fillRule="evenodd"
+        stroke="#000"
+        strokeDasharray="none"
+        strokeLinecap="butt"
+        strokeLinejoin="round"
+        strokeMiterlimit="4"
+        strokeOpacity="1"
+        strokeWidth="3.5"
+        borough="Harrow"
+        className={"Harrow" === userLocation ? "clicked" : null}
+        onClick={locateUser}
+        title="Harrow"
+        d="M178.358,250.415c0.125,2.16,0.23,4.166,0.54,6.129c0.958,6.403,2.933,12.268,4.938,18.517
 		c1.655,5.016,3.395,10.184,4.475,15.561c0.414,2.006,0.617,4.088,0.85,6.103c0.463,4.088,0.925,8.41,2.932,12.035
 		c1.147,2.083,2.314,3.318,3.626,4.565c1.148,1.158,2.314,2.314,3.55,4.202c0.859,1.312,1.234,3.241,1.62,5.17
 		c0.279,1.389,0.541,2.623,0.926,3.642c2.565,6.251,4.321,12.577,6.019,18.694c1.287,4.629,2.623,9.334,4.244,13.964
@@ -1515,26 +1477,26 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c-1.484,0.298-2.891,0.579-4.269,1.254c-1.217,0.595-2.141,1.445-3.035,2.268c-1.14,1.051-2.321,2.138-4.071,2.701
 		c-2.472,0.769-4.937,1.036-7.322,1.299c-3.505,0.384-6.812,0.747-9.877,2.606c-3.906,2.369-10.426,4.859-16.622,4.707
 		c0.641,0.926,1.234,2.159,1.774,3.702c1.525,3.173,1.77,7.108,2,10.86L178.358,250.415L178.358,250.415z"
-        ></path>
-        <text transform="matrix(1 0 0 1 237.2969 281.2759)" font-size="27.7773">
-          Harrow
-        </text>
-        <path
-          fill="#74C69D"
-          fillOpacity="1"
-          fillRule="evenodd"
-          stroke="#000"
-          strokeDasharray="none"
-          strokeLinecap="butt"
-          strokeLinejoin="miter"
-          strokeMiterlimit="4"
-          strokeOpacity="1"
-          strokeWidth="3.5"
-          borough="Richmond upon Thames"
-          className={"Richmond upon Thames" === userLocation ? "clicked" : null}
-          onClick={locateUser}
-          title="Richmond upon Thames"
-          d="M470.098,565.069c-1.601-0.1-3.202,0.1-5.103,0.701c-8.605,2.902-15.01,14.508-16.711,22.814
+      ></path>
+      <text transform="matrix(1 0 0 1 237.2969 281.2759)" fontSize="27.7773">
+        Harrow
+      </text>
+      <path
+        fill="#74C69D"
+        fillOpacity="1"
+        fillRule="evenodd"
+        stroke="#000"
+        strokeDasharray="none"
+        strokeLinecap="butt"
+        strokeLinejoin="miter"
+        strokeMiterlimit="4"
+        strokeOpacity="1"
+        strokeWidth="3.5"
+        borough="Richmond upon Thames"
+        className={"Richmond upon Thames" === userLocation ? "clicked" : null}
+        onClick={locateUser}
+        title="Richmond upon Thames"
+        d="M470.098,565.069c-1.601-0.1-3.202,0.1-5.103,0.701c-8.605,2.902-15.01,14.508-16.711,22.814
 		c-0.9,4.402-0.801,8.904-1.801,13.307c-2.602,11.309-12.908,20.113-25.016,17.812c-11.407-2.102-18.012-14.209-22.314-23.814
 		c-0.5-1.102-1-2.303-1.601-3.504c-0.3-0.6-0.5-1.1-0.801-1.699c-2.001-4.404-3.802-8.605-8.104-10.809
 		c-5.203-2.701-10.807-2.602-14.909,0.301c-0.801,0.602-1.802,1.502-2.802,2.502l-12.208,16.91
@@ -1581,26 +1543,26 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c3.402,0.301,7.004,0.801,10.406,1.201c4.103,0.5,8.306,1,12.408,1.4c0.1-3.002,0.1-6.104,0.1-9.105c0-3.203-0.1-6.604,0.101-9.906
 		v-0.701h0.7c4.303-0.199,8.505,0.301,12.607,1.402c-1.9-2.402-3.201-5.104-4.103-8.707c-1-3.902-1.2-7.604-1.501-11.307
 		c-0.5-7.004-1-13.607-6.304-19.713C478.203,568.471,474.801,565.469,470.098,565.069L470.098,565.069z"
-        ></path>
-        <text transform="matrix(1 0 0 1 272.3438 708.1187)" font-size="27.7821">
-          Richmond
-        </text>
-        <path
-          fill="#74C69D"
-          fillOpacity="1"
-          fillRule="evenodd"
-          stroke="#000"
-          strokeDasharray="none"
-          strokeLinecap="butt"
-          strokeLinejoin="round"
-          strokeMiterlimit="4"
-          strokeOpacity="1"
-          strokeWidth="3.5"
-          borough="Hounslow"
-          className={"Hounslow" === userLocation ? "clicked" : null}
-          onClick={locateUser}
-          title="Hounslow"
-          d="M443.882,584.782c-1.001,7.004-0.2,14.809-4.403,20.912c-4.503,6.404-12.407,9.207-19.612,5.904
+      ></path>
+      <text transform="matrix(1 0 0 1 272.3438 708.1187)" fontSize="27.7821">
+        Richmond
+      </text>
+      <path
+        fill="#74C69D"
+        fillOpacity="1"
+        fillRule="evenodd"
+        stroke="#000"
+        strokeDasharray="none"
+        strokeLinecap="butt"
+        strokeLinejoin="round"
+        strokeMiterlimit="4"
+        strokeOpacity="1"
+        strokeWidth="3.5"
+        borough="Hounslow"
+        className={"Hounslow" === userLocation ? "clicked" : null}
+        onClick={locateUser}
+        title="Hounslow"
+        d="M443.882,584.782c-1.001,7.004-0.2,14.809-4.403,20.912c-4.503,6.404-12.407,9.207-19.612,5.904
 		c-1.801-0.801-3.902-1.9-5.403-3.201c-9.906-8.406-10.106-23.816-20.713-31.42c-8.605-6.205-22.614-4.402-28.718,4.402
 		c-1.601,2.301-3.102,4.703-4.603,7.104c-4.003,6.305-8.105,12.809-13.809,17.711c-2.102,1.803-4.703,3.303-7.405,4.805
 		c-4.202,2.4-8.604,4.902-11.106,8.805c-1.301,2.102-1.301,4.402-1.301,6.604c0,1.402,0,2.803-0.3,4.104l-0.4,1.201
@@ -1652,26 +1614,26 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c0.4-0.2,0.801-0.4,1.601-0.4h0.101c1.501,0,1.901,1.301,2.302,3.402c0.199,1.101,0.5,2.102,0.7,3.202
 		c0.7,2.902,1.4,5.904,1.4,8.906c0,2.201-0.3,4.002-0.9,5.703c-0.1,0.199-0.9,0.6-1.001,0.801
 		C448.685,570.874,444.982,577.176,443.882,584.782L443.882,584.782z"
-        ></path>
-        <text transform="matrix(1 0 0 1 186.8818 617.4614)" font-size="27.7821">
-          Hounslow
-        </text>
-        <path
-          fill="#74C69D"
-          fillOpacity="1"
-          fillRule="evenodd"
-          stroke="#000"
-          strokeDasharray="none"
-          strokeLinecap="butt"
-          strokeLinejoin="round"
-          strokeMiterlimit="4"
-          strokeOpacity="1"
-          strokeWidth="3.5"
-          borough="Hillingdon"
-          className={"Hillingdon" === userLocation ? "clicked" : null}
-          onClick={locateUser}
-          title="Hillingdon"
-          d="M92.863,663.03c0.5,0.201,0.9,0.4,1.401,0.701c1.401,0.699,2.802,1.301,4.303,2c5.704,2.402,11.007,4.703,17.411,4.404
+      ></path>
+      <text transform="matrix(1 0 0 1 186.8818 617.4614)" fontSize="27.7821">
+        Hounslow
+      </text>
+      <path
+        fill="#74C69D"
+        fillOpacity="1"
+        fillRule="evenodd"
+        stroke="#000"
+        strokeDasharray="none"
+        strokeLinecap="butt"
+        strokeLinejoin="round"
+        strokeMiterlimit="4"
+        strokeOpacity="1"
+        strokeWidth="3.5"
+        borough="Hillingdon"
+        className={"Hillingdon" === userLocation ? "clicked" : null}
+        onClick={locateUser}
+        title="Hillingdon"
+        d="M92.863,663.03c0.5,0.201,0.9,0.4,1.401,0.701c1.401,0.699,2.802,1.301,4.303,2c5.704,2.402,11.007,4.703,17.411,4.404
 		c8.005-0.4,8.805-2.902,10.807-9.607l0.3-1c3.502-11.307,16.511-19.912,25.916-26.217c0.7-0.4,1.801-1.1,3.202-1.9
 		c3.702-2.002,11.307-6.305,11.407-8.406c0.1-1.701-0.801-2.4-2.401-3.602c-1.001-0.701-2.102-1.602-2.802-2.801
 		c-1.201-2.303-1.401-6.504-1.501-9.207v-0.699c-0.601-12.709,2.201-21.215,5.604-32.121l0.601-1.9c0.9-2.902,1-6.104,1.101-9.506
@@ -1711,26 +1673,26 @@ export default function LondonMap({ userLocation, setUserLocation }) {
 		c5.303,3.502,9.005,4.502,15.61,4.502h0.4c6.604,0,8.706,1.502,12.208,4.002c0.901,0.701,1.901,1.402,3.202,2.203
 		c4.103,2.701,7.805,3.102,12.208,3.701c1.001,0.1,2.102,0.301,3.202,0.4c3.502,0.5,6.304,1.602,9.105,2.902L92.863,663.03
 		L92.863,663.03z"
-        ></path>
-        <text transform="matrix(1 0 0 1 64.1763 361.4897)" font-size="27.7821">
-          Hillingdon
-        </text>
-        <path
-          fill="#74C69D"
-          fillOpacity="1"
-          fillRule="evenodd"
-          stroke="#000"
-          strokeDasharray="none"
-          strokeLinecap="butt"
-          strokeLinejoin="round"
-          strokeMiterlimit="4"
-          strokeOpacity="1"
-          strokeWidth="3.5"
-          borough="Ealing"
-          className={"Ealing" === userLocation ? "clicked" : null}
-          onClick={locateUser}
-          title="Ealing"
-          d="M179.417,543.155c4.503,2.201,9.605,4.303,14.909,6.004c2.501,0.8,4.603,1.701,6.704,2.501
+      ></path>
+      <text transform="matrix(1 0 0 1 64.1763 361.4897)" fontSize="27.7821">
+        Hillingdon
+      </text>
+      <path
+        fill="#74C69D"
+        fillOpacity="1"
+        fillRule="evenodd"
+        stroke="#000"
+        strokeDasharray="none"
+        strokeLinecap="butt"
+        strokeLinejoin="round"
+        strokeMiterlimit="4"
+        strokeOpacity="1"
+        strokeWidth="3.5"
+        borough="Ealing"
+        className={"Ealing" === userLocation ? "clicked" : null}
+        onClick={locateUser}
+        title="Ealing"
+        d="M179.417,543.155c4.503,2.201,9.605,4.303,14.909,6.004c2.501,0.8,4.603,1.701,6.704,2.501
           c4.202,1.701,8.104,3.402,13.809,3.602h0.9c2.602,0.102,5.903,0.301,8.205-0.299c0.5-0.1,1.201-0.602,1.801-1.002
           c0.701-0.5,1.301-0.9,1.901-1.1c3.503-0.9,4.503,1.1,5.504,3.303c0.4,0.699,0.7,1.5,1.2,2.301c3.503,5.303,5.604,6.404,6.904,6.404
           c2.202-0.102,6.504-3.502,9.706-6.004c1.401-1.102,2.702-2.102,3.603-2.701c1.801-1.201,3.603-2.602,5.203-3.904
@@ -1767,23 +1729,23 @@ export default function LondonMap({ userLocation, setUserLocation }) {
           l0.1,0.501c2.102,10.906-4.903,20.112-11.707,29.018c-3.502,4.604-6.904,9.006-8.806,13.408c-1.101,2.502-1.801,4.604-2.401,6.705
           c-1.401,4.702-2.702,8.805-8.405,13.308c-6.404,5.003-10.807,9.406-16.311,15.41c-0.3,0.3-0.5,0.6-0.8,0.8L179.417,543.155
           L179.417,543.155z"
-        ></path>
-        <text transform="matrix(1 0 0 1 264.8262 484.7241)" font-size="27.7821">
-          Ealing
-        </text>
-        <path
-          fill="none"
-          fillOpacity="1"
-          fillRule="evenodd"
-          stroke="#00000"
-          strokeDasharray="none"
-          strokeLinecap="butt"
-          strokeLinejoin="round"
-          strokeMiterlimit="4"
-          strokeOpacity="1"
-          strokeWidth="6.2"
-          d="M17.542 126.403l41.753 32.01 13.918-12.525 45.928 11.134 80.722-30.62 16.702-20.876 16.7 8.35 50.104-12.525 8.35-27.835 22.27-1.392 30.618-19.485 23.66-4.175 20.876-29.227 80.723-11.134 89.073 16.7 4.175 52.888 30.619 16.701 11.134 23.66 27.835 25.052 47.32 16.701 4.176-18.093 44.536-19.484h38.97l64.021-13.918 41.753 32.01-6.959 16.702 12.526 2.783 25.052 64.021 27.835-1.391 26.444 40.36-77.895 21.388-1.968 26.571-18.698-17.714-38.381 76.762 8.857 7.873-13.778 35.429-56.095 64.952 8.857 59.048-10.825 5.904-14.762 81.683-16.73.984-1.969 24.603-34.444 25.588 10.825 36.412-55.11 10.826-15.747-19.683-20.666 21.65-16.73-62-27.556-17.713-27.556 16.73-.984 9.841-41.333 11.81-.984 11.81-36.413 46.253-23.619-19.683-18.698-6.888-3.937-34.445-44.286-36.413-19.682 25.588-19.683-12.794 12.794-19.682-21.65-36.413-9.842 3.936v-31.492l-13.778 4.921-27.555 21.65L245.72 655.2l-23.62 17.714-6.634-6.727-3.207-34.606 18.699-40.35 8.857-8.857-10.826-22.634-8.857-.985-41.333-32.476-32.476-2.952-5.905-19.683h-12.794l-14.762-16.73-15.746 5.905-23.619-12.794-7.873-35.428L9.53 418.024l23.62-64.952-12.794-60.032 18.698-31.492-22.635-84.635 1.124-50.51z"
-        ></path>
-      </SC.SVG>
+      ></path>
+      <text transform="matrix(1 0 0 1 264.8262 484.7241)" fontSize="27.7821">
+        Ealing
+      </text>
+      <path
+        fill="none"
+        fillOpacity="1"
+        fillRule="evenodd"
+        stroke="#00000"
+        strokeDasharray="none"
+        strokeLinecap="butt"
+        strokeLinejoin="round"
+        strokeMiterlimit="4"
+        strokeOpacity="1"
+        strokeWidth="6.2"
+        d="M17.542 126.403l41.753 32.01 13.918-12.525 45.928 11.134 80.722-30.62 16.702-20.876 16.7 8.35 50.104-12.525 8.35-27.835 22.27-1.392 30.618-19.485 23.66-4.175 20.876-29.227 80.723-11.134 89.073 16.7 4.175 52.888 30.619 16.701 11.134 23.66 27.835 25.052 47.32 16.701 4.176-18.093 44.536-19.484h38.97l64.021-13.918 41.753 32.01-6.959 16.702 12.526 2.783 25.052 64.021 27.835-1.391 26.444 40.36-77.895 21.388-1.968 26.571-18.698-17.714-38.381 76.762 8.857 7.873-13.778 35.429-56.095 64.952 8.857 59.048-10.825 5.904-14.762 81.683-16.73.984-1.969 24.603-34.444 25.588 10.825 36.412-55.11 10.826-15.747-19.683-20.666 21.65-16.73-62-27.556-17.713-27.556 16.73-.984 9.841-41.333 11.81-.984 11.81-36.413 46.253-23.619-19.683-18.698-6.888-3.937-34.445-44.286-36.413-19.682 25.588-19.683-12.794 12.794-19.682-21.65-36.413-9.842 3.936v-31.492l-13.778 4.921-27.555 21.65L245.72 655.2l-23.62 17.714-6.634-6.727-3.207-34.606 18.699-40.35 8.857-8.857-10.826-22.634-8.857-.985-41.333-32.476-32.476-2.952-5.905-19.683h-12.794l-14.762-16.73-15.746 5.905-23.619-12.794-7.873-35.428L9.53 418.024l23.62-64.952-12.794-60.032 18.698-31.492-22.635-84.635 1.124-50.51z"
+      ></path>
+    </SC.SVG>
   );
 }

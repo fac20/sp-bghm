@@ -22,8 +22,9 @@ export const Span = styled.span`
 `;
 
 export const Button = styled.button`
-  background-color: var(--mid-dark-green);
-  border: 3px solid var(--light-green);
+  margin: 1rem auto;
+  background-color: var(--very-dark-green);
+  border: 1px;
   color: var(--very-light-green);
   font-weight: bold;
   font: inherit;

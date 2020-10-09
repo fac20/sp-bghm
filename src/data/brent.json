@@ -1,0 +1,13 @@
+[
+  { "Recycling": "Black with blue top recycling bin | Collected once a week" },
+  { "Rubbish": "Usually grey | Collected once every 2 weeks" },
+  { "Food waste recycling": "Green outdoor caddy | Collected once a week" },
+  { "Recycling": "Black communal bin" },
+  { "Recycling": "Blue communal bin" },
+  { "Rubbish ": "Black communal bin" },
+  { "Food waste recycling": "Black metal housing unit" },
+  { "Food waste recycling": "Brown wheelie bin" },
+  { "Recycling": "Clear sacks | Collection frequency varies" },
+  { "Rubbish": "Black bin bags | Collection frequency varies" },
+  { "Sorry, no food waste recycling": null }
+]

@@ -15,13 +15,25 @@ async function getInfo(borough) {
 
   await page.goto(`https://londonrecycles.co.uk/boroughs/${borough}/`);
   //   close the popup
-  await page.click("#cookie-dismiss");
+  // await page.click("#cookie-dismiss");
 
   // collect recycling info from page
-  const recyclingInformation = await page.$$eval(".slider", (nodeList) =>
-    nodeList.map((slide) =>
-      slide.textContent.replace(/\t/g, "").replace(/\n+/g, "/\n/")
-    )
+  const recyclingInformation = await page.$$eval(
+    ".item--bin", //.item__content__copy
+    (nodeList) =>
+      //Nodelist - contains a list of all the ".item__content__copy"s
+      nodeList.map(
+        (node) => {
+          const category = node.querySelector("h3");
+          const categoryText = category ? category.textContent : null;
+          const bin = node.querySelector("p");
+          const binText = bin
+            ? bin.textContent
+            : `There aren't yet any provided bins for ${categoryText} `;
+          return { [categoryText]: binText };
+        }
+        // node.textContent.replace(/\t/g, "").replace(/\n+/g, "/\n/")
+      )
   );
 
   // create string from colected data
@@ -29,12 +41,7 @@ async function getInfo(borough) {
   const infoForBorough = JSON.stringify(recyclingInformation);
 
   // write recycling information into a text file
-  fs.writeFile(
-    `./data-scraping/data/${borough}.txt`,
-    infoForBorough,
-    "utf8",
-    () => {}
-  );
+  fs.writeFile(`./src/data/${borough}.json`, infoForBorough, () => {});
 
   browser.close();
 }
