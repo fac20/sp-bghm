@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const Title = styled.h3`
   display: inline-block;
-  letter-spacing: .15em;
-  padding: 20vh 15px 20px; //to space out the underline
+  letter-spacing: 0.15em;
+  padding: 7rem 4em 1em; //to space out the underline
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
@@ -32,13 +32,9 @@ export const Title = styled.h3`
   }
 `;
 export const Section = styled.section`
-  letter-spacing: 2rem;
   text-align: center;
-
 `;
 export const Article = styled.article`
-  letter-spacing: 1rem;
-  line-height: 8rem;
   margin: 0 auto;
   padding: 0 2rem;
 `;

@@ -1,6 +1,6 @@
 import React from "react";
-import PostcodeForm from "../../PostcodeForm/PostcodeForm.jsx";
-import LondonMap from "../../LondonMap/LondonMap.jsx";
+import PostcodeForm from "../../components/PostcodeForm/PostcodeForm.jsx";
+import LondonMap from "../../components/LondonMap/LondonMap.jsx";
 import { useHistory } from "react-router-dom";
 import * as SC from "./Location.styles.jsx";
 
@@ -16,8 +16,8 @@ export default function Location() {
       <SC.LocationCheck hidden={userLocation}>
         <SC.InstructionArticle>
           <p>
-            For ethical waste dispose in your area. Select your borough on the
-            map or Insert a postcode.
+            For ethical waste disposal in your area. Select your borough on the
+            map or insert a postcode below.
           </p>
         </SC.InstructionArticle>
       </SC.LocationCheck>

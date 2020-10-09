@@ -18,7 +18,7 @@ export const LocationButton = styled.button`
 `;
 
 export const Div = styled.div`
-  margin: 1rem;
+  margin: 7rem 1rem;
 `;
 
 export const InstructionArticle = styled.article`
