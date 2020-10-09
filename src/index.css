@@ -4,6 +4,7 @@
 }
 
 :root {
+  --clear-orange: hsla(33, 98%, 50%, 0.2);
   --light-orange: hsl(33, 77%, 80%);
   --main-orange: hsl(33, 77%, 58%);
   --dark-orange: hsl(33, 77%, 25%);

@@ -93,7 +93,7 @@ export const Button = styled.button`
   }
   &:hover {
     background-color: var(--light-orange);
-    box-shadow: 0px 15px 20px hsla(33, 98%, 50%, 0.2) inset;
+    box-shadow: 0px 15px 20px var(--clear-orange) inset;
     color: var(--dark-orange);
   }
   &:hover:before {
