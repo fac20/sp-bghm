@@ -40,18 +40,20 @@ function Card({ material, src }) {
   console.log(bin);
 
   return (
-    <SC.Container tabIndex="0">
-      <SC.Front>
-        <SC.Title>
-          <h2>{material}</h2>
-        </SC.Title>
-        <SC.CategoryIcon src={src} alt={material} />
-      </SC.Front>
-      <SC.Back>
-        <SC.BackText dangerouslySetInnerHTML={{ __html: bin }} />
-        <SC.Button onClick={handleClick}>Click to read more</SC.Button>
-      </SC.Back>
-    </SC.Container>
+    <SC.OuterContainer>
+      <SC.Container tabIndex="0">
+        <SC.Front>
+          <SC.Title>
+            <h2>{material}</h2>
+          </SC.Title>
+          <SC.CategoryIcon src={src} alt={material} />
+        </SC.Front>
+        <SC.Back>
+          <SC.BackText dangerouslySetInnerHTML={{ __html: bin }} />
+          <SC.Button onClick={handleClick}>Click to read more</SC.Button>
+        </SC.Back>
+      </SC.Container>
+    </SC.OuterContainer>
   );
 }
 
