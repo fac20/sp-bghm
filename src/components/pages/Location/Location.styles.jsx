@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
+export const LocationCheck = styled.span`
+  display: ${(props) => (props.hidden ? "none" : "initial")};
+`;
+
 export const LocationButton = styled.button`
   margin: 1rem auto 0 auto;
   color: var(--very-dark-green);

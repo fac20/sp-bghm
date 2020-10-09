@@ -13,22 +13,25 @@ export default function Location() {
         userLocation={userLocation}
         setUserLocation={setUserLocation}
       />
-      <SC.InstructionArticle className={userLocation ? "hidden" : "visible"}>
-        <p>
-          For ethical waste dispose in your area. Select your borough on the map
-          or Insert a postcode.
-        </p>
-      </SC.InstructionArticle>
-      <SC.LocationButton
-        className={!userLocation ? "hidden" : "visible"}
-        onClick={() => {
-          history.push(
-            "/categories/" + userLocation.toLowerCase().split(" ").join("")
-          );
-        }}
-      >
-        <h2>Select {userLocation}</h2>
-      </SC.LocationButton>
+      <SC.LocationCheck hidden={userLocation}>
+        <SC.InstructionArticle>
+          <p>
+            For ethical waste dispose in your area. Select your borough on the
+            map or Insert a postcode.
+          </p>
+        </SC.InstructionArticle>
+      </SC.LocationCheck>
+      <SC.LocationCheck hidden={!userLocation}>
+        <SC.LocationButton
+          onClick={() => {
+            history.push(
+              "/categories/" + userLocation.toLowerCase().split(" ").join("")
+            );
+          }}
+        >
+          <h2>Select {userLocation}</h2>
+        </SC.LocationButton>
+      </SC.LocationCheck>
       <PostcodeForm />
     </SC.Div>
   );
