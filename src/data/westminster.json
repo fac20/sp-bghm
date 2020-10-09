@@ -1,0 +1,30 @@
+[
+  {
+    "Recycling": "Black box | Collected once a week | Commercial areas – collections vary from weekly to twice daily"
+  },
+  {
+    "Recycling": "Clear sack | Collected once a week | Commercial areas – collections vary from weekly to twice daily"
+  },
+  {
+    "Rubbish": "Black sacks | Collected twice a week | Commercial areas – up to three times a day"
+  },
+  {
+    "Food waste": "Food waste recycling trial currently in place"
+  },
+  {
+    "Recycling": "Black communal bins with green lid | Collections vary from daily to weekly"
+  },
+  { "Recycling": "Green chutes | Collections vary from daily to weekly" },
+  {
+    "Rubbish": "Black communal bins | Collections vary from three times a week to daily"
+  },
+  {
+    "Rubbish": "Black chutes | Collections vary from three times a week to daily"
+  },
+  {
+    "Food waste ": "Food waste recycling trial currently in place"
+  },
+  { "Recycling": "Clear sacks | Collections vary from weekly to twice daily" },
+  { "Rubbish": "Black sacks | Collected up to three times a day " },
+  { "Food waste": null }
+]

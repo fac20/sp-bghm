@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
+export const LocationCheck = styled.span`
+  display: ${(props) => (props.hidden ? "none" : "initial")};
+`;
+
 export const LocationButton = styled.button`
   margin: 1rem auto 0 auto;
   color: var(--very-dark-green);
@@ -18,9 +22,9 @@ export const Div = styled.div`
 `;
 
 export const InstructionArticle = styled.article`
-  background-color: var(--dark-green);
+  background-color: var(--very-dark-green);
   border-radius: 1rem;
-  border: 1px solid var(--dark-green);
+  border: 1px solid var(--very-dark-green);
   color: var(--very-light-green);
   font-weight: 900;
   margin: 1rem auto;

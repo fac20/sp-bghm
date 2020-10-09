@@ -8,7 +8,7 @@ const MapSVG = styled.svg.attrs({
   height: "auto",
   cursor: "pointer",
   display: "block",
-  viewBox: "0 0 1500 1160",
+  viewBox: "0 0 1442 1117",
 })`
   .clicked {
     fill: var(--main-orange);

@@ -7,10 +7,10 @@ export const Div = styled.div`
 export const Section = styled.section`
   display: block;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   grid-gap: 1rem 1rem;
-  max-width: 100ch;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   margin: 0 auto;
+  max-width: 100ch;
   @media (max-width: 768px) {
     grid-template-columns: repeat(auto-fit, 42vw);
   }
@@ -23,12 +23,12 @@ export const Span = styled.span`
 
 export const Button = styled.button`
   margin: 1rem auto;
-  background-color: var(--mid-dark-green);
+  background-color: var(--very-dark-green);
   border: 1px;
   color: var(--very-light-green);
-  font: inherit;
   font-weight: bold;
+  font: inherit;
   line-height: 1;
+  margin: 1rem auto;
   padding: 1rem;
-  border: 3px solid var(--light-green);
 `;
