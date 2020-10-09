@@ -109,7 +109,7 @@ export const DivBar = styled.div`
 export const Span = styled.span`
   display: block;
   padding: 0.6rem;
-  @media(max-width:480px){
+  @media(max-width:580px){
     display:none;
   }
 `;

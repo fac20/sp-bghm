@@ -1,9 +1,4 @@
-import React, { useState } from "react";
-
-
-
-
-// import { AiOutlineHome } from "react-icons/ai";
+import React from "react";
 
 import {
   Nav,
@@ -11,9 +6,6 @@ import {
  NavLink,
  AnchorTag,
   Span,
-  DivClear,
-  DivSlider,
-  DivBar,
   Title,
   HomeIcon,
   RecycleIcon,
@@ -33,10 +25,9 @@ export const Navbar = ({ primary, backgroundColor, size, label, ...props }) => {
   ? "categories"
   : "moreInfo"
 
-  const [margin, setMargin] = useState("0%");
-  const changeMargin = (e) => {
-    setMargin(e.target.parentElement.parentElement.value);
-  };
+  // const changeMargin = (e) => {
+  //   setMargin(e.target.parentElement.parentElement.value);
+  // };
   return (
     <Nav>
       <NavLinks>
@@ -54,34 +45,34 @@ export const Navbar = ({ primary, backgroundColor, size, label, ...props }) => {
   </Title>:
 <>
   <NavLink value="0%">
-    <AnchorTag href="/" onClick={changeMargin}>
+    <AnchorTag href="/">
     <HomeIcon size="30" title="Go to homepage"/>
       <Span>Home</Span>
     </AnchorTag>
   </NavLink>
 
 <NavLink value="20%">
-<AnchorTag href="#what" onClick={changeMargin}>
+<AnchorTag href="#what">
 <RecycleIcon size="30" title="What can I recycle"/>
 <Span>What's recyclable</Span>
 </AnchorTag>
 </NavLink>
 
 <NavLink value="40%">
-<AnchorTag href="#where" onClick={changeMargin}>
+<AnchorTag href="#where">
 <LocationIcon size="30" title="Where can I recycle"/>
 <Span>Where can I recycle</Span>
 </AnchorTag>
 
 </NavLink>
 <NavLink value="60%">
-<AnchorTag href="#then" onClick={changeMargin}>
+<AnchorTag href="#then">
 <SkipNextIcon size="30" title="What happens to my recycling next"/>
 <Span>What happens next</Span>
 </AnchorTag>
 </NavLink>
 <NavLink value="80%">
-<AnchorTag href="#impact" onClick={changeMargin}>
+<AnchorTag href="#impact">
 <EarthIcon size="30" title="Impact on earth"/>
   <Span>Impact</Span>
 </AnchorTag>
