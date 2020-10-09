@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -36,15 +37,10 @@ button {
   color: inherit;
   display: block;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
-/* h1 {
-  color: var(--nearly-white);
-} */
 
 .hidden {
   display: none;

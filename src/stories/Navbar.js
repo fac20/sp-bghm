@@ -1,93 +1,87 @@
-import React, { useState } from "react";
+import React from "react";
+
 import {
   Nav,
-  Label,
-  Input,
-  PTag,
+ NavLinks,
+ NavLink,
+ AnchorTag,
   Span,
-  DivClear,
-  DivSlider,
-  DivBar,
+  Title,
+  HomeIcon,
+  RecycleIcon,
+  LocationIcon,
+  SkipNextIcon,
+  EarthIcon
 } from "../components/Navbar/Navbar.styles.jsx";
 
+
 export const Navbar = ({ primary, backgroundColor, size, label, ...props }) => {
-  const [margin, setMargin] = useState("0%");
-  const changeMargin = (e) => {
-    setMargin(e.target.value);
-  };
-  console.log(margin);
+  const location = window.localStorage.getItem("location").toLowerCase();
+  const pathname = window.location.pathname
+  const page = 
+  pathname === '/'
+  ? "home"
+  : pathname === `/categories/${location}`
+  ? "categories"
+  : "moreInfo"
+
+  // const changeMargin = (e) => {
+  //   setMargin(e.target.parentElement.parentElement.value);
+  // };
   return (
-    <Nav
-    // type="nav"
-    // className={['storybook-navbar', `storybook-navbar--${size}`].join(' ')}
-    // style={backgroundColor && { backgroundColor }}
-    // {...props}
-    >
-      <Input
-        type="radio"
-        name="slideItem"
-        value="0%"
-        id="slide-item-1"
-        onChange={changeMargin}
-      />
-      <Label htmlFor="slide-item-1">
-        <PTag>★</PTag>
-        <Span>Title</Span>
-      </Label>
+    <Nav>
+      <NavLinks>
+{page === "home"?
+ <Title>
+   <h1>Recycling in London fnp</h1>
+ </Title>
+:
+  page === "categories"? 
+  <Title>
+    <AnchorTag href="/">
+    <HomeIcon size="30" title="Go to homepage"/>
+    </AnchorTag>
+    <h1>Recycling in London</h1>
+  </Title>:
+<>
+  <NavLink value="0%">
+    <AnchorTag href="/">
+    <HomeIcon size="30" title="Go to homepage"/>
+      <Span>Home</Span>
+    </AnchorTag>
+  </NavLink>
 
-      <Input
-        type="radio"
-        name="slideItem"
-        value="20%"
-        id="slide-item-2"
-        onChange={changeMargin}
-      />
+<NavLink value="20%">
+<AnchorTag href="#what">
+<RecycleIcon size="30" title="What can I recycle"/>
+<Span>What's recyclable</Span>
+</AnchorTag>
+</NavLink>
 
-      <Label htmlFor="slide-item-2">
-        <PTag>★</PTag>
-        <Span>Title</Span>
-      </Label>
+<NavLink value="40%">
+<AnchorTag href="#where">
+<LocationIcon size="30" title="Where can I recycle"/>
+<Span>Where can I recycle</Span>
+</AnchorTag>
 
-      <Input
-        type="radio"
-        name="slideItem"
-        value="40%"
-        id="home"
-        onChange={changeMargin}
-      />
-      <Label htmlFor="home">
-        <PTag>H</PTag>
-        <Span>Home</Span>
-      </Label>
+</NavLink>
+<NavLink value="60%">
+<AnchorTag href="#then">
+<SkipNextIcon size="30" title="What happens to my recycling next"/>
+<Span>What happens next</Span>
+</AnchorTag>
+</NavLink>
+<NavLink value="80%">
+<AnchorTag href="#impact">
+<EarthIcon size="30" title="Impact on earth"/>
+  <Span>Impact</Span>
+</AnchorTag>
+</NavLink>
+</>
+}
 
-      <Input
-        type="radio"
-        name="slideItem"
-        id="slide-item-3"
-        value="60%"
-        onChange={changeMargin}
-      />
-      <Label htmlFor="slide-item-3">
-        <PTag>★</PTag>
-        <Span>Title</Span>
-      </Label>
+</NavLinks>
 
-      <Input
-        type="radio"
-        name="slideItem"
-        id="slide-item-4"
-        value="80%"
-        onChange={changeMargin}
-      />
-      <Label htmlFor="slide-item-4">
-        <PTag>★</PTag>
-        <Span>Title</Span>
-      </Label>
-
-      <DivClear />
-      <DivSlider>
-        <DivBar margin={margin} />
-      </DivSlider>
-    </Nav>
+</Nav>
   );
 };

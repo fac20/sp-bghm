@@ -12,13 +12,13 @@ export default function MoreInfo() {
   return (
     <>
       <SC.Section>
-        <SC.Title>What's recyclable?</SC.Title>
+        <SC.Title id="what">What's recyclable?</SC.Title>
         <SC.Article>
           {content ? content[material][location].what_material : "no info"}
         </SC.Article>
       </SC.Section>
       <SC.Section>
-        <SC.Title>
+        <SC.Title id="where">
           Where can I recycle {material} in {location}?
         </SC.Title>
         <SC.Article>
@@ -26,13 +26,13 @@ export default function MoreInfo() {
         </SC.Article>
       </SC.Section>
       <SC.Section>
-        <SC.Title>What happens to my recycled {material}?</SC.Title>
+        <SC.Title id="then">What happens to my recycled {material}?</SC.Title>
         <SC.Article>
           {content ? content[material].what_happens : "no info"}
         </SC.Article>
       </SC.Section>
       <SC.Section>
-        <SC.Title>The impact of recycling our {material} </SC.Title>
+        <SC.Title id="impact">The impact of recycling our {material} </SC.Title>
         <SC.Article>
           {content ? content[material].impact : "no info"}
         </SC.Article>

@@ -1,6 +1,6 @@
 import React from "react";
-import {Primary} from "/src/stories/Navbar.stories.js";
+import { Primary } from "../../stories/Navbar.stories.js";
 
- export default function Navbar (){
-    return (<Primary/>)
+export default function Navbar() {
+  return <Primary />;
 }

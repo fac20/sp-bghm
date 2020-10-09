@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import useAirtable from "../../../hooks/useAirtable";
 import Card from "../../Card/Card.jsx";
+import * as SC from "./RecyclingCategories.styles.jsx";
 
 import batteries from "../../../assets/batteries.svg";
 import gardenWaste from "../../../assets/garden-waste.svg";
@@ -8,11 +9,10 @@ import glass from "../../../assets/glass.svg";
 import metal from "../../../assets/metal.svg";
 import foodWaste from " ./../../src/assets/food-waste.svg";
 import otherWaste from "../../../assets/other-waste.svg";
-import paperAndCard from "../../../assets/paper-and-card.svg";
 import plastic from "../../../assets/plastic.svg";
+import paperAndCard from "../../../assets/paper-and-card.svg";
 import smallElectronics from "../../../assets/small-electronics.svg";
 
-import * as SC from "./RecyclingCategories.styles.jsx";
 
 function RecyclingCategories() {
   const borough = window.localStorage.getItem("location");
@@ -29,6 +29,10 @@ function RecyclingCategories() {
 
   return (
     <SC.Div>
+      {/* <IconContext.Provider value={{ color: "var(--main-orange)" , size: '50px', float: 'left'}}>
+        <AiOutlineHome/>
+      </IconContext.Provider> */}
+
       <SC.Span>
         <h1>Hello, {borough}! What do you want to recycle?</h1>
       </SC.Span>
