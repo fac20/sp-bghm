@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import errorImage from "../../../assets/page-not-found.svg";
+import errorImage from "../../assets/page-not-found.svg";
 
 export const ErrorBg = styled.div`
   background-image: url(${errorImage});

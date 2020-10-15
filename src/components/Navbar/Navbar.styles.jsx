@@ -1,30 +1,42 @@
 import styled from "styled-components";
 
-import {Home} from "@styled-icons/boxicons-regular/Home";
-import {Recycle} from "@styled-icons/boxicons-regular/Recycle";
-import {Location} from "@styled-icons/ionicons-outline/Location";
-import {SkipNext} from "@styled-icons/material-twotone/SkipNext"
-import {Earth} from "@styled-icons/ionicons-outline/Earth"
+import { Home } from "@styled-icons/boxicons-regular/Home";
+import { Recycle } from "@styled-icons/boxicons-regular/Recycle";
+import { Location } from "@styled-icons/ionicons-outline/Location";
+import { SkipNext } from "@styled-icons/material-twotone/SkipNext";
+import { Earth } from "@styled-icons/ionicons-outline/Earth";
 
 export const Nav = styled.nav`
- position: fixed;
- /* display: flex; */
- top:0;
- left: 0;
+  position: fixed;
+  /* display: flex; */
+  top: 0;
+  left: 0;
   right: 0;
-/* flex-direction: column; */
+  /* flex-direction: column; */
   background-color: var(--very-dark-green);
   width: 100%;
 
   z-index: 2;
-    /* align-self: flex-end; */
- @media (min-width: 480px){
-
+  /* align-self: flex-end; */
+  @media (min-width: 480px) {
     /* top: 82.88px; */
   }
-`
+`;
 
+export const HomeIcon = styled(Home)`
+  color:var(--light-green) &:hover {
+    fill: var(--light-orange);
+  }
+`;
 export const Title = styled.section`
+  display: flex;
+  ${HomeIcon} {
+    position: fixed;
+    left: 1.5rem;
+    margin-top: 0.9rem;
+    right: 1rem;
+  }
+  justify-content: center;
   color: var(--very-light-green);
   text-transform: uppercase;
   text-decoration: none;
@@ -32,15 +44,15 @@ export const Title = styled.section`
   /* position: fixed;  */
   text-align: center;
   width: 100%;
-  /* border: 1px solid var(--very-dark-green); */
 
+  /* border: 1px solid var(--very-dark-green); */
 `;
 
-export const NavLinks= styled.ul`
-color:var(--light-green);
-display: flex;  
-justify-content: space-evenly;
-/* background-color: black; */
+export const NavLinks = styled.ul`
+  color: var(--light-green);
+  display: flex;
+  justify-content: space-evenly;
+  /* background-color: black; */
   /* bottom: 0; */
   /* height: 20vh; */
   font-family: arial, sans-serif;
@@ -50,34 +62,33 @@ justify-content: space-evenly;
   /* margin: 0 1rem; */
   overflow: hidden;
   /* z-index: 8; */
-`
+`;
 export const NavLink = styled.li`
-
-/* display: flex; */
-/* width: 20%; */
+  /* display: flex; */
+  /* width: 20%; */
   text-align: center;
-   /* text-transform: uppercase; */
-   list-style: none;
-   text-decoration: none;
+  /* text-transform: uppercase; */
+  list-style: none;
+  text-decoration: none;
   /* letter-spacing: 0.1em; */
-   /* display: block; */
-   /* float: left; */
-   color:var(--light-green);
-   /* opacity: 0.2; */
-   transition: all 500ms ease-in-out;
-   -webkit-transition: all 500ms ease-in-out;
-   -moz-transition: all 500ms ease-in-out;
-
-`
+  /* display: block; */
+  /* float: left; */
+  color: var(--light-green);
+  /* opacity: 0.2; */
+  transition: all 500ms ease-in-out;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+`;
 export const AnchorTag = styled.a`
-   text-decoration: none;
+  text-decoration: none;
 
-   &:hover, &:focus {
-     cursor: pointer;
-     color: var(--main-orange);
-   }
-   color:var(--light-green);
-`
+  &:hover,
+  &:focus {
+    cursor: pointer;
+    color: var(--main-orange);
+  }
+  color: var(--light-green);
+`;
 // export const Input = styled.input`
 //   display: none;
 //   &:checked + label {
@@ -109,8 +120,8 @@ export const DivBar = styled.div`
 export const Span = styled.span`
   display: block;
   padding: 0.6rem;
-  @media(max-width:580px){
-    display:none;
+  @media (max-width: 580px) {
+    display: none;
   }
 `;
 
@@ -127,19 +138,10 @@ export const DivSlider = styled.div`
   border-radius: 0.3;
 `;
 
-export const HomeIcon = styled(Home)`
-color:var(--light-green)
-&:hover{
-  fill:var(--light-orange);
-}
-`
-export const RecycleIcon = styled(Recycle)``
-export const LocationIcon = styled(Location)``
-export const SkipNextIcon = styled(SkipNext)``
-export const EarthIcon = styled(Earth)``
-
-
-
+export const RecycleIcon = styled(Recycle)``;
+export const LocationIcon = styled(Location)``;
+export const SkipNextIcon = styled(SkipNext)``;
+export const EarthIcon = styled(Earth)``;
 
 // :root {
 //   --light-orange: hsl(33, 77%, 80%);

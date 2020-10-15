@@ -30,8 +30,18 @@ export const Input = styled.input`
   margin: 0.5rem 0 0 0;
   padding: 1ch;
   width: 100%;
+
+  /* button hover and glow effect */
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition: background-color 0.3s, color 0.3s;
+  border-radius: 30px;
+  position: relative;
+  transition: background-color 0.3s, color 0.3s;
+  z-index: 1;
   &:hover {
-    background: var(--mid-light-green);
+    background-color: var(--light-orange);
+    box-shadow: 0px 15px 20px var(--clear-orange) inset;
+    color: var(--dark-orange);
   }
 `;
 

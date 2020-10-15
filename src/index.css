@@ -4,8 +4,10 @@
 }
 
 :root {
+  --clear-orange: hsla(33, 98%, 50%, 0.2);
   --light-orange: hsl(33, 77%, 80%);
   --main-orange: hsl(33, 77%, 58%);
+  --dark-orange: hsl(33, 77%, 25%);
   --very-light-green: hsl(129, 53%, 90%);
   --light-green: hsl(141, 45%, 81%);
   --less-light-green: hsl(147, 43%, 71%);

@@ -7,6 +7,7 @@ const MapSVG = styled.svg.attrs({
   width: "100%",
   height: "auto",
   cursor: "pointer",
+  marginTop: "2rem",
   display: "block",
   marginTop: "2rem",
   viewBox: "0 0 1442 1117",
