@@ -1,6 +1,6 @@
 <img src="https://user-images.githubusercontent.com/59174800/94882147-183d3200-045f-11eb-9cfb-9ce5a60dc9a3.png"  align="right" />
 
-[# Recycling in London ](https://xenodochial-wescoff-f6d094.netlify.app/)
+[# Recycling in London ](https://recyclinginlondon.netlify.app/)
   
 - This project was created to make it easier for people to recycle by providing them with information that will assist them in doing so. Information like where to recycle, how to recycle, what happens to our recycled products and the impact of not recycling on our environment. 
 
