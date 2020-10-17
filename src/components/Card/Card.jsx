@@ -32,12 +32,10 @@ function Card({ material, src }) {
     default:
       wasteType = "Rubbish";
   }
-  console.log(wasteType);
+
   let binInfoArray = boroughInfo.filter((obj) => obj[wasteType]);
-  console.log(binInfoArray);
   binInfoArray = binInfoArray.map((obj) => obj[wasteType]);
   const bin = binInfoArray.join("<br> or <br>");
-  console.log(bin);
 
   return (
     <SC.OuterContainer>

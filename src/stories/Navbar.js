@@ -15,14 +15,13 @@ import {
 } from "../components/Navbar/Navbar.styles.jsx";
 
 export const Navbar = ({ primary, backgroundColor, size, label, ...props }) => {
-  const location = window.localStorage.getItem("location").toLowerCase();
+  let location = window.localStorage.getItem("location");
+
+  location ? (location = location.toLowerCase()) : (location = "");
+
   const pathname = window.location.pathname;
   const page =
-    pathname === "/"
-      ? "home"
-      : pathname === `/categories/${location}`
-      ? "categories"
-      : "moreInfo";
+    pathname === "/" ? "home" : pathname === `/categories/${location}` ? "categories" : "moreInfo";
 
   // const changeMargin = (e) => {
   //   setMargin(e.target.parentElement.parentElement.value);
@@ -65,10 +64,7 @@ export const Navbar = ({ primary, backgroundColor, size, label, ...props }) => {
             </NavLink>
             <NavLink value="60%">
               <AnchorTag href="#then">
-                <SkipNextIcon
-                  size="30"
-                  title="What happens to my recycling next"
-                />
+                <SkipNextIcon size="30" title="What happens to my recycling next" />
                 <Span>What happens next</Span>
               </AnchorTag>
             </NavLink>
