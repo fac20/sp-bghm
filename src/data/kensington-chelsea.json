@@ -1,1 +1,18 @@
-[{"Recycling":"Clear bags | Collected twice a week"},{"Rubbish":"Black bags | Collected twice a week"},{"Food waste recycling (indoors)":"Small black caddy"},{"Food waste recycling (outdoors)":"Large black caddy | Collected once a week "},{"Recycling":"Black with orange lids communal bins | Collected once a week*"},{"Rubbish":"Metal communal bins (bin types can vary so check signage in bin stores) | Collected twice a week"},{"Sorry, no food waste recycling":null},{"Recycling":"Clear bags | Collected twice a week"},{"Rubbish":"Black bags | Collected twice a week"},{"Sorry, no food waste recycling":null}]
+[
+  { "Recycling": "Clear bags | Collected twice a week" },
+  { "Rubbish": "Black bags | Collected twice a week" },
+  { "Food waste recycling (indoors)": "Small black caddy" },
+  {
+    "Food waste recycling (outdoors)": "Large black caddy | Collected once a week "
+  },
+  {
+    "Recycling": "Black with orange lids communal bins | Collected once a week*"
+  },
+  {
+    "Rubbish": "Metal communal bins (bin types can vary so check signage in bin stores) | Collected twice a week"
+  },
+  { "Sorry, no food waste recycling": null },
+  { "Recycling": "Clear bags | Collected twice a week" },
+  { "Rubbish": "Black bags | Collected twice a week" },
+  { "Sorry, no food waste recycling": null }
+]

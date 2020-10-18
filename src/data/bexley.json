@@ -1,1 +1,39 @@
-[{"Mixed recycling":"Green wheelie bin with white lid | Collected fortnightly"},{"Mixed recycling":"Black box | Collected weekly"},{"Mixed recycling":"Maroon box | Collected weekly"},{"Paper & card recycling":"Green wheelie bin with blue lid | Collected fortnightly"},{"Paper & card recycling":"Green box | Collected weekly"},{"Rubbish":"Green wheelie bin | Collected fortnightly"},{"Food waste recycling (indoors)":"Small brown kitchen caddy"},{"Food waste recycling (outdoors)":"Large brown caddy | Collected weekly"},{"Mixed recycling":"Plastic, glass, cans & cartons | Black wheelie bins with white lid | Collected fortnightly"},{"Mixed recycling":"Plastic, glass, cans & cartons | Black wheelie bins with green lid | Collected fortnightly"},{"Mixed recycling":"Plastic, glass, cans & cartons | Green communal bins | Collected fortnightly"},{"Mixed recycling":"Plastic, glass, cans & cartons | Silver communal bins | Collected fortnightly"},{"Paper & card recycling":"Black wheelie bin with blue lid | Collected fortnightly"},{"Paper & card recycling":"Blue communal bin | Collected weekly"},{"Rubbish":"Yellow communal bin | Collected weekly"},{"Food waste recycling (indoors)":"Brown kitchen caddy"},{"Food waste recycling (outdoors)":"Brown wheelie bin | Collected weekly"},{"Food waste recycling (outdoors)":"Black metal bin cupboard | Collected weekly"},{"Recycling":"Clear bags | Collected weekly"},{"Rubbish":"Black bin bags | Collected weekly"},{"Sorry, no food waste recycling":null}]
+[
+  {
+    "Mixed recycling": "Green wheelie bin with white lid | Collected fortnightly"
+  },
+  { "Mixed recycling": "Black box | Collected weekly" },
+  { "Mixed recycling": "Maroon box | Collected weekly" },
+  {
+    "Paper & card recycling": "Green wheelie bin with blue lid | Collected fortnightly"
+  },
+  { "Paper & card recycling": "Green box | Collected weekly" },
+  { "Rubbish": "Green wheelie bin | Collected fortnightly" },
+  { "Food waste recycling (indoors)": "Small brown kitchen caddy" },
+  { "Food waste recycling (outdoors)": "Large brown caddy | Collected weekly" },
+  {
+    "Mixed recycling": "Plastic, glass, cans & cartons | Black wheelie bins with white lid | Collected fortnightly"
+  },
+  {
+    "Mixed recycling": "Plastic, glass, cans & cartons | Black wheelie bins with green lid | Collected fortnightly"
+  },
+  {
+    "Mixed recycling": "Plastic, glass, cans & cartons | Green communal bins | Collected fortnightly"
+  },
+  {
+    "Mixed recycling": "Plastic, glass, cans & cartons | Silver communal bins | Collected fortnightly"
+  },
+  {
+    "Paper & card recycling": "Black wheelie bin with blue lid | Collected fortnightly"
+  },
+  { "Paper & card recycling": "Blue communal bin | Collected weekly" },
+  { "Rubbish": "Yellow communal bin | Collected weekly" },
+  { "Food waste recycling (indoors)": "Brown kitchen caddy" },
+  { "Food waste recycling (outdoors)": "Brown wheelie bin | Collected weekly" },
+  {
+    "Food waste recycling (outdoors)": "Black metal bin cupboard | Collected weekly"
+  },
+  { "Recycling": "Clear bags | Collected weekly" },
+  { "Rubbish": "Black bin bags | Collected weekly" },
+  { "Sorry, no food waste recycling": null }
+]

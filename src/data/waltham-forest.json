@@ -1,1 +1,21 @@
-[{"Recycling":"Green wheelie bin or green wheelie bin with blue lid | Collected weekly"},{"Rubbish":"Black wheelie bin | Collected weekly"},{"Food waste recycling (indoors)":"Small brown caddy"},{"Food and garden waste (outdoors)":"Brown wheelie bin | Collected every 2 weeks"},{"Small electricals, batteries and clothes":"Separate into plastic bags and place on top of your recycling bin"},{"Recycling":"Green communal bin with black lid | Collected weekly"},{"Rubbish":"Black communal bin | Collected weekly"},{"Food waste recycling":"Not always available* | Brown or grey outdoor bin | Collected weekly"},{"Recycling":"Green sacks | Collected Monday, Wednesday and Friday"},{"Rubbish":"Black sacks | Collected Monday, Wednesday and Friday"},{"Sorry, no food waste recycling":null}]
+[
+  {
+    "Recycling": "Green wheelie bin or green wheelie bin with blue lid | Collected weekly"
+  },
+  { "Rubbish": "Black wheelie bin | Collected weekly" },
+  { "Food waste recycling (indoors)": "Small brown caddy" },
+  {
+    "Food and garden waste (outdoors)": "Brown wheelie bin | Collected every 2 weeks"
+  },
+  {
+    "Small electricals, batteries and clothes": "Separate into plastic bags and place on top of your recycling bin"
+  },
+  { "Recycling": "Green communal bin with black lid | Collected weekly" },
+  { "Rubbish": "Black communal bin | Collected weekly" },
+  {
+    "Food waste recycling": "Not always available* | Brown or grey outdoor bin | Collected weekly"
+  },
+  { "Recycling": "Green sacks | Collected Monday, Wednesday and Friday" },
+  { "Rubbish": "Black sacks | Collected Monday, Wednesday and Friday" },
+  { "Sorry, no food waste recycling": null }
+]

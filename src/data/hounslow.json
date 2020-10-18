@@ -1,1 +1,28 @@
-[{"Plastic & metal recycling":"Red box"},{"Paper & card recycling":"Blue box"},{"Glass recycling":"Green box"},{"Textiles":"Clear sack"},{"Small electricals":"Clear bag | Collected weekly"},{"Rubbish":"Black wheelie bin | Collected once every 2 weeks"},{"Food waste recycling (indoors)":"Small green caddy"},{"Food waste recycling (outdoors)":"Large green caddy | Collected weekly"},{"Plastic recycling":"Green communal bins with red lid"},{"Plastic recycling":"Black wheelie bin with red sticker"},{"Paper and card recycling":"Green communal bins with blue lids"},{"Paper and card recycling":"Black wheelie bin with blue sticker"},{"Metal recycling":"Green communal bins with grey lids"},{"Metal recycling":"Black wheelie bin with grey sticker"},{"Glass recycling":"Green communal bins with green lids"},{"Glass recycling":"Black wheelie bin with green sticker"},{"Rubbish":"Communal rubbish bins | Use black bags for your rubbish"},{"Food waste recycling (indoors)":"Get a free green kitchen caddy from your council"},{"Food waste recycling (outdoors)":"Not all estates have this | Black communal housing unit"},{"Sorry, no recycling":null},{"Rubbish":"Purple bags | Collected twice a week"},{"Sorry, no food waste recycling":null}]
+[
+  { "Plastic & metal recycling": "Red box" },
+  { "Paper & card recycling": "Blue box" },
+  { "Glass recycling": "Green box" },
+  { "Textiles": "Clear sack" },
+  { "Small electricals": "Clear bag | Collected weekly" },
+  { "Rubbish": "Black wheelie bin | Collected once every 2 weeks" },
+  { "Food waste recycling (indoors)": "Small green caddy" },
+  { "Food waste recycling (outdoors)": "Large green caddy | Collected weekly" },
+  { "Plastic recycling": "Green communal bins with red lid" },
+  { "Plastic recycling": "Black wheelie bin with red sticker" },
+  { "Paper and card recycling": "Green communal bins with blue lids" },
+  { "Paper and card recycling": "Black wheelie bin with blue sticker" },
+  { "Metal recycling": "Green communal bins with grey lids" },
+  { "Metal recycling": "Black wheelie bin with grey sticker" },
+  { "Glass recycling": "Green communal bins with green lids" },
+  { "Glass recycling": "Black wheelie bin with green sticker" },
+  { "Rubbish": "Communal rubbish bins | Use black bags for your rubbish" },
+  {
+    "Food waste recycling (indoors)": "Get a free green kitchen caddy from your council"
+  },
+  {
+    "Food waste recycling (outdoors)": "Not all estates have this | Black communal housing unit"
+  },
+  { "Sorry, no recycling": null },
+  { "Rubbish": "Purple bags | Collected twice a week" },
+  { "Sorry, no food waste recycling": null }
+]

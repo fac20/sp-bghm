@@ -1,1 +1,23 @@
-[{"Paper & card recycling":"Black with blue lid wheelie bin | Collected every two weeks"},{"Paper & card recycling":"Blue box | Collected every two weeks"},{"Mixed recycling":"Black with grey lid wheelie bin | Collected every 2 weeks (alternates with paper and card)"},{"Mixed recycling":"Green box | Collected every 2 weeks (alternates with paper and card)"},{"Rubbish":"Black wheelie bin | Collected every two weeks"},{"Food waste recycling (indoors)":"Small black caddy"},{"Food waste recycling (outdoors)":"Large black caddy | Collected every week"},{"Recycling":"Bin sizes and colours vary"},{"Rubbish":"Bin sizes and colours vary"},{"Food waste recycling":"Brown wheelie bin | Collected weekly"},{"Recycling service coming soon!*":null},{"Rubbish":"Black bin bags"},{"Sorry, no food waste recycling":null}]
+[
+  {
+    "Paper & card recycling": "Black with blue lid wheelie bin | Collected every two weeks"
+  },
+  { "Paper & card recycling": "Blue box | Collected every two weeks" },
+  {
+    "Mixed recycling": "Black with grey lid wheelie bin | Collected every 2 weeks (alternates with paper and card)"
+  },
+  {
+    "Mixed recycling": "Green box | Collected every 2 weeks (alternates with paper and card)"
+  },
+  { "Rubbish": "Black wheelie bin | Collected every two weeks" },
+  { "Food waste recycling (indoors)": "Small black caddy" },
+  {
+    "Food waste recycling (outdoors)": "Large black caddy | Collected every week"
+  },
+  { "Recycling": "Bin sizes and colours vary" },
+  { "Rubbish": "Bin sizes and colours vary" },
+  { "Food waste recycling": "Brown wheelie bin | Collected weekly" },
+  { "Recycling service coming soon!*": null },
+  { "Rubbish": "Black bin bags" },
+  { "Sorry, no food waste recycling": null }
+]

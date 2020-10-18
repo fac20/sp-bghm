@@ -1,1 +1,19 @@
-[{"Recycling":"Blue wheelie bin | Collected once a week"},{"Rubbish":"Black wheelie bin | Collected once a week"},{"Sorry, no food waste recycling":null},{"Recycling":"Blue wheelie bin | Collected once a week"},{"Recycling":"Blue communal bin | Collected once a week "},{"Recycling":"Green communal bin | Collected once a week"},{"Recycling":"Grey communal bin with orange lid | Collected once a week"},{"Rubbish":"Black or grey wheelie bin with black lid | Collected once a week "},{"Sorry, no food waste recycling":null},{"Recycling":"Clear recycling sacks | Collected on specific time-bands"},{"Rubbish":"Purple rubbish sacks | Collected on specific time-bands"},{"Sorry, no food waste recycling":null},{"Recycling":"Clear recycling sacks | Collected weekly"},{"Rubbish":"Black rubbish sacks | Collected weekly"},{"Sorry, no food waste recycling":null}]
+[
+  { "Recycling": "Blue wheelie bin | Collected once a week" },
+  { "Rubbish": "Black wheelie bin | Collected once a week" },
+  { "Sorry, no food waste recycling": null },
+  { "Recycling": "Blue wheelie bin | Collected once a week" },
+  { "Recycling": "Blue communal bin | Collected once a week " },
+  { "Recycling": "Green communal bin | Collected once a week" },
+  { "Recycling": "Grey communal bin with orange lid | Collected once a week" },
+  {
+    "Rubbish": "Black or grey wheelie bin with black lid | Collected once a week "
+  },
+  { "Sorry, no food waste recycling": null },
+  { "Recycling": "Clear recycling sacks | Collected on specific time-bands" },
+  { "Rubbish": "Purple rubbish sacks | Collected on specific time-bands" },
+  { "Sorry, no food waste recycling": null },
+  { "Recycling": "Clear recycling sacks | Collected weekly" },
+  { "Rubbish": "Black rubbish sacks | Collected weekly" },
+  { "Sorry, no food waste recycling": null }
+]

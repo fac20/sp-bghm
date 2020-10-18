@@ -1,1 +1,24 @@
-[{"Recycling":"Clear recycling bags | Collection varies from 1 to 3 times a week"},{"Rubbish":"Black bin bags or dustbin (need to buy your own) | Collection varies from 1 to 3 times a week"},{"Sorry, no food waste recycling":null},{"Recycling":"Black communal bin with orange lid"},{"Recycling":"Orange recycling chute"},{"Recycling":"Mini bank – black with orange lid"},{"Recycling":"Your council can give you orange bags to collect your recycling"},{"Rubbish":"Black communal bin"},{"Rubbish":"Metal communal bin"},{"Rubbish":"Rubbish chutes"},{"Sorry, no food waste recycling":null},{"Recycling":"Clear recycling sacks | Collection varies from 1 to 3 times a week"},{"Rubbish":"Black bin bags | Collection varies from 1 to 3 times a week"},{"Sorry, no food waste recycling":null}]
+[
+  {
+    "Recycling": "Clear recycling bags | Collection varies from 1 to 3 times a week"
+  },
+  {
+    "Rubbish": "Black bin bags or dustbin (need to buy your own) | Collection varies from 1 to 3 times a week"
+  },
+  { "Sorry, no food waste recycling": null },
+  { "Recycling": "Black communal bin with orange lid" },
+  { "Recycling": "Orange recycling chute" },
+  { "Recycling": "Mini bank – black with orange lid" },
+  {
+    "Recycling": "Your council can give you orange bags to collect your recycling"
+  },
+  { "Rubbish": "Black communal bin" },
+  { "Rubbish": "Metal communal bin" },
+  { "Rubbish": "Rubbish chutes" },
+  { "Sorry, no food waste recycling": null },
+  {
+    "Recycling": "Clear recycling sacks | Collection varies from 1 to 3 times a week"
+  },
+  { "Rubbish": "Black bin bags | Collection varies from 1 to 3 times a week" },
+  { "Sorry, no food waste recycling": null }
+]

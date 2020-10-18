@@ -1,1 +1,26 @@
-[{"Recycling":"Green wheelie bin | Collected weekly"},{"Recycling":"Green box | Collected weekly"},{"Recycling":"Clear recycling sack | Collected weekly"},{"Rubbish":"Black wheelie bin | Collected weekly or every other week"},{"Rubbish":"Black bin bag | Collected weekly or every other week"},{"Food waste recycling (indoors)":"Small green caddy"},{"Food waste recycling (outdoors)":"Large brown caddy | Collected once a week"},{"Recycling":"Black communal bin | collections vary but will be at least weekly"},{"Rubbish":"Green communal bin | collections vary but will be at least weekly"},{"Food waste recycling (indoors)":"Small green kitchen caddy | collections vary but will be at least weekly"},{"Food waste recycling (outdoors)":"Brown communal bin | collections vary but will be at least weekly"},{"Recycling":"Clear recycling bag | Time-banded collections*"},{"Rubbish":"Orange bin bag | Time-banded collections*"},{"Sorry, no food waste recycling":null}]
+[
+  { "Recycling": "Green wheelie bin | Collected weekly" },
+  { "Recycling": "Green box | Collected weekly" },
+  { "Recycling": "Clear recycling sack | Collected weekly" },
+  { "Rubbish": "Black wheelie bin | Collected weekly or every other week" },
+  { "Rubbish": "Black bin bag | Collected weekly or every other week" },
+  { "Food waste recycling (indoors)": "Small green caddy" },
+  {
+    "Food waste recycling (outdoors)": "Large brown caddy | Collected once a week"
+  },
+  {
+    "Recycling": "Black communal bin | collections vary but will be at least weekly"
+  },
+  {
+    "Rubbish": "Green communal bin | collections vary but will be at least weekly"
+  },
+  {
+    "Food waste recycling (indoors)": "Small green kitchen caddy | collections vary but will be at least weekly"
+  },
+  {
+    "Food waste recycling (outdoors)": "Brown communal bin | collections vary but will be at least weekly"
+  },
+  { "Recycling": "Clear recycling bag | Time-banded collections*" },
+  { "Rubbish": "Orange bin bag | Time-banded collections*" },
+  { "Sorry, no food waste recycling": null }
+]

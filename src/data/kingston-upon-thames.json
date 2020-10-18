@@ -1,1 +1,38 @@
-[{"Paper & card recycling":"Black wheelie bin with blue lid or clear sacks | Collected every two weeks"},{"Mixed recycling":"Green wheelie bin with blue sacks | Collected every 2 weeks (alternates with paper and card)"},{"Mixed recycling":"Green box with blue sacks | Collected every 2 weeks (alternates with paper and card)"},{"Rubbish":"Black bin or red sacks | Collected every two weeks"},{"Food waste recycling (indoors)":"Small brown caddy"},{"Food waste recycling (outdoors)":"Large brown caddy | Collected every week"},{"Recycling batteries":"Place in an untied plastic bag on top of your bin"},{"Recycling textiles and shoes":"Place in a tied plastic bag on top of your bin"},{"Paper & card recycling":"Black communal bin with blue lid | Collected every two weeks"},{"Paper & card recycling":"Black wheelie bin with blue lid | Collected every two weeks"},{"Mixed recycling":"Black communal bins with green lids | Collected every 2 weeks"},{"Mixed recycling":"Green wheelie bins | Collected every 2 weeks"},{"Rubbish":"Silver metal bin with black lid | Collected every week"},{"Rubbish":"Black wheelie bin | Collected every week"},{"Food waste recycling":"Brown wheelie bin | Collected every week"},{"Recycling service coming soon!*":null},{"Rubbish":"Any type carrier bag | Collected weekly"},{"Sorry, no food waste recycling":null}]
+[
+  {
+    "Paper & card recycling": "Black wheelie bin with blue lid or clear sacks | Collected every two weeks"
+  },
+  {
+    "Mixed recycling": "Green wheelie bin with blue sacks | Collected every 2 weeks (alternates with paper and card)"
+  },
+  {
+    "Mixed recycling": "Green box with blue sacks | Collected every 2 weeks (alternates with paper and card)"
+  },
+  { "Rubbish": "Black bin or red sacks | Collected every two weeks" },
+  { "Food waste recycling (indoors)": "Small brown caddy" },
+  {
+    "Food waste recycling (outdoors)": "Large brown caddy | Collected every week"
+  },
+  {
+    "Recycling batteries": "Place in an untied plastic bag on top of your bin"
+  },
+  {
+    "Recycling textiles and shoes": "Place in a tied plastic bag on top of your bin"
+  },
+  {
+    "Paper & card recycling": "Black communal bin with blue lid | Collected every two weeks"
+  },
+  {
+    "Paper & card recycling": "Black wheelie bin with blue lid | Collected every two weeks"
+  },
+  {
+    "Mixed recycling": "Black communal bins with green lids | Collected every 2 weeks"
+  },
+  { "Mixed recycling": "Green wheelie bins | Collected every 2 weeks" },
+  { "Rubbish": "Silver metal bin with black lid | Collected every week" },
+  { "Rubbish": "Black wheelie bin | Collected every week" },
+  { "Food waste recycling": "Brown wheelie bin | Collected every week" },
+  { "Recycling service coming soon!*": null },
+  { "Rubbish": "Any type carrier bag | Collected weekly" },
+  { "Sorry, no food waste recycling": null }
+]

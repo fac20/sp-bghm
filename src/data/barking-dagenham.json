@@ -1,1 +1,15 @@
-[{"Recycling":"Brown wheelie bin | Collected once every 2 weeks"},{"Rubbish":"Dark grey wheelie bin | Collected weekly"},{"Sorry, no food waste recycling":null},{"Recycling":"Blue communal bin or 2 blue communal bins (paper/card and mixed recycling with glass) | Collected every 2 weeks."},{"Rubbish":"Silver and grey communal bin | Collected weekly"},{"Sorry, no food waste recycling":null},{"Recycling":"Blue communal bin | Collected at least weekly"},{"Recycling":"Brown wheelie bin | Collected at least weekly"},{"Rubbish":"Silver communal bin | Collected at least weekly"},{"Rubbish":"Grey wheelie bin | Collected at least weekly"},{"Sorry, no food recycling":null}]
+[
+  { "Recycling": "Brown wheelie bin | Collected once every 2 weeks" },
+  { "Rubbish": "Dark grey wheelie bin | Collected weekly" },
+  { "Sorry, no food waste recycling": null },
+  {
+    "Recycling": "Blue communal bin or 2 blue communal bins (paper/card and mixed recycling with glass) | Collected every 2 weeks."
+  },
+  { "Rubbish": "Silver and grey communal bin | Collected weekly" },
+  { "Sorry, no food waste recycling": null },
+  { "Recycling": "Blue communal bin | Collected at least weekly" },
+  { "Recycling": "Brown wheelie bin | Collected at least weekly" },
+  { "Rubbish": "Silver communal bin | Collected at least weekly" },
+  { "Rubbish": "Grey wheelie bin | Collected at least weekly" },
+  { "Sorry, no food recycling": null }
+]

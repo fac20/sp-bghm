@@ -1,1 +1,19 @@
-[{"Recycling":"Orange sacks | Collected weekly"},{"Rubbish":"Black bin bags | Collected weekly"},{"Sorry, no food waste recycling":null},{"Recycling":"Orange wheelie bin"},{"Recycling":"Orange communal bin"},{"Recycling":"Silver metal bin with blue lid"},{"Rubbish":"Black sacks | Put them in your communal rubbish bin – silver metal bin with blue lid"},{"Sorry, no food waste recycling":null},{"Recycling":"Orange sacks | Collected weekly (check with your managing agent as some provide bins)"},{"Rubbish":"Black sacks | Collected weekly (check with your managing agent as some provide bins)"},{"Sorry, no food waste recycling":null}]
+[
+  { "Recycling": "Orange sacks | Collected weekly" },
+  { "Rubbish": "Black bin bags | Collected weekly" },
+  { "Sorry, no food waste recycling": null },
+  { "Recycling": "Orange wheelie bin" },
+  { "Recycling": "Orange communal bin" },
+  { "Recycling": "Silver metal bin with blue lid" },
+  {
+    "Rubbish": "Black sacks | Put them in your communal rubbish bin – silver metal bin with blue lid"
+  },
+  { "Sorry, no food waste recycling": null },
+  {
+    "Recycling": "Orange sacks | Collected weekly (check with your managing agent as some provide bins)"
+  },
+  {
+    "Rubbish": "Black sacks | Collected weekly (check with your managing agent as some provide bins)"
+  },
+  { "Sorry, no food waste recycling": null }
+]

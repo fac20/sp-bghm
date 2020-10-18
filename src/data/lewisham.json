@@ -1,1 +1,13 @@
-[{"Recycling":"Green wheelie bin | Collected weekly"},{"Rubbish ":"Black wheelie bin | Collected every 2 weeks"},{"Food waste recycling (indoors)":"Small grey caddy"},{"Food waste recycling (outdoors)":"Large grey caddy | Collected weekly"},{"Recycling":"Green communal bin"},{"Rubbish":"Blue communal bin"},{"Rubbish":"Metal communal bin"},{"Sorry, no food waste recycling":null},{"Recycling":"Clear sacks | Collection varies"},{"Rubbish":"Orange sacks | Collection varies"},{"Sorry, no food waste recycling":null}]
+[
+  { "Recycling": "Green wheelie bin | Collected weekly" },
+  { "Rubbish ": "Black wheelie bin | Collected every 2 weeks" },
+  { "Food waste recycling (indoors)": "Small grey caddy" },
+  { "Food waste recycling (outdoors)": "Large grey caddy | Collected weekly" },
+  { "Recycling": "Green communal bin" },
+  { "Rubbish": "Blue communal bin" },
+  { "Rubbish": "Metal communal bin" },
+  { "Sorry, no food waste recycling": null },
+  { "Recycling": "Clear sacks | Collection varies" },
+  { "Rubbish": "Orange sacks | Collection varies" },
+  { "Sorry, no food waste recycling": null }
+]
